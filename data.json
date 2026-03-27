@@ -1,0 +1,7389 @@
+[
+  {
+    "id": 1,
+    "lcsc": "C7603347",
+    "brand": "TECH PUBLIC(台舟)",
+    "type": "场效应管(MOSFET)",
+    "name": "耐压:30V 电流:1.4A 编带",
+    "model": "SI1308EDL",
+    "package": "SOT323",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25041138266_2025/04/11 21:17"
+    ]
+  },
+  {
+    "id": 2,
+    "lcsc": "C2856831",
+    "brand": "XUNPU(讯普)",
+    "type": "FFC/FPC连接器",
+    "name": "间距:0.5mm P数:24P 翻盖式 双侧触点/上下接 编带",
+    "model": "FPC-05FB-24PH20",
+    "package": "SMD,P=0.5mm,卧贴",
+    "quantity": 15,
+    "remark": "",
+    "history": [
+      "SO25041138266_2025/04/11 21:17",
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 3,
+    "lcsc": "C2932476",
+    "brand": "SAMSUNG(三星)",
+    "type": "贴片电容(MLCC)",
+    "name": "10uF ±10% 50V 编带",
+    "model": "CL21A106KBYQNNE",
+    "package": "0805",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25041138266_2025/04/11 21:17"
+    ]
+  },
+  {
+    "id": 4,
+    "lcsc": "C7470219",
+    "brand": "Megastar(兆星)",
+    "type": "轻触开关",
+    "name": "3*4*2贴片开关带柱 编带",
+    "model": "ZX-QC34-2TPDZ",
+    "package": "SMD",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25041138266_2025/04/11 21:17"
+    ]
+  },
+  {
+    "id": 5,
+    "lcsc": "C5261088",
+    "brand": "HXY MOSFET(华轩阳电子)",
+    "type": "静电和浪涌保护(TVS/ESD)",
+    "name": "2路单向ESD .UL26 编带",
+    "model": "USBLC6-2SC6",
+    "package": "SOT-23-6L",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25041138266_2025/04/11 21:17"
+    ]
+  },
+  {
+    "id": 6,
+    "lcsc": "C2917181",
+    "brand": "国星光电",
+    "type": "发光二极管/LED",
+    "name": "NCD1615RG1 编带",
+    "model": "NCD1615RG1",
+    "package": "0606",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25041138266_2025/04/11 21:17"
+    ]
+  },
+  {
+    "id": 7,
+    "lcsc": "C3029368",
+    "brand": "XUNPU(讯普)",
+    "type": "线对板针座",
+    "name": "1x2P 间距:1.25mm 立贴 系列:GH 编带",
+    "model": "WAFER-GH1.25-2PLB",
+    "package": "SMD,P=1.25mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25041138266_2025/04/11 21:17"
+    ]
+  },
+  {
+    "id": 8,
+    "lcsc": "C32346",
+    "brand": "EPSON(爱普生)",
+    "type": "无源晶振",
+    "name": "32.768kHz ±20ppm 12.5pF 编带",
+    "model": "Q13FC13500004",
+    "package": "SMD3215-2P",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25041138266_2025/04/11 21:17"
+    ]
+  },
+  {
+    "id": 9,
+    "lcsc": "C5311018",
+    "brand": "TECH PUBLIC(台舟)",
+    "type": "电池管理",
+    "name": "TP4056 编带",
+    "model": "TP4056",
+    "package": "ESOP-8",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25041138266_2025/04/11 21:17"
+    ]
+  },
+  {
+    "id": 10,
+    "lcsc": "C82942",
+    "brand": "MICRONE(南京微盟)",
+    "type": "线性稳压器(LDO)",
+    "name": "输入6V 输出3.3V 500mA 编带",
+    "model": "ME6211C33M5G-N",
+    "package": "SOT-23-5",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25041138266_2025/04/11 21:17"
+    ]
+  },
+  {
+    "id": 11,
+    "lcsc": "C5795601",
+    "brand": "IDCHIP(英锐芯)",
+    "type": "实时时钟(RTC)",
+    "name": "PCF8563 编带",
+    "model": "PCF8563",
+    "package": "SOP-8",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO25041138266_2025/04/11 21:17"
+    ]
+  },
+  {
+    "id": 12,
+    "lcsc": "C440198",
+    "brand": "muRata(村田)",
+    "type": "贴片电容(MLCC)",
+    "name": "10uF ±10% 50V 编带",
+    "model": "GRM21BR61H106KE43L",
+    "package": "0805",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25041138266_2025/04/11 21:17"
+    ]
+  },
+  {
+    "id": 13,
+    "lcsc": "C25340",
+    "brand": "UNI-ROYAL(厚声)",
+    "type": "贴片电阻",
+    "name": "500mΩ ±1% 250mW 厚膜电阻 编带",
+    "model": "1206W4F500LT5E",
+    "package": "1206",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO25041138266_2025/04/11 21:17"
+    ]
+  },
+  {
+    "id": 14,
+    "lcsc": "C190862",
+    "brand": "WINBOND(华邦)",
+    "type": "NOR FLASH",
+    "name": "W25Q128JVPIQ 编带",
+    "model": "W25Q128JVPIQ",
+    "package": "WSON-8-EP(5x6)",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO25041138326_2025/04/11 21:21"
+    ]
+  },
+  {
+    "id": 15,
+    "lcsc": "C528017",
+    "brand": "cjiang(长江微电)",
+    "type": "功率电感",
+    "name": "10uH ±20% 880mA 编带",
+    "model": "FNR3012S100MT",
+    "package": "SMD,3x3mm",
+    "quantity": 40,
+    "remark": "",
+    "history": [
+      "SO25041138326_2025/04/11 21:21",
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 16,
+    "lcsc": "C98192",
+    "brand": "SAMSUNG(三星)",
+    "type": "贴片电容(MLCC)",
+    "name": "4.7uF ±10% 50V 编带",
+    "model": "CL21A475KBQNNNE",
+    "package": "0805",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25041138326_2025/04/11 21:21"
+    ]
+  },
+  {
+    "id": 17,
+    "lcsc": "C7436545",
+    "brand": "FUXINSEMI(富芯森美)",
+    "type": "肖特基二极管",
+    "name": "电压:30V 电流:500mA 编带",
+    "model": "MBR0530T1G",
+    "package": "SOD-123",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25041138326_2025/04/11 21:21"
+    ]
+  },
+  {
+    "id": 18,
+    "lcsc": "C727156",
+    "brand": "TWGMC(台湾迪嘉)",
+    "type": "场效应管(MOSFET)",
+    "name": "1个P沟道 耐压:30V 电流:4.2A 编带",
+    "model": "AO3401",
+    "package": "SOT-23",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25041139772_2025/04/11 22:02"
+    ]
+  },
+  {
+    "id": 19,
+    "lcsc": "C4748721",
+    "brand": "HXY MOSFET(华轩阳电子)",
+    "type": "场效应管(MOSFET)",
+    "name": "N沟道增强型MOSFET,电流:5.8A,耐压:30V 编带",
+    "model": "AO3400-HXY",
+    "package": "SOT-23-3L",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25041139772_2025/04/11 22:02"
+    ]
+  },
+  {
+    "id": 20,
+    "lcsc": "C96729",
+    "brand": "Sunlord(顺络)",
+    "type": "贴片电感",
+    "name": "±0.3nH 1.6nH 编带",
+    "model": "SDCL1005C1N6STDF",
+    "package": "0402",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO25041139772_2025/04/11 22:02"
+    ]
+  },
+  {
+    "id": 21,
+    "lcsc": "C779429",
+    "brand": "TUOZHAN(拓展光电)",
+    "type": "发光二极管/LED",
+    "name": "红灯 袋装",
+    "model": "TZ-L2-03YYBR2RDJ30-003",
+    "package": "插件,D=3mm",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO25041139772_2025/04/11 22:02"
+    ]
+  },
+  {
+    "id": 22,
+    "lcsc": "C426989",
+    "brand": "JGHC(晶光华)",
+    "type": "无源晶振",
+    "name": "40MHz ±10ppm 12pF 编带",
+    "model": "S3240000121040",
+    "package": "SMD3225-4P",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25041139772_2025/04/11 22:02"
+    ]
+  },
+  {
+    "id": 23,
+    "lcsc": "C5120469",
+    "brand": "ELECALL(伊莱科)",
+    "type": "助焊剂/助焊膏",
+    "name": "伊莱科，焊锡膏，100克，ET580101 编带",
+    "model": "6930246707217",
+    "package": "-",
+    "quantity": 2,
+    "remark": "",
+    "history": [
+      "SO25041139772_2025/04/11 22:02",
+      "SO25041218369_2025/04/12 20:07"
+    ]
+  },
+  {
+    "id": 24,
+    "lcsc": "C92544",
+    "brand": "宝工",
+    "type": "电烙铁/烙铁头",
+    "name": "宝工（Pro'sKit） 5SI-216N-K 内热式电烙铁头 K头 刀头焊台烙铁头工具 936通用 袋装",
+    "model": "5SI-216N-K",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO25041139772_2025/04/11 22:02"
+    ]
+  },
+  {
+    "id": 25,
+    "lcsc": "C720628",
+    "brand": "XUNPU(讯普)",
+    "type": "USB连接器",
+    "name": "Type-C 母 立贴 编带",
+    "model": "TYPEC-303-ACP16",
+    "package": "SMD",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO25041139772_2025/04/11 22:02"
+    ]
+  },
+  {
+    "id": 26,
+    "lcsc": "C41361080",
+    "brand": "HRE(芯声)",
+    "type": "贴片电容(MLCC)",
+    "name": "2.4pF 50V 编带",
+    "model": "CGA0402C0G2R4C500GT",
+    "package": "0402",
+    "quantity": 200,
+    "remark": "",
+    "history": [
+      "SO2504120451_2025/04/12 01:09",
+      "SO2505010216_2025/05/01 00:43"
+    ]
+  },
+  {
+    "id": 27,
+    "lcsc": "C1322335",
+    "brand": "TOGIALED(统佳)",
+    "type": "发光二极管/LED",
+    "name": "红灯 侧贴 编带",
+    "model": "TJ-S1706CL6T5ALC2R-A5",
+    "package": "SMD,1.1x1.7mm",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2504120451_2025/04/12 01:09"
+    ]
+  },
+  {
+    "id": 28,
+    "lcsc": "C2837533",
+    "brand": "kinghelm(金航标)",
+    "type": "轻触开关",
+    "name": "6*6*7mm 立贴 轻触开关 编带",
+    "model": "KH-6X6X7H-STM",
+    "package": "SMD",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO25041218243_2025/04/12 20:04"
+    ]
+  },
+  {
+    "id": 29,
+    "lcsc": "C7171",
+    "brand": "Kyocera AVX",
+    "type": "钽电容",
+    "name": "10uF ±10% 16V 编带",
+    "model": "TAJA106K016RNJ",
+    "package": "CASE-A-3216-18(mm)",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25041218243_2025/04/12 20:04"
+    ]
+  },
+  {
+    "id": 30,
+    "lcsc": "C492401",
+    "brand": "XFCN(兴飞)",
+    "type": "排针",
+    "name": "1x2P 间距:2.54mm 方针 直插 袋装",
+    "model": "PZ254V-11-02P",
+    "package": "插件,P=2.54mm",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO25041218243_2025/04/12 20:04",
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 31,
+    "lcsc": "C2765186",
+    "brand": "SHOU HAN(首韩)",
+    "type": "USB连接器",
+    "name": "Type-C 母 卧贴 编带",
+    "model": "TYPE-C 16PIN 2MD(073)",
+    "package": "SMD",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO25041218243_2025/04/12 20:04",
+      "SO2505010385_2025/05/01 01:33"
+    ]
+  },
+  {
+    "id": 32,
+    "lcsc": "C20069125",
+    "brand": "宏嘉诚",
+    "type": "三极管(BJT)",
+    "name": "hFE:200-350，丝印:J3Y S8050 编带",
+    "model": "S8050",
+    "package": "SOT-23",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO25041218243_2025/04/12 20:04"
+    ]
+  },
+  {
+    "id": 33,
+    "lcsc": "C2895470",
+    "brand": "XINGLIGHT(成兴光)",
+    "type": "发光二极管/LED",
+    "name": "XL-302SURD 袋装",
+    "model": "XL-302SURD",
+    "package": "插件,D=3mm",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO25041218243_2025/04/12 20:04"
+    ]
+  },
+  {
+    "id": 34,
+    "lcsc": "C43743",
+    "brand": "维修佬",
+    "type": "锡丝/锡线",
+    "name": "维修佬,焊锡丝精细常温基板专用松香有铅焊接锡线,55g0.8mm,1卷 盒装",
+    "model": "HX-T100-55g-0.8mm",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO25041218369_2025/04/12 20:07"
+    ]
+  },
+  {
+    "id": 35,
+    "lcsc": "C27985187",
+    "brand": "HC(虹成电子)",
+    "type": "排针",
+    "name": "1x2P 间距:2.54mm 方针 直插 袋装",
+    "model": "HC-PZ254-11.5L-1x2PZ",
+    "package": "插件,P=2.54mm",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO25041220381_2025/04/12 23:26"
+    ]
+  },
+  {
+    "id": 36,
+    "lcsc": "C27985189",
+    "brand": "HC(虹成电子)",
+    "type": "排针",
+    "name": "1x4P 间距:2.54mm 方针 直插 袋装",
+    "model": "HC-PZ254-11.5L-1x4PZ",
+    "package": "插件,P=2.54mm",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO25041220381_2025/04/12 23:26"
+    ]
+  },
+  {
+    "id": 37,
+    "lcsc": "C7433453",
+    "brand": "HC(虹成电子)",
+    "type": "线对板针座",
+    "name": "米色 1x2P 间距:1.25mm 卧贴 系列:PicoBlade(MX 1.25) 编带",
+    "model": "HCZZ0001-2",
+    "package": "SMD,P=1.25mm,卧贴",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO25041220381_2025/04/12 23:26"
+    ]
+  },
+  {
+    "id": 38,
+    "lcsc": "C27985160",
+    "brand": "HC(虹成电子)",
+    "type": "排针",
+    "name": "1x20P 间距:2mm 方针 直插 袋装",
+    "model": "HC-PZ200-8.7L-1x20PZ",
+    "package": "插件,P=2mm",
+    "quantity": 40,
+    "remark": "",
+    "history": [
+      "SO25041220381_2025/04/12 23:26",
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 39,
+    "lcsc": "C22400303",
+    "brand": "techphant(技象科技)",
+    "type": "射频模块",
+    "name": "TP1107模组 编带",
+    "model": "TP1107",
+    "package": "SMD,17.7x15.8mm",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO25041220519_2025/04/12 23:27"
+    ]
+  },
+  {
+    "id": 40,
+    "lcsc": "C436568",
+    "brand": "PROD(谱罗德)",
+    "type": "功率电感",
+    "name": "10uH ±20% 5.5A 编带",
+    "model": "PSPMAA063T-100M-ANP",
+    "package": "SMD,6.6x7.1mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2504130010_2025/04/13 00:05"
+    ]
+  },
+  {
+    "id": 41,
+    "lcsc": "C436534",
+    "brand": "PROD(谱罗德)",
+    "type": "功率电感",
+    "name": "3.3uH ±20% 6A 编带",
+    "model": "PSPMAA0503-3R3M-ANP",
+    "package": "SMD,5.4x5.2mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2504130010_2025/04/13 00:05"
+    ]
+  },
+  {
+    "id": 42,
+    "lcsc": "C436701",
+    "brand": "PROD(谱罗德)",
+    "type": "功率电感",
+    "name": "33uH ±20% 970mA 编带",
+    "model": "PSPNAQ5020-330M",
+    "package": "SMD,5x5mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2504130010_2025/04/13 00:05"
+    ]
+  },
+  {
+    "id": 43,
+    "lcsc": "C2924239",
+    "brand": "PROD(谱罗德)",
+    "type": "色环/插件电感",
+    "name": "PDPTAT0810-821K 袋装",
+    "model": "PDPTAT0810-821K",
+    "package": "插件,D9.5xL12mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2504130010_2025/04/13 00:05"
+    ]
+  },
+  {
+    "id": 44,
+    "lcsc": "C436542",
+    "brand": "PROD(谱罗德)",
+    "type": "功率电感",
+    "name": "10uH ±20% 7A 编带",
+    "model": "PSPMAA0603-100M-ANF",
+    "package": "SMD,6.6x7.1mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2504130010_2025/04/13 00:05"
+    ]
+  },
+  {
+    "id": 45,
+    "lcsc": "C42851",
+    "brand": "HONOR(荣誉)",
+    "type": "贴片型铝电解电容",
+    "name": "1000uF ±20% 6.3V 编带",
+    "model": "RVT0J102M0810",
+    "package": "SMD,D8xL10.5mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2504130299_2025/04/13 00:18"
+    ]
+  },
+  {
+    "id": 46,
+    "lcsc": "C5438588",
+    "brand": "HONOR(荣誉)",
+    "type": "固态电容",
+    "name": "470uF ±20% 16V 袋装",
+    "model": "HS1C477M0611PC",
+    "package": "插件,D6.3xL11.5mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2504130299_2025/04/13 00:18"
+    ]
+  },
+  {
+    "id": 47,
+    "lcsc": "C3340",
+    "brand": "HONOR(荣誉)",
+    "type": "贴片型铝电解电容",
+    "name": "220uF ±20% 35V 编带",
+    "model": "RVT1V221M0810",
+    "package": "SMD,D8xL10.2mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2504130299_2025/04/13 00:18"
+    ]
+  },
+  {
+    "id": 48,
+    "lcsc": "C2895745",
+    "brand": "HONOR(荣誉)",
+    "type": "贴片型铝电解电容",
+    "name": "330uF ±20% 50V 编带",
+    "model": "RVT1H331M1010",
+    "package": "SMD,D10xL10.2mm",
+    "quantity": 15,
+    "remark": "",
+    "history": [
+      "SO2504130299_2025/04/13 00:18"
+    ]
+  },
+  {
+    "id": 49,
+    "lcsc": "C7499950",
+    "brand": "HRK(鸿瑞凯电子)",
+    "type": "直插铝电解电容",
+    "name": "1000uF 35V 袋装",
+    "model": "CD288108M1V1020VFL",
+    "package": "插件,D10xL20mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2504130318_2025/04/13 00:39"
+    ]
+  },
+  {
+    "id": 50,
+    "lcsc": "C2983323",
+    "brand": "HRK(鸿瑞凯电子)",
+    "type": "贴片型铝电解电容",
+    "name": "220uF ±20% 35V 编带",
+    "model": "GVT1V227M0810CNVC",
+    "package": "SMD,D8xL10.5mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2504130318_2025/04/13 00:39"
+    ]
+  },
+  {
+    "id": 51,
+    "lcsc": "C2983307",
+    "brand": "HRK(鸿瑞凯电子)",
+    "type": "贴片型铝电解电容",
+    "name": "100uF ±20% 50V 编带",
+    "model": "GVE1H107M0810CNVC",
+    "package": "SMD,D8xL10.5mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2504130318_2025/04/13 00:39"
+    ]
+  },
+  {
+    "id": 52,
+    "lcsc": "C2960233",
+    "brand": "HRK(鸿瑞凯电子)",
+    "type": "直插铝电解电容",
+    "name": "470uF 25V 袋装",
+    "model": "CD2884771EM0812VFL",
+    "package": "插件,D8xL12mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2504130318_2025/04/13 00:39"
+    ]
+  },
+  {
+    "id": 53,
+    "lcsc": "C2983317",
+    "brand": "HRK(鸿瑞凯电子)",
+    "type": "贴片型铝电解电容",
+    "name": "220uF ±20% 25V 编带",
+    "model": "GVT1E227M0608CNVC",
+    "package": "SMD,D6.3xL7.7mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2504130318_2025/04/13 00:39"
+    ]
+  },
+  {
+    "id": 54,
+    "lcsc": "C7493892",
+    "brand": "HRK(鸿瑞凯电子)",
+    "type": "直插铝电解电容",
+    "name": "1000uF 16V 袋装",
+    "model": "CD2881081CM1017VFL",
+    "package": "插件,D10xL17mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2504130318_2025/04/13 00:39"
+    ]
+  },
+  {
+    "id": 55,
+    "lcsc": "C2761643",
+    "brand": "Dersonic(德尔创)",
+    "type": "压敏电阻",
+    "name": "钳位电压545V 23焦耳 插件压敏电阻 袋装",
+    "model": "RM07D331KC1IE100",
+    "package": "插件,P=5.08mm",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2504130180_2025/04/13 00:50"
+    ]
+  },
+  {
+    "id": 56,
+    "lcsc": "C2761711",
+    "brand": "Dersonic(德尔创)",
+    "type": "安规电容",
+    "name": "3.3nF ±20% 400V 等级:Y1 袋装",
+    "model": "CY1332ME1IEF48O2A2",
+    "package": "插件,P=10mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2504130180_2025/04/13 00:50"
+    ]
+  },
+  {
+    "id": 57,
+    "lcsc": "C2974827",
+    "brand": "Dersonic(德尔创)",
+    "type": "安规电容",
+    "name": "4.7nF ±20% 250V 等级:Y2 袋装",
+    "model": "CY2472MD14EF48F2A8",
+    "package": "插件,P=7.5mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2504130180_2025/04/13 00:50"
+    ]
+  },
+  {
+    "id": 58,
+    "lcsc": "C2761640",
+    "brand": "Dersonic(德尔创)",
+    "type": "压敏电阻",
+    "name": "钳位电压360V 14焦耳 插件压敏电阻 袋装",
+    "model": "RM07D221KC1IE100",
+    "package": "插件,P=5.08mm",
+    "quantity": 40,
+    "remark": "",
+    "history": [
+      "SO2504130180_2025/04/13 00:50"
+    ]
+  },
+  {
+    "id": 59,
+    "lcsc": "C2974811",
+    "brand": "Dersonic(德尔创)",
+    "type": "压敏电阻",
+    "name": "钳位电压455V 37焦耳 插件压敏电阻 袋装",
+    "model": "RM10D271KD12E100",
+    "package": "插件,P=7.5mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2504130180_2025/04/13 00:50"
+    ]
+  },
+  {
+    "id": 60,
+    "lcsc": "C19284875",
+    "brand": "Mysentech(敏源传感)",
+    "type": "温度传感器",
+    "name": "高精度数字温度传感芯片 编带",
+    "model": "T117P",
+    "package": "DFN-6L(2x2)",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2504130398_2025/04/13 01:05"
+    ]
+  },
+  {
+    "id": 61,
+    "lcsc": "C22360667",
+    "brand": "Mysentech(敏源传感)",
+    "type": "温度传感器",
+    "name": "数字温度探头 袋装",
+    "model": "DS18B20A10T6",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2504130398_2025/04/13 01:05"
+    ]
+  },
+  {
+    "id": 62,
+    "lcsc": "C20611523",
+    "brand": "Mysentech(敏源传感)",
+    "type": "温度传感器",
+    "name": "数字温度传感芯片 袋装",
+    "model": "DS18B20",
+    "package": "TO-92",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2504130398_2025/04/13 01:05"
+    ]
+  },
+  {
+    "id": 63,
+    "lcsc": "C2843549",
+    "brand": "Mysentech(敏源传感)",
+    "type": "温度传感器",
+    "name": "I2C数字温度传感器 编带",
+    "model": "M117B",
+    "package": "TDFN-6-EP(2x2)",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2504130398_2025/04/13 01:05"
+    ]
+  },
+  {
+    "id": 64,
+    "lcsc": "C7494889",
+    "brand": "Yxcon(宇熙精密)",
+    "type": "排针",
+    "name": "2x40P 间距:2.54mm 方针 直插 袋装",
+    "model": "P125-1240S1AS116A1",
+    "package": "插件,P=2.54mm",
+    "quantity": 2,
+    "remark": "",
+    "history": [
+      "SO2504130797_2025/04/13 01:34"
+    ]
+  },
+  {
+    "id": 65,
+    "lcsc": "C7494801",
+    "brand": "Yxcon(宇熙精密)",
+    "type": "排针",
+    "name": "1x4P 间距:2mm 方针 直插 袋装",
+    "model": "P220-1104A0BS087A1",
+    "package": "插件,P=2mm",
+    "quantity": 40,
+    "remark": "",
+    "history": [
+      "SO2504130797_2025/04/13 01:34"
+    ]
+  },
+  {
+    "id": 66,
+    "lcsc": "C20071211",
+    "brand": "Yxcon(宇熙精密)",
+    "type": "排母",
+    "name": "1x8P 间距:2mm 编带",
+    "model": "F243-1108A0CMUB2",
+    "package": "SMD,P=2mm,交错脚",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2504130797_2025/04/13 01:34"
+    ]
+  },
+  {
+    "id": 67,
+    "lcsc": "C2888451",
+    "brand": "BZCN(博众电气)",
+    "type": "轻触开关",
+    "name": "3*6*3.5H-YL06 260gf支架 袋装",
+    "model": "TSB003A3526A",
+    "package": "SMD",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO2504130894_2025/04/13 01:44"
+    ]
+  },
+  {
+    "id": 68,
+    "lcsc": "C2888508",
+    "brand": "BZCN(博众电气)",
+    "type": "轻触开关",
+    "name": "4.5*4.5*4.8H-JT 180gf冷封编带 编带",
+    "model": "TSC015A04818B",
+    "package": "SMD",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO2504130894_2025/04/13 01:44"
+    ]
+  },
+  {
+    "id": 69,
+    "lcsc": "C2846767",
+    "brand": "BZCN(博众电气)",
+    "type": "轻触开关",
+    "name": "3*4*2.0H-J 180gf 双弹四脚直按 袋装",
+    "model": "TSA008A2018A",
+    "package": "SMD",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2504130894_2025/04/13 01:44"
+    ]
+  },
+  {
+    "id": 70,
+    "lcsc": "C2888443",
+    "brand": "BZCN(博众电气)",
+    "type": "轻触开关",
+    "name": "3.7*3.7*0.35H-J 260gf 带三点 袋装",
+    "model": "TSA005A3526A",
+    "package": "SMD",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO2504130894_2025/04/13 01:44"
+    ]
+  },
+  {
+    "id": 71,
+    "lcsc": "C2888509",
+    "brand": "BZCN(博众电气)",
+    "type": "轻触开关",
+    "name": "4.5*4.5*5H-JT 260gf 袋装",
+    "model": "TSC015A05026A",
+    "package": "SMD",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO2504130894_2025/04/13 01:44"
+    ]
+  },
+  {
+    "id": 72,
+    "lcsc": "C22396880",
+    "brand": "立创开发板",
+    "type": "开发板",
+    "name": "立创·地阔星-STM32F103C8T6开发板 袋装",
+    "model": "LCKFB-DKX-STM32F103C8T6",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2505092234_2025/05/09 01:00"
+    ]
+  },
+  {
+    "id": 73,
+    "lcsc": "C19078763",
+    "brand": "LUTE(陆特)",
+    "type": "自恢复保险丝",
+    "name": "30V 5A 2920自恢复 编带",
+    "model": "2920L500/30GR",
+    "package": "2920",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 74,
+    "lcsc": "C242259",
+    "brand": "JCHL(晶创和立)",
+    "type": "环境光传感器",
+    "name": "光敏传感器 袋装",
+    "model": "HLPT550B5 H5",
+    "package": "插件,P=2.54mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 75,
+    "lcsc": "C242258",
+    "brand": "JCHL(晶创和立)",
+    "type": "环境光传感器",
+    "name": "光敏传感器 袋装",
+    "model": "HLPT550B3 H4",
+    "package": "插件,P=2.54mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 76,
+    "lcsc": "C242255",
+    "brand": "JCHL(晶创和立)",
+    "type": "环境光传感器",
+    "name": "1206-PTSMD026 编带",
+    "model": "1206-PTSMD026",
+    "package": "1206",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 77,
+    "lcsc": "C18164485",
+    "brand": "GR(国睿)",
+    "type": "线性稳压器(LDO)",
+    "name": "AMS1117-3.3 编带",
+    "model": "AMS1117-3.3",
+    "package": "SOT-223",
+    "quantity": 60,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 78,
+    "lcsc": "C424427",
+    "brand": "CND-tek(磁联达)",
+    "type": "无线充电线圈",
+    "name": "YX-A11-R501000-R0807 盒装",
+    "model": "YX-A11-R501000-R0807",
+    "package": "-",
+    "quantity": 6,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 79,
+    "lcsc": "C7542923",
+    "brand": "LUTE(陆特)",
+    "type": "自恢复保险丝",
+    "name": "30V 50mA 1206自恢复 编带",
+    "model": "1206L005/30NR",
+    "package": "1206",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 80,
+    "lcsc": "C19271389",
+    "brand": "XYECONN(辛译)",
+    "type": "线对板针座",
+    "name": "1x5P 间距:2.54mm 直插 袋装",
+    "model": "XY-XHB2.54-5A11",
+    "package": "插件,P=2.54mm",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 81,
+    "lcsc": "C5381363",
+    "brand": "ROCPU Switches(台普)",
+    "type": "轻触开关",
+    "name": "4.2*3.35*2.5mm 贴片 轻触开关 编带",
+    "model": "TP12021625",
+    "package": "SMD",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 82,
+    "lcsc": "C2849554",
+    "brand": "DMBJ(振宝佳)",
+    "type": "功率电感",
+    "name": "10uH ±20% –40℃~+125℃ 编带",
+    "model": "PNLS8040-100M 10UH",
+    "package": "SMD,8x8mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 83,
+    "lcsc": "C5261260",
+    "brand": "Lucki(蓝晶)",
+    "type": "无源晶振",
+    "name": "10MHz ±10ppm 8pF 编带",
+    "model": "L327S100D11L",
+    "package": "SMD3225-4P",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 84,
+    "lcsc": "C2849476",
+    "brand": "DMBJ(振宝佳)",
+    "type": "功率电感",
+    "name": "47uH ±20% –40℃~+125℃ 编带",
+    "model": "PNLS4030-470M 47UH",
+    "package": "SMD,4x4mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 85,
+    "lcsc": "C20415992",
+    "brand": "WF(伟烽)",
+    "type": "压力传感器",
+    "name": "0-1500kpa,数字压力传感器,2.4V-5.5V,通信接口I²C、UART、OWI 编带",
+    "model": "WF183DE 15BA L8B T&R",
+    "package": "LGA-8(3.8x3.6)",
+    "quantity": 2,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 86,
+    "lcsc": "C492444",
+    "brand": "XFCN(兴飞)",
+    "type": "IDC刺破式连接器(牛角/简牛)",
+    "name": "2x10P 排数:2 每排P数:10 托盘",
+    "model": "BH254V-20P",
+    "package": "插件,P=2.54mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 87,
+    "lcsc": "C2916453",
+    "brand": "XKB Connection(中国星坤)",
+    "type": "以太网连接器(RJ45 RJ11)",
+    "name": "弯插 不带LED 托盘",
+    "model": "X12ADGWA3DY1027",
+    "package": "插件",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 88,
+    "lcsc": "C42378259",
+    "brand": "SOFNG(硕方)",
+    "type": "FFC/FPC连接器",
+    "name": "抽屉式 上接 P数:24P 间距:0.5mm 编带",
+    "model": "05DS-24PS",
+    "package": "SMD,P=0.5mm,卧贴",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 89,
+    "lcsc": "C18078120",
+    "brand": "Bossie(博锡)",
+    "type": "轻触开关",
+    "name": "3x6x5贴片开关无定位 编带",
+    "model": "BX-TS-26-365TP",
+    "package": "SMD,3.5x6mm",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 90,
+    "lcsc": "C496549",
+    "brand": "BAT WIRELESS(蝙蝠无线)",
+    "type": "RF射频同轴连接器",
+    "name": "内孔 SMA 正脚 袋装",
+    "model": "BWSMA-KE-Z001",
+    "package": "插件",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29",
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 91,
+    "lcsc": "C2884358",
+    "brand": "XKB Connection(中国星坤)",
+    "type": "线对板针座",
+    "name": "2x12P 间距:4.2mm 直插 袋装",
+    "model": "X9357WV-2x12-N2SN",
+    "package": "插件,P=4.2mm",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 92,
+    "lcsc": "C409424",
+    "brand": "KYX(凯越翔)",
+    "type": "无源晶振",
+    "name": "40MHz ±10ppm 9pF 编带",
+    "model": "K2C400000910",
+    "package": "SMD2520-4P",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 93,
+    "lcsc": "C350424",
+    "brand": "baocheng(宝乘)",
+    "type": "整流桥",
+    "name": "DB157 管装",
+    "model": "DB157",
+    "package": "-",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 94,
+    "lcsc": "C91145",
+    "brand": "韩国韩荣",
+    "type": "SD卡/存储卡连接器",
+    "name": "自弹式 MicroSD卡(TF卡) 卡座 编带",
+    "model": "TF-01A",
+    "package": "SMD",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 95,
+    "lcsc": "C780525",
+    "brand": "USAKRO(美韩)",
+    "type": "轻触开关",
+    "name": "5.2*5.2*1.5mm 立贴 轻触开关 编带",
+    "model": "UK-B0233-G1.5-160-JZ",
+    "package": "SMD",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 96,
+    "lcsc": "C19271394",
+    "brand": "XYECONN(辛译)",
+    "type": "线对板针座",
+    "name": "1x10P 间距:2.54mm 直插 袋装",
+    "model": "XY-XHB2.54-10A11",
+    "package": "插件,P=2.54mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 97,
+    "lcsc": "C620316",
+    "brand": "USAKRO(美韩)",
+    "type": "轻触开关",
+    "name": "6*6*5mm 立贴 轻触开关 编带",
+    "model": "UK-B0228-G5-160-JZ",
+    "package": "SMD",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 98,
+    "lcsc": "C5137199",
+    "brand": "BAT WIRELESS(蝙蝠无线)",
+    "type": "RF射频同轴连接器",
+    "name": "内孔 弯头 袋装",
+    "model": "BWMMCX-KWE",
+    "package": "插件",
+    "quantity": 2,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 99,
+    "lcsc": "C22467658",
+    "brand": "MyAntenna(摩天射频)",
+    "type": "射频连接线",
+    "name": "IPEX 4转IPEX 4射频连接线 袋装",
+    "model": "ACA-IPEX4 TO IPEX4 001",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 100,
+    "lcsc": "C22467657",
+    "brand": "MyAntenna(摩天射频)",
+    "type": "射频连接线",
+    "name": "SMA转IPEX4射频连接线 袋装",
+    "model": "ACA-SMA-J TO IPEX4 001",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 101,
+    "lcsc": "C7428590",
+    "brand": "USAKRO(美韩)",
+    "type": "拨码开关",
+    "name": "拨码开关贴片式 2.54mm间距,编带 宽脚 10PIN/位 高推 黑色 编带",
+    "model": "DSIC-T-10-R",
+    "package": "SMD",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 102,
+    "lcsc": "C266899",
+    "brand": "XUNPU(讯普)",
+    "type": "PCI/PCIe连接器",
+    "name": "PCIE-52P52H 编带",
+    "model": "PCIE-52P52H",
+    "package": "SMD,P=0.8mm,卧贴",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 103,
+    "lcsc": "C500055",
+    "brand": "XKB Connection(中国星坤)",
+    "type": "滑动开关",
+    "name": "柄长2mm 卧贴双档 滑动开关 编带",
+    "model": "SS-3235S-L1",
+    "package": "SMD",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 104,
+    "lcsc": "C620322",
+    "brand": "USAKRO(美韩)",
+    "type": "轻触开关",
+    "name": "6*6*10mm 立贴 轻触开关 袋装",
+    "model": "UK-B0228-G10-160",
+    "package": "SMD",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 105,
+    "lcsc": "C493289",
+    "brand": "USAKRO(美韩)",
+    "type": "轻触开关",
+    "name": "3.15*3.15*0.75mm 立贴 轻触开关 编带",
+    "model": "UK-B0297-SP25Y",
+    "package": "SMD",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 106,
+    "lcsc": "C2828576",
+    "brand": "ROCPU Switches(台普)",
+    "type": "轻触开关",
+    "name": "TPS645-1NA50 袋装",
+    "model": "TPS645-1NA50",
+    "package": "插件",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 107,
+    "lcsc": "C501335",
+    "brand": "XFCN(兴飞)",
+    "type": "短路帽/跳线帽",
+    "name": "2.54mm 开顶式 袋装",
+    "model": "F254D-02-PT-B",
+    "package": "P=2.54mm",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29",
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 108,
+    "lcsc": "C368731",
+    "brand": "KYX(凯越翔)",
+    "type": "无源晶振",
+    "name": "12MHz ±10ppm 12pF 编带",
+    "model": "K3A120001210",
+    "package": "SMD3225-4P",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 109,
+    "lcsc": "C7461341",
+    "brand": "DMBJ(振宝佳)",
+    "type": "功率电感",
+    "name": "10uH ±20% 2A 编带",
+    "model": "CXP0420-100M-AG(10UH)",
+    "package": "0420",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 110,
+    "lcsc": "C19076879",
+    "brand": "KYX(凯越翔)",
+    "type": "无源晶振",
+    "name": "32.768kHz ±20ppm 12.5pF 编带",
+    "model": "KFC3276812520K",
+    "package": "SMD3215-2P",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 111,
+    "lcsc": "C22388664",
+    "brand": "WF(伟烽)",
+    "type": "压力传感器",
+    "name": "WF183DE 01BA L8 T&R 编带",
+    "model": "WF183DE 01BA L8 T&R",
+    "package": "LGA-8(3.6x3.8)",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 112,
+    "lcsc": "C2835945",
+    "brand": "KYX(凯越翔)",
+    "type": "无源晶振",
+    "name": "32.768kHz ±20ppm 12.5pF 编带",
+    "model": "KMD3276812520",
+    "package": "HC-49S-SMD-2P-Mini",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 113,
+    "lcsc": "C18077834",
+    "brand": "Bossie(博锡)",
+    "type": "线对板针座",
+    "name": "1x3P 间距:2.5mm 直插 系列:XH 袋装",
+    "model": "BX-XH2.54-3PZZ",
+    "package": "插件,P=2.54mm",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 114,
+    "lcsc": "C18077833",
+    "brand": "Bossie(博锡)",
+    "type": "线对板针座",
+    "name": "1x2P 间距:2.5mm 直插 系列:XH 袋装",
+    "model": "BX-XH2.54-2PZZ",
+    "package": "插件,P=2.54mm",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 115,
+    "lcsc": "C10081",
+    "brand": "JCHL(晶创和立)",
+    "type": "光敏电阻",
+    "name": "GL5528(10-20) 袋装",
+    "model": "GL5528(10-20)",
+    "package": "插件,P=3.4mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 116,
+    "lcsc": "C18077835",
+    "brand": "Bossie(博锡)",
+    "type": "线对板针座",
+    "name": "1x4P 间距:2.5mm 直插 系列:XH 袋装",
+    "model": "BX-XH2.54-4PZZ",
+    "package": "插件,P=2.54mm",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 117,
+    "lcsc": "C136744",
+    "brand": "韩国韩荣",
+    "type": "DC电源连接器",
+    "name": "DC电源插座 内径:2mm 外径:6.4mm 袋装",
+    "model": "DC-005-20A",
+    "package": "插件",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29",
+      "SO2505101618_2025/05/10 03:08"
+    ]
+  },
+  {
+    "id": 118,
+    "lcsc": "C2691448",
+    "brand": "XFCN(兴飞)",
+    "type": "排针",
+    "name": "1x4P 间距:2.54mm 方针 直插 袋装",
+    "model": "PZ254V-11-04P",
+    "package": "插件,P=2.54mm",
+    "quantity": 60,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 119,
+    "lcsc": "C111196",
+    "brand": "SOFNG(硕方)",
+    "type": "SD卡/存储卡连接器",
+    "name": "自弹式 MicroSD卡(TF卡) 卡座 编带",
+    "model": "TF-15x15",
+    "package": "SMD",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 120,
+    "lcsc": "C177245",
+    "brand": "cjiang(长江微电)",
+    "type": "功率电感",
+    "name": "33uH ±20% 2.5A 编带",
+    "model": "FXL0630-330-M",
+    "package": "SMD,6.6x7mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 121,
+    "lcsc": "C350460",
+    "brand": "baocheng(宝乘)",
+    "type": "整流桥",
+    "name": "GBU1510 编带",
+    "model": "GBU1510",
+    "package": "GBU",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 122,
+    "lcsc": "C177246",
+    "brand": "cjiang(长江微电)",
+    "type": "功率电感",
+    "name": "4.7uH ±20% 5A 编带",
+    "model": "FXL0530-4R7-M",
+    "package": "SMD,5.2x5.4mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 123,
+    "lcsc": "C3029442",
+    "brand": "XUNPU(讯普)",
+    "type": "线对板针座",
+    "name": "1x4P 间距:2mm 卧贴 系列:PH 编带",
+    "model": "WAFER-PH2.0-4PWB",
+    "package": "SMD,P=2mm,卧贴",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 124,
+    "lcsc": "C19271017",
+    "brand": "jianfu(键富)",
+    "type": "轻触开关",
+    "name": "3X4/平脚/2.5H/250gf/全白/编带 编带",
+    "model": "TVAF11-025C-R",
+    "package": "SMD-4P,4.2x3.2mm",
+    "quantity": 60,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 125,
+    "lcsc": "C2849457",
+    "brand": "DMBJ(振宝佳)",
+    "type": "功率电感",
+    "name": "1uH ±20% –40℃~+125℃ 编带",
+    "model": "PNLS4012-1R0M 1UH",
+    "package": "SMD,4x4mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 126,
+    "lcsc": "C19272095",
+    "brand": "XYECONN(辛译)",
+    "type": "线对板针座",
+    "name": "间距:2.0mm 1x2P 卧贴 编带",
+    "model": "XY-PH2.0-2A61",
+    "package": "SMD,P=2mm,卧贴",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 127,
+    "lcsc": "C22467684",
+    "brand": "MyAntenna(摩天射频)",
+    "type": "射频连接线",
+    "name": "SMA母头转SMA公头射频连接线 袋装",
+    "model": "ACA-RFSMA-J TO RFSMA-K 001",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 128,
+    "lcsc": "C262671",
+    "brand": "JS(钜硕电子)",
+    "type": "FFC/FPC连接器",
+    "name": "间距:0.5mm P数:30P 翻盖式 下接 编带",
+    "model": "AFC01-S30FCA-00",
+    "package": "SMD,P=0.5mm,卧贴",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 129,
+    "lcsc": "C2938578",
+    "brand": "XKB Connection(中国星坤)",
+    "type": "短路帽/跳线帽",
+    "name": "2.54mm 开顶式 袋装",
+    "model": "X2541-A1NIB",
+    "package": "P=2.54mm",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29",
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 130,
+    "lcsc": "C42401705",
+    "brand": "Bestirpower(萃锦半导体)",
+    "type": "场效应管(MOSFET)",
+    "name": "SJ MOSFET BMW65N076UC1 管装",
+    "model": "BMW65N076UC1",
+    "package": "TO-247-3",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 131,
+    "lcsc": "C5832360",
+    "brand": "cjiang(长江微电)",
+    "type": "功率电感",
+    "name": "4.7uH ±20% 2.6A 编带",
+    "model": "FTC252010S4R7MBCA",
+    "package": "SMD,2x2.5mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 132,
+    "lcsc": "C5371227",
+    "brand": "JS(钜硕电子)",
+    "type": "FFC连接线(柔性扁平线缆)",
+    "name": "JS05A-30P-080-4-8 袋装",
+    "model": "JS05A-30P-080-4-8",
+    "package": "P=0.5mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 133,
+    "lcsc": "C18077899",
+    "brand": "Bossie(博锡)",
+    "type": "线对板针座",
+    "name": "1x2P 间距:2mm 立贴 系列:PH 编带",
+    "model": "BX-PH2.0-2PLT",
+    "package": "SMD,P=2mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 134,
+    "lcsc": "C2682170",
+    "brand": "XKB Connection(中国星坤)",
+    "type": "HDMI连接器",
+    "name": "A71-05H4-111N1 编带",
+    "model": "A71-05H4-111N1",
+    "package": "SMD",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 135,
+    "lcsc": "C368795",
+    "brand": "KYX(凯越翔)",
+    "type": "无源晶振",
+    "name": "32.768kHz ±20ppm 12.5pF 袋装",
+    "model": "K383276812520",
+    "package": "DT-38",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 136,
+    "lcsc": "C5381346",
+    "brand": "ROCPU Switches(台普)",
+    "type": "轻触开关",
+    "name": "4.5*4.5*3.5mm 插件 轻触开关 编带",
+    "model": "TP11312635",
+    "package": "插件",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 137,
+    "lcsc": "C145813",
+    "brand": "韩国韩荣",
+    "type": "音频连接器(耳机)",
+    "name": "3.5mm耳机座 编带",
+    "model": "PJ-327C-4A",
+    "package": "SMD",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 138,
+    "lcsc": "C165948",
+    "brand": "韩国韩荣",
+    "type": "USB连接器",
+    "name": "Type-C 母 编带",
+    "model": "TYPE-C-31-M-12",
+    "package": "SMD",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 139,
+    "lcsc": "C18077901",
+    "brand": "Bossie(博锡)",
+    "type": "线对板针座",
+    "name": "1x4P 间距:2mm 立贴 系列:PH 编带",
+    "model": "BX-PH2.0-4PLT",
+    "package": "SMD,P=2mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 140,
+    "lcsc": "C498173",
+    "brand": "SOFNG(硕方)",
+    "type": "USB连接器",
+    "name": "Type-B 母 弯插 托盘",
+    "model": "USB-B01",
+    "package": "插件",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 141,
+    "lcsc": "C145795",
+    "brand": "韩国韩荣",
+    "type": "USB连接器",
+    "name": "Micro-B 母 编带",
+    "model": "U-D-M5DD-W-1",
+    "package": "插件",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 142,
+    "lcsc": "C22355768",
+    "brand": "SOFNG(硕方)",
+    "type": "USB连接器",
+    "name": "TYPE-C公头卧贴 沉板式 拉伸外壳 9PIN 编带",
+    "model": "MC-339",
+    "package": "SMD",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 143,
+    "lcsc": "C7542932",
+    "brand": "LUTE(陆特)",
+    "type": "自恢复保险丝",
+    "name": "30V 200mA 1206自恢复 编带",
+    "model": "1206L020/30NR",
+    "package": "1206",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 144,
+    "lcsc": "C19267963",
+    "brand": "XYECONN(辛译)",
+    "type": "FFC/FPC连接器",
+    "name": "间距:0.5mm P数:24P 翻盖式 双侧触点/上下接 编带",
+    "model": "FPC05-H0.5-24AH2.0",
+    "package": "SMD,P=0.5mm,卧贴",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 145,
+    "lcsc": "C19271413",
+    "brand": "XYECONN(辛译)",
+    "type": "线对板针座",
+    "name": "1x2P 间距:3.96mm 直插 袋装",
+    "model": "XY-VH3.96-2A11",
+    "package": "插件,P=3.96mm",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 146,
+    "lcsc": "C3874038",
+    "brand": "baocheng(宝乘)",
+    "type": "场效应管(MOSFET)",
+    "name": "BCD80N06 编带",
+    "model": "BCD80N06",
+    "package": "TO-252",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 147,
+    "lcsc": "C262683",
+    "brand": "JS(钜硕电子)",
+    "type": "FFC/FPC连接器",
+    "name": "间距:0.5mm P数:24P 翻盖式 双侧触点/上下接 编带",
+    "model": "AFC24-S24FIA-00",
+    "package": "SMD,P=0.5mm,卧贴",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 148,
+    "lcsc": "C136421",
+    "brand": "SOFNG(硕方)",
+    "type": "HDMI连接器",
+    "name": "HDMI-519 编带",
+    "model": "HDMI-519",
+    "package": "SMD",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 149,
+    "lcsc": "C5261245",
+    "brand": "Lucki(蓝晶)",
+    "type": "无源晶振",
+    "name": "40MHz ±10ppm 10pF 编带",
+    "model": "L327S400H11L",
+    "package": "SMD3225-4P",
+    "quantity": 40,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 150,
+    "lcsc": "C2857674",
+    "brand": "ROCPU Switches(台普)",
+    "type": "滑动开关",
+    "name": "SS-13D07-4 袋装",
+    "model": "SS-13D07-4",
+    "package": "插件",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 151,
+    "lcsc": "C18198307",
+    "brand": "WF(伟烽)",
+    "type": "射频模块",
+    "name": "RX480RA 433MHz D6MM 0402 T1 V4 袋装",
+    "model": "RX480RA 433MHz D6MM 0402 T1 V4",
+    "package": "插件",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 152,
+    "lcsc": "C242254",
+    "brand": "JCHL(晶创和立)",
+    "type": "环境光传感器",
+    "name": "0805-PTSMD021 编带",
+    "model": "0805-PTSMD021",
+    "package": "0805",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 153,
+    "lcsc": "C19193039",
+    "brand": "LUTE(陆特)",
+    "type": "自恢复保险丝",
+    "name": "30V 0.5A 0805自恢复 编带",
+    "model": "0805L050/30AR",
+    "package": "0805",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO25050939272_2025/05/09 21:29"
+    ]
+  },
+  {
+    "id": 154,
+    "lcsc": "C2907114",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "5.1kΩ ±5% 100mW 厚膜电阻 编带",
+    "model": "FRC0603J512 TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO25050939539_2025/05/09 21:38"
+    ]
+  },
+  {
+    "id": 155,
+    "lcsc": "C2906993",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "150kΩ ±1% 100mW 厚膜电阻 编带",
+    "model": "FRC0603F1503TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO25050939539_2025/05/09 21:38"
+    ]
+  },
+  {
+    "id": 156,
+    "lcsc": "C2907025",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "30kΩ ±1% 100mW 厚膜电阻 编带",
+    "model": "FRC0603F3002TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO25050939539_2025/05/09 21:38"
+    ]
+  },
+  {
+    "id": 157,
+    "lcsc": "C2907091",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "10Ω ±5% 100mW 厚膜电阻 编带",
+    "model": "FRC0603J100 TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO25050939539_2025/05/09 21:38"
+    ]
+  },
+  {
+    "id": 158,
+    "lcsc": "C2907124",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "20kΩ ±5% 100mW 厚膜电阻 编带",
+    "model": "FRC0603J203 TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO25050939539_2025/05/09 21:38"
+    ]
+  },
+  {
+    "id": 159,
+    "lcsc": "C2907003",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "1MΩ ±1% 100mW 厚膜电阻 编带",
+    "model": "FRC0603F1004TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO25050939539_2025/05/09 21:38"
+    ]
+  },
+  {
+    "id": 160,
+    "lcsc": "C2909355",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "3kΩ ±1% 62.5mW 厚膜电阻 编带",
+    "model": "FRC0402F3001TS",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO25050939539_2025/05/09 21:38"
+    ]
+  },
+  {
+    "id": 161,
+    "lcsc": "C2907002",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "1kΩ ±1% 100mW 厚膜电阻 编带",
+    "model": "FRC0603F1001TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO25050939539_2025/05/09 21:38"
+    ]
+  },
+  {
+    "id": 162,
+    "lcsc": "C2907034",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "4.7kΩ ±1% 100mW 厚膜电阻 编带",
+    "model": "FRC0603F4701TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO25050939539_2025/05/09 21:38"
+    ]
+  },
+  {
+    "id": 163,
+    "lcsc": "C2907022",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "2kΩ ±1% 100mW 厚膜电阻 编带",
+    "model": "FRC0603F2001TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO25050939539_2025/05/09 21:38"
+    ]
+  },
+  {
+    "id": 164,
+    "lcsc": "C2907055",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "6.8kΩ ±1% 100mW 厚膜电阻 编带",
+    "model": "FRC0603F6801TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO25050939539_2025/05/09 21:38"
+    ]
+  },
+  {
+    "id": 165,
+    "lcsc": "C2930110",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "49.9Ω ±1% 100mW 厚膜电阻 编带",
+    "model": "FRC0603F49R9TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO25050939539_2025/05/09 21:38"
+    ]
+  },
+  {
+    "id": 166,
+    "lcsc": "C7465180",
+    "brand": "EVISUN(易成)",
+    "type": "隔离电源模块",
+    "name": "电源模块输入5V输出5V200mA 1W输出短路保护 管装",
+    "model": "B0505LS-1WR3",
+    "package": "SIP-7",
+    "quantity": 2,
+    "remark": "",
+    "history": [
+      "SO25050939539_2025/05/09 21:38"
+    ]
+  },
+  {
+    "id": 167,
+    "lcsc": "C2930027",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "10kΩ ±5% 100mW 厚膜电阻 编带",
+    "model": "FRC0603J103 TS",
+    "package": "0603",
+    "quantity": 200,
+    "remark": "",
+    "history": [
+      "SO25050939539_2025/05/09 21:38"
+    ]
+  },
+  {
+    "id": 168,
+    "lcsc": "C2930050",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "1.5kΩ ±1% 100mW 厚膜电阻 编带",
+    "model": "FRC0603F1501TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO25050939539_2025/05/09 21:38"
+    ]
+  },
+  {
+    "id": 169,
+    "lcsc": "C2907152",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "330Ω ±5% 100mW 厚膜电阻 编带",
+    "model": "FRC0603J331 TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO25050939539_2025/05/09 21:38"
+    ]
+  },
+  {
+    "id": 170,
+    "lcsc": "C2907140",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "3.3kΩ ±5% 100mW 厚膜电阻 编带",
+    "model": "FRC0603J332 TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO25050939539_2025/05/09 21:38"
+    ]
+  },
+  {
+    "id": 171,
+    "lcsc": "C2907137",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "2kΩ ±5% 100mW 厚膜电阻 编带",
+    "model": "FRC0603J202 TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO25050939539_2025/05/09 21:38"
+    ]
+  },
+  {
+    "id": 172,
+    "lcsc": "C2907180",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "51kΩ ±5% 100mW 厚膜电阻 编带",
+    "model": "FRC0603J513 TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO25050939539_2025/05/09 21:38"
+    ]
+  },
+  {
+    "id": 173,
+    "lcsc": "C7465127",
+    "brand": "EVISUN(易成)",
+    "type": "隔离电源模块",
+    "name": "DC-DC输入5V输出5V200mA 1W 管装",
+    "model": "B0505S-1W",
+    "package": "SIP-4",
+    "quantity": 3,
+    "remark": "",
+    "history": [
+      "SO25050939539_2025/05/09 21:38",
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 174,
+    "lcsc": "C2907080",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "0Ω ±5% 100mW 厚膜电阻 编带",
+    "model": "FRC0603P000 TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO25050939539_2025/05/09 21:38"
+    ]
+  },
+  {
+    "id": 175,
+    "lcsc": "C2907179",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "510Ω ±5% 100mW 厚膜电阻 编带",
+    "model": "FRC0603J511 TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO25050939539_2025/05/09 21:38"
+    ]
+  },
+  {
+    "id": 176,
+    "lcsc": "C5127574",
+    "brand": "LanTu Micro(蓝图微电)",
+    "type": "功率电感",
+    "name": "22uH ±20% 2A 温升电流：1.8A 编带",
+    "model": "SMS0530-220MT",
+    "package": "SMD,5.5x5.2mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505100386_2025/05/10 01:04"
+    ]
+  },
+  {
+    "id": 177,
+    "lcsc": "C5127343",
+    "brand": "LanTu Micro(蓝图微电)",
+    "type": "功率电感",
+    "name": "10uH ±20% 5.5A 温升电流：4.5A 编带",
+    "model": "SMS0630-100MT",
+    "package": "SMD,6.6x7.1mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505100386_2025/05/10 01:04"
+    ]
+  },
+  {
+    "id": 178,
+    "lcsc": "C5127476",
+    "brand": "LanTu Micro(蓝图微电)",
+    "type": "功率电感",
+    "name": "33uH ±20% 3.3A 温升电流：2.8A 编带",
+    "model": "SMS0650-330MT",
+    "package": "SMD,7.1x6.6mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505100386_2025/05/10 01:04"
+    ]
+  },
+  {
+    "id": 179,
+    "lcsc": "C116157",
+    "brand": "SHIKUES(时科)",
+    "type": "场效应管(MOSFET)",
+    "name": "1个N沟道 耐压:50V 电流:100mA 编带",
+    "model": "BSN20",
+    "package": "SOT-23",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2505100386_2025/05/10 01:04"
+    ]
+  },
+  {
+    "id": 180,
+    "lcsc": "C122850",
+    "brand": "SHIKUES(时科)",
+    "type": "场效应管(MOSFET)",
+    "name": "原厂变更型号，性能完全一致。对应老型号为：AO3400 1个N沟道 耐压:30V 电流:5.8A 编带",
+    "model": "SK3400",
+    "package": "SOT-23-3",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505100386_2025/05/10 01:04"
+    ]
+  },
+  {
+    "id": 181,
+    "lcsc": "C475718",
+    "brand": "SHIKUES(时科)",
+    "type": "肖特基二极管",
+    "name": "电压:30V 电流:350mA 编带",
+    "model": "MBR0530",
+    "package": "SOD-123",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO2505100386_2025/05/10 01:04"
+    ]
+  },
+  {
+    "id": 182,
+    "lcsc": "C962722",
+    "brand": "SHIKUES(时科)",
+    "type": "场效应管(MOSFET)",
+    "name": "1个P沟道 耐压:20V 电流:3A 编带",
+    "model": "SK2301AW",
+    "package": "SOT-323",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2505100386_2025/05/10 01:04"
+    ]
+  },
+  {
+    "id": 183,
+    "lcsc": "C6936344",
+    "brand": "SHOU HAN(首韩)",
+    "type": "FFC连接线(柔性扁平线缆)",
+    "name": "FFC-0.5-30P-150mm 袋装",
+    "model": "FFC-0.5-30P-150mm",
+    "package": "P=0.5mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505101618_2025/05/10 03:08"
+    ]
+  },
+  {
+    "id": 184,
+    "lcsc": "C668623",
+    "brand": "SHOU HAN(首韩)",
+    "type": "USB连接器",
+    "name": "Type-C 母 卧贴 编带",
+    "model": "TYPE-C 6P(073)",
+    "package": "SMD",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505101618_2025/05/10 03:08"
+    ]
+  },
+  {
+    "id": 185,
+    "lcsc": "C393939",
+    "brand": "SHOU HAN(首韩)",
+    "type": "USB连接器",
+    "name": "Type-C 母 卧贴 编带",
+    "model": "TYPE-C16PIN",
+    "package": "SMD",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2505101618_2025/05/10 03:08",
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 186,
+    "lcsc": "C6936360",
+    "brand": "SHOU HAN(首韩)",
+    "type": "FFC连接线(柔性扁平线缆)",
+    "name": "FFC-0.5-24P-200mm 袋装",
+    "model": "FFC-0.5-24P-200mm",
+    "package": "P=0.5mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505101618_2025/05/10 03:08"
+    ]
+  },
+  {
+    "id": 187,
+    "lcsc": "C707228",
+    "brand": "韩国韩荣",
+    "type": "音频连接器(耳机)",
+    "name": "3.5mm耳机座 编带",
+    "model": "PJ-327B-5A",
+    "package": "SMD",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505101618_2025/05/10 03:08"
+    ]
+  },
+  {
+    "id": 188,
+    "lcsc": "C2990159",
+    "brand": "Liown(里阳半导体)",
+    "type": "静电和浪涌保护(TVS/ESD)",
+    "name": "SMCJ150CA 编带",
+    "model": "SMCJ150CA",
+    "package": "SMC",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505101618_2025/05/10 03:08"
+    ]
+  },
+  {
+    "id": 189,
+    "lcsc": "C2990493",
+    "brand": "Liown(里阳半导体)",
+    "type": "静电和浪涌保护(TVS/ESD)",
+    "name": "SMF30CA 编带",
+    "model": "SMF30CA",
+    "package": "SOD-123FL",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2505101618_2025/05/10 03:08"
+    ]
+  },
+  {
+    "id": 190,
+    "lcsc": "C136720",
+    "brand": "韩国韩荣",
+    "type": "滑动开关",
+    "name": "卧插双档 滑动开关 袋装",
+    "model": "SK-12E12-G5",
+    "package": "插件",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505101618_2025/05/10 03:08"
+    ]
+  },
+  {
+    "id": 191,
+    "lcsc": "C2689987",
+    "brand": "韩国韩荣",
+    "type": "USB连接器",
+    "name": "Type-A 母 卧贴 编带",
+    "model": "U-A-39SS-W-1",
+    "package": "SMD",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505101618_2025/05/10 03:08"
+    ]
+  },
+  {
+    "id": 192,
+    "lcsc": "C2990473",
+    "brand": "Liown(里阳半导体)",
+    "type": "静电和浪涌保护(TVS/ESD)",
+    "name": "SMF6.0CA 编带",
+    "model": "SMF6.0CA",
+    "package": "SOD-123FL",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2505101618_2025/05/10 03:08"
+    ]
+  },
+  {
+    "id": 193,
+    "lcsc": "C5189958",
+    "brand": "SHOU HAN(首韩)",
+    "type": "贴片电感",
+    "name": "10uH ±20% 编带",
+    "model": "CYA0630-10UH",
+    "package": "SMD,7.2x6.6mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505101618_2025/05/10 03:08"
+    ]
+  },
+  {
+    "id": 194,
+    "lcsc": "C883090",
+    "brand": "BHFUSE(佰宏)",
+    "type": "自恢复保险丝",
+    "name": "33V 100mA 0603自恢复 编带",
+    "model": "BSMD0603-010-33V",
+    "package": "0603",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 195,
+    "lcsc": "C965555",
+    "brand": "worldsemi",
+    "type": "RGB LED(内置IC)",
+    "name": "RGB三色 编带",
+    "model": "WS2812B-2020",
+    "package": "SMD,2.2x2mm",
+    "quantity": 55,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54",
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 196,
+    "lcsc": "C382139",
+    "brand": "TPOWER(天源)",
+    "type": "电池管理",
+    "name": "1A锂电池充电IC 编带",
+    "model": "TP4056",
+    "package": "ESOP-8",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 197,
+    "lcsc": "C6936341",
+    "brand": "SHOU HAN(首韩)",
+    "type": "FFC连接线(柔性扁平线缆)",
+    "name": "FFC-0.5-24P-150mm 袋装",
+    "model": "FFC-0.5-24P-150mm",
+    "package": "P=0.5mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 198,
+    "lcsc": "C456018",
+    "brand": "SHOU HAN(首韩)",
+    "type": "USB连接器",
+    "name": "Type-A 母 弯插 托盘",
+    "model": "AF 90° WJDG",
+    "package": "插件",
+    "quantity": 30,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54",
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 199,
+    "lcsc": "C5180312",
+    "brand": "ElecSuper(静芯)",
+    "type": "静电和浪涌保护(TVS/ESD)",
+    "name": "5路单向ESD静电防护器件，30kV，CJ：100pF；笔记本/SIM卡/数码相机/仪器仪表多路防护 编带",
+    "model": "SMF05CT1G-ES",
+    "package": "SOT-363",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54",
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 200,
+    "lcsc": "C720525",
+    "brand": "XUNPU(讯普)",
+    "type": "USB连接器",
+    "name": "Type-A 母 弯插 托盘",
+    "model": "USB-231-ARY",
+    "package": "插件",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 201,
+    "lcsc": "C18199203",
+    "brand": "宏嘉诚",
+    "type": "肖特基二极管",
+    "name": "电压:40V 电流:1A 编带",
+    "model": "SS14F",
+    "package": "SMAF",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 202,
+    "lcsc": "C2903476",
+    "brand": "Milliohm(毫欧)",
+    "type": "电流采样电阻/分流器",
+    "name": "100mΩ ±1% 3W 编带",
+    "model": "HoJLR2512-3W-100mR-1%",
+    "package": "2512",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 203,
+    "lcsc": "C22376667",
+    "brand": "TPOWER(天源)",
+    "type": "LED驱动",
+    "name": "TP8756 编带",
+    "model": "TP8756",
+    "package": "SOT-23-6L",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 204,
+    "lcsc": "C528782",
+    "brand": "Yuandi(元迪)",
+    "type": "按键开关",
+    "name": "自锁开关7*7*12.7有声有锁高导高柄插件双排6P按键开关带锁DIP六脚 袋装",
+    "model": "TK-6700-1",
+    "package": "插件",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 205,
+    "lcsc": "C381061",
+    "brand": "XKB Connection(中国星坤)",
+    "type": "轻触开关",
+    "name": "4.5*2.65*3.5mm 卧贴 轻触开关 编带",
+    "model": "TS-1010B-B-A",
+    "package": "SMD",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 206,
+    "lcsc": "C2346",
+    "brand": "精拓金",
+    "type": "USB连接器",
+    "name": "Type-A 母 托盘",
+    "model": "901-211A1021D10100",
+    "package": "插件",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 207,
+    "lcsc": "C2903482",
+    "brand": "Milliohm(毫欧)",
+    "type": "电流采样电阻/分流器",
+    "name": "5mΩ ±1% 3W 编带",
+    "model": "HoJLR2512-3W-5mR-1%",
+    "package": "2512",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 208,
+    "lcsc": "C318860",
+    "brand": "XKB Connection(中国星坤)",
+    "type": "按键开关",
+    "name": "8*8 蓝白黑 自锁开关 袋装",
+    "model": "XKB8080-Z",
+    "package": "插件",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 209,
+    "lcsc": "C601092",
+    "brand": "Milliohm(毫欧)",
+    "type": "电流采样电阻/分流器",
+    "name": "500mΩ ±1% 1W 编带",
+    "model": "HoYH1206-1W-500mR-1%",
+    "package": "1206",
+    "quantity": 15,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 210,
+    "lcsc": "C5363463",
+    "brand": "SHOU HAN(首韩)",
+    "type": "杜邦线/端子排线/电子线",
+    "name": "2.54mm-2P 单头端子线公座 线长200mm 24AWG 袋装",
+    "model": "2.54-2P DT 200mm 24AWG",
+    "package": "-",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 211,
+    "lcsc": "C2884141",
+    "brand": "XKB Connection(中国星坤)",
+    "type": "线对板针座",
+    "name": "1x2P 间距:2.5mm 直插 袋装",
+    "model": "X8821WV-02-N0SN",
+    "package": "插件,P=2.5mm",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 212,
+    "lcsc": "C883157",
+    "brand": "BHFUSE(佰宏)",
+    "type": "自恢复保险丝",
+    "name": "24V 2A 1812自恢复 编带",
+    "model": "BSMD1812-200-24V",
+    "package": "1812",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 213,
+    "lcsc": "C5204746",
+    "brand": "TWGMC(台湾迪嘉)",
+    "type": "肖特基二极管",
+    "name": "电压:30V 电流:500mA 编带",
+    "model": "MBR0530",
+    "package": "SOD-123",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 214,
+    "lcsc": "C42434316",
+    "brand": "SHOU HAN(首韩)",
+    "type": "FFC连接线(柔性扁平线缆)",
+    "name": "金手指3mm 加强板4mm 袋装",
+    "model": "FFC-0.5-24P-150mm-B",
+    "package": "P=0.5mm",
+    "quantity": 15,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 215,
+    "lcsc": "C692482",
+    "brand": "XKB Connection(中国星坤)",
+    "type": "滑动开关",
+    "name": "柄长3mm 卧插双档 滑动开关 袋装",
+    "model": "SK-3260D-01-L3",
+    "package": "插件",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 216,
+    "lcsc": "C29075517",
+    "brand": "TPOWER(天源)",
+    "type": "LED驱动",
+    "name": "TP8308 编带",
+    "model": "TP8308",
+    "package": "SOT-23-6",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 217,
+    "lcsc": "C47283690",
+    "brand": "TWGMC(台湾迪嘉)",
+    "type": "稳压二极管",
+    "name": "BZT52B5V1 编带",
+    "model": "BZT52B5V1",
+    "package": "SOD-123",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 218,
+    "lcsc": "C2763028",
+    "brand": "精拓金",
+    "type": "USB连接器",
+    "name": "Type-A 母 侧插 托盘",
+    "model": "906-A61B1114D10200",
+    "package": "插件",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 219,
+    "lcsc": "C5180249",
+    "brand": "ElecSuper(静芯)",
+    "type": "静电和浪涌保护(TVS/ESD)",
+    "name": "2路单向+带VBUS防护ESD静电防护器件，20kV，CJ：0.6pF；HDMI/USB/RJ45高速接口通讯防护 编带",
+    "model": "USBLC6-2SC6-ES",
+    "package": "SOT23-6",
+    "quantity": 40,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 220,
+    "lcsc": "C2856805",
+    "brand": "XUNPU(讯普)",
+    "type": "FFC/FPC连接器",
+    "name": "间距:0.5mm P数:24P 翻盖式 下接 编带",
+    "model": "FPC-05F-24PH20",
+    "package": "SMD,P=0.5mm,卧贴",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54",
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 221,
+    "lcsc": "C5359330",
+    "brand": "SHOU HAN(首韩)",
+    "type": "轻触开关",
+    "name": "4.5*4.5*4mm 立插 轻触开关 袋装",
+    "model": "TS4540CJ 250gf 009",
+    "package": "插件",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 222,
+    "lcsc": "C910830",
+    "brand": "BHFUSE(佰宏)",
+    "type": "自恢复保险丝",
+    "name": "1206 1A 24V 佰宏高电压 编带",
+    "model": "BSMD1206-100-24V",
+    "package": "1206",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 223,
+    "lcsc": "C7420376",
+    "brand": "宏嘉诚",
+    "type": "静电和浪涌保护(TVS/ESD)",
+    "name": "丝印 V05 SRV05-4 编带",
+    "model": "SRV05-4",
+    "package": "SOT-23-6",
+    "quantity": 30,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 224,
+    "lcsc": "C514031",
+    "brand": "Yuandi(元迪)",
+    "type": "滑动开关",
+    "name": "滑动开关9.1*3.5*3.0mm插件侧拨六脚二档 袋装",
+    "model": "TA-3531-A2",
+    "package": "插件-6P,9.1x3.5mm",
+    "quantity": 15,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 225,
+    "lcsc": "C883154",
+    "brand": "BHFUSE(佰宏)",
+    "type": "自恢复保险丝",
+    "name": "33V 1.5A 1812自恢复 编带",
+    "model": "BSMD1812-150-33V",
+    "package": "1812",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54",
+      "SO2505010485_2025/05/01 01:29"
+    ]
+  },
+  {
+    "id": 226,
+    "lcsc": "C5224237",
+    "brand": "ElecSuper(静芯)",
+    "type": "场效应管(MOSFET)",
+    "name": "N沟道,电流:0.3A,耐压:60V 编带",
+    "model": "2N7002KW",
+    "package": "SOT-323",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 227,
+    "lcsc": "C262669",
+    "brand": "JS(钜硕电子)",
+    "type": "FFC/FPC连接器",
+    "name": "间距:0.5mm P数:24P 翻盖式 下接 编带",
+    "model": "AFC01-S24FCA-00",
+    "package": "SMD,P=0.5mm,卧贴",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 228,
+    "lcsc": "C46682379",
+    "brand": "HXY MOSFET(华轩阳电子)",
+    "type": "三极管(BJT)",
+    "name": "2N3906S-HXY 编带",
+    "model": "2N3906S-HXY",
+    "package": "SOT-23",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 229,
+    "lcsc": "C5345986",
+    "brand": "HXY MOSFET(华轩阳电子)",
+    "type": "开关二极管",
+    "name": "LL4148 编带",
+    "model": "LL4148",
+    "package": "LL-34",
+    "quantity": 500,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54",
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 230,
+    "lcsc": "C262643",
+    "brand": "JS(钜硕电子)",
+    "type": "FFC/FPC连接器",
+    "name": "间距:0.5mm P数:24P 抽屉式 上接 编带",
+    "model": "AFC07-S24ECA-00",
+    "package": "SMD,P=0.5mm,卧贴",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 231,
+    "lcsc": "C262665",
+    "brand": "JS(钜硕电子)",
+    "type": "FFC/FPC连接器",
+    "name": "间距:0.5mm P数:16P 翻盖式 下接 编带",
+    "model": "AFC01-S16FCA-00",
+    "package": "SMD,P=0.5mm,卧贴",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 232,
+    "lcsc": "C2982555",
+    "brand": "XUNPU(讯普)",
+    "type": "USB连接器",
+    "name": "Type-C 母 卧贴 编带",
+    "model": "TYPEC-304-ACP16",
+    "package": "SMD",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2506210139_2025/06/21 00:54"
+    ]
+  },
+  {
+    "id": 233,
+    "lcsc": "C5278868",
+    "brand": "PAKER(派克微)",
+    "type": "三极管(BJT)",
+    "name": "NPN 电流:200mA 电压:60V 编带",
+    "model": "PMBT3904",
+    "package": "SOT-23",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 234,
+    "lcsc": "C909796",
+    "brand": "DEXU(德旭电子)",
+    "type": "隔离电源模块",
+    "name": "1W定电压输入隔离非稳压单路输出DC-DC模块电源 管装",
+    "model": "B0505S-1WR2",
+    "package": "SIP,11.6x6mm",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 235,
+    "lcsc": "C29781311",
+    "brand": "SM Switch",
+    "type": "轻触开关",
+    "name": "6mm*6mm*6.5mm 12V 50mA 袋装",
+    "model": "SMG-01-H065A1",
+    "package": "DIP-4P,6x6mm",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 236,
+    "lcsc": "C29781310",
+    "brand": "SM Switch",
+    "type": "轻触开关",
+    "name": "6mm*6mm*6mm 12V 50mA 袋装",
+    "model": "SMG-01-H060A1",
+    "package": "DIP-4P,6x6mm",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 237,
+    "lcsc": "C2979960",
+    "brand": "VIBRATION(振浩微)",
+    "type": "RFID模块",
+    "name": "符合ISO/IEC14443 TypeA/TypeB协议的13.56MHz高频读写卡模块 盒装",
+    "model": "VM522",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 238,
+    "lcsc": "C486076",
+    "brand": "LR(朗瑞)",
+    "type": "线性稳压器(LDO)",
+    "name": "3.3V 100mA 24V 编带",
+    "model": "LR7533-M",
+    "package": "SOT-89-3",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 239,
+    "lcsc": "C7462702",
+    "brand": "Megastar(兆星)",
+    "type": "胶壳(线对板/线对线)",
+    "name": "1x2P 2mm 袋装",
+    "model": "ZX-PH2.0-2PJK",
+    "package": "P=2mm",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 240,
+    "lcsc": "C5205141",
+    "brand": "JSMSEMI(杰盛微)",
+    "type": "线性稳压器(LDO)",
+    "name": "3.3V 1.2A 15V 编带",
+    "model": "AMS1117-3.3V",
+    "package": "SOT-223",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 241,
+    "lcsc": "C18078157",
+    "brand": "Bossie(博锡)",
+    "type": "排母",
+    "name": "2x20P 间距:2.54mm 直插 托盘",
+    "model": "BX-PM2.54-2-20PY",
+    "package": "插件,P=2.54mm",
+    "quantity": 2,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 242,
+    "lcsc": "C909664",
+    "brand": "DEXU(德旭电子)",
+    "type": "DC-DC电源模块",
+    "name": "宽电压输入非隔离稳压输出模块电源 (三端开关式稳压器) 管装",
+    "model": "K7805-500",
+    "package": "插件",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 243,
+    "lcsc": "C2841483",
+    "brand": "UMW(友台半导体)",
+    "type": "逻辑输出光耦",
+    "name": "DC输入 1通道 管装",
+    "model": "6N137M",
+    "package": "DIP-8",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 244,
+    "lcsc": "C3008574",
+    "brand": "SHOU HAN(首韩)",
+    "type": "线对板针座",
+    "name": "2.54-4P卧贴带扣编带 编带",
+    "model": "2.54-4PWTDK",
+    "package": "SMD,P=2.5mm,卧贴",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 245,
+    "lcsc": "C20612594",
+    "brand": "AOTE(奥特)",
+    "type": "晶体管输出光耦",
+    "name": "光耦-光电晶体管输出 管装",
+    "model": "PC817C",
+    "package": "DIP-4",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 246,
+    "lcsc": "C7462681",
+    "brand": "Megastar(兆星)",
+    "type": "胶壳端子",
+    "name": "MX1.25端子 编带",
+    "model": "ZX-MX1.25-DZ",
+    "package": "-",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 247,
+    "lcsc": "C19272176",
+    "brand": "SM Switch",
+    "type": "拨码开关",
+    "name": "1.27mm 4位 编带",
+    "model": "SMXMS-04K-TR",
+    "package": "SMD,P=1.27mm",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 248,
+    "lcsc": "C22375543",
+    "brand": "AOTE(奥特)",
+    "type": "逻辑输出光耦",
+    "name": "光耦-逻辑输出 编带",
+    "model": "AT6N137-CuH-S",
+    "package": "SMD-8P",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 249,
+    "lcsc": "C496550",
+    "brand": "BAT WIRELESS(蝙蝠无线)",
+    "type": "RF射频同轴连接器",
+    "name": "内孔 SMA 偏脚 袋装",
+    "model": "BWSMA-KE-P001",
+    "package": "SMD",
+    "quantity": 2,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 250,
+    "lcsc": "C496552",
+    "brand": "BAT WIRELESS(蝙蝠无线)",
+    "type": "RF射频同轴连接器",
+    "name": "内针 IPEX 编带",
+    "model": "BWIPX-1-001E",
+    "package": "SMD",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 251,
+    "lcsc": "C784403",
+    "brand": "BAT WIRELESS(蝙蝠无线)",
+    "type": "射频连接线",
+    "name": "4件套 IPEX转SMA天线延长线 袋装",
+    "model": "BWIPX1-SMA-1.13L100",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 252,
+    "lcsc": "C2904795",
+    "brand": "UMW(友台半导体)",
+    "type": "DC-DC电源芯片",
+    "name": "降压型 1.5A 4.5V~40V 编带",
+    "model": "LM2594M-5.0(UMW)",
+    "package": "SOP-8",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 253,
+    "lcsc": "C7462674",
+    "brand": "Megastar(兆星)",
+    "type": "胶壳(线对板/线对线)",
+    "name": "1x4P 1.25mm 袋装",
+    "model": "ZX-MX1.25-4PJK",
+    "package": "P=1.25mm",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 254,
+    "lcsc": "C7501260",
+    "brand": "Megastar(兆星)",
+    "type": "排针",
+    "name": "1x2P 间距:2.54mm 方针 直插 袋装",
+    "model": "ZX-PZ2.54-1-2PZZ",
+    "package": "插件,P=2.54mm",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 255,
+    "lcsc": "C20994",
+    "brand": "RUILON(瑞隆源)",
+    "type": "自恢复保险丝",
+    "name": "60V 140mA 1812自恢复 编带",
+    "model": "SMD1812P014TF",
+    "package": "1812",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 256,
+    "lcsc": "C2758163",
+    "brand": "ROCPU Switches(台普)",
+    "type": "拨码开关",
+    "name": "1.27mm 平拨,凹槽式 8位 编带",
+    "model": "THS108",
+    "package": "SMD,P=1.27mm",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 257,
+    "lcsc": "C18221544",
+    "brand": "PAKER(派克微)",
+    "type": "肖特基二极管",
+    "name": "电压:30V 电流:200mA 编带",
+    "model": "RB521S-30",
+    "package": "SOD-523",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 258,
+    "lcsc": "C916425",
+    "brand": "JSMSEMI(杰盛微)",
+    "type": "肖特基二极管",
+    "name": "电压:30V 电流:200mA 编带",
+    "model": "BAT54S",
+    "package": "SOT-23",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 259,
+    "lcsc": "C51966231",
+    "brand": "MK(米客方德)",
+    "type": "NAND FLASH",
+    "name": "2Gb SD NAND 消费级 SLC SDNAND 托盘",
+    "model": "MKDV2GCL-ABF",
+    "package": "LGA-8(6x8)",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 260,
+    "lcsc": "C48533308",
+    "brand": "LR(朗瑞)",
+    "type": "电池管理",
+    "name": "独立线性锂电池充电芯片 编带",
+    "model": "LR4056M-E",
+    "package": "ESOP-8",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 261,
+    "lcsc": "C49023143",
+    "brand": "Bossie(博锡)",
+    "type": "栅栏式接线端子",
+    "name": "7.62mm 1x10P 直针 中脚 排数:1 每排P数:10 袋装",
+    "model": "BX-DG10-7.62-10P",
+    "package": "插件,P=7.62mm",
+    "quantity": 2,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 262,
+    "lcsc": "C49023137",
+    "brand": "Bossie(博锡)",
+    "type": "栅栏式接线端子",
+    "name": "7.62mm 1x2P 直针 中脚 排数:1 每排P数:2 袋装",
+    "model": "BX-DG10-7.62-2P",
+    "package": "插件,P=7.62mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 263,
+    "lcsc": "C668615",
+    "brand": "SHOU HAN(首韩)",
+    "type": "线对板针座",
+    "name": "1.25-4P卧贴编带 编带",
+    "model": "1.25-4P WT",
+    "package": "SMD,P=1.25mm,卧贴",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 264,
+    "lcsc": "C557591",
+    "brand": "SHOU HAN(首韩)",
+    "type": "轻触开关",
+    "name": "3.95*2.9*2mm 立贴 轻触开关 编带",
+    "model": "TS342A2P-WZ",
+    "package": "SMD,4x2.9mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 265,
+    "lcsc": "C49023132",
+    "brand": "Bossie(博锡)",
+    "type": "螺钉式接线端子",
+    "name": "1x3P 5mm 直插 排数:1 每排P数:3 袋装",
+    "model": "BX-DG01V-5.0-3P5",
+    "package": "插件,P=5mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 266,
+    "lcsc": "C20963",
+    "brand": "RUILON(瑞隆源)",
+    "type": "静电和浪涌保护(TVS/ESD)",
+    "name": "钳位电压50V 0603压敏电阻 编带",
+    "model": "RL0603E018M015K",
+    "package": "0603",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 267,
+    "lcsc": "C20623173",
+    "brand": "DEXU(德旭电子)",
+    "type": "网口变压器",
+    "name": "10/100Base-T单口隔离网络变压器 编带",
+    "model": "H1102NLT",
+    "package": "SMD-16P,12.7x9.5mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 268,
+    "lcsc": "C21714366",
+    "brand": "JSMSEMI(杰盛微)",
+    "type": "CAN收发器",
+    "name": "TJA1050T 编带",
+    "model": "TJA1050T-JSM",
+    "package": "SOP-8",
+    "quantity": 2,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 269,
+    "lcsc": "C22451316",
+    "brand": "SHOU HAN(首韩)",
+    "type": "胶壳端子",
+    "name": "VH3.96-T金属端子编带 编带",
+    "model": "VH-3.96-DZ",
+    "package": "-",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 270,
+    "lcsc": "C5345982",
+    "brand": "HXY MOSFET(华轩阳电子)",
+    "type": "线性稳压器(LDO)",
+    "name": "3.3V 1A 15V 编带",
+    "model": "AMS1117-3.3",
+    "package": "SOT-89-3L",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 271,
+    "lcsc": "C10757",
+    "brand": "RUILON(瑞隆源)",
+    "type": "静电和浪涌保护(TVS/ESD)",
+    "name": "双向TVS 36V截止 峰值脉冲电流：6.9A 编带",
+    "model": "SMAJ36CA",
+    "package": "DO-214AC(SMA)",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 272,
+    "lcsc": "C49023024",
+    "brand": "Megastar(兆星)",
+    "type": "螺钉式接线端子",
+    "name": "1x4P 5mm 直插 排数:1 每排P数:4 袋装",
+    "model": "ZX-DG26V-5.0-4P5",
+    "package": "插件,P=5mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 273,
+    "lcsc": "C5299505",
+    "brand": "SM Switch",
+    "type": "拨码开关",
+    "name": "间距2.54mm 平拨,凸起式4位拨码开关 管装",
+    "model": "SMQS-04R-TP",
+    "package": "插件,P=2.54mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 274,
+    "lcsc": "C2857677",
+    "brand": "ROCPU Switches(台普)",
+    "type": "滑动开关",
+    "name": "1P2T 按键开关性能参数 袋装",
+    "model": "SK-13D07-5",
+    "package": "插件",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 275,
+    "lcsc": "C695838",
+    "brand": "UMW(友台半导体)",
+    "type": "555定时器/计时器",
+    "name": "NE555DR 编带",
+    "model": "NE555DR",
+    "package": "SOP-8",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 276,
+    "lcsc": "C6800638",
+    "brand": "皇捷",
+    "type": "排母",
+    "name": "1x4P 间距:2.54mm 直插 盒装",
+    "model": "2LF000F028",
+    "package": "插件,P=2.54mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 277,
+    "lcsc": "C5278895",
+    "brand": "PAKER(派克微)",
+    "type": "场效应管(MOSFET)",
+    "name": "耐压:20V 电流:4.5A 编带",
+    "model": "SI2300",
+    "package": "SOT-23",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 278,
+    "lcsc": "C5179958",
+    "brand": "LR(朗瑞)",
+    "type": "线性稳压器(LDO)",
+    "name": "1.5V 300mA 6.5V 编带",
+    "model": "LR6206A-T15",
+    "package": "SOT-23-3L",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 279,
+    "lcsc": "C2920042",
+    "brand": "worldsemi",
+    "type": "RGB LED(内置IC)",
+    "name": "RGB三色 编带",
+    "model": "WS2812E-V5",
+    "package": "SMD5050-4P",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 280,
+    "lcsc": "C48783759",
+    "brand": "HXY MOSFET(华轩阳电子)",
+    "type": "逻辑输出光耦",
+    "name": "6N137S 编带",
+    "model": "6N137S",
+    "package": "SMD-8P",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 281,
+    "lcsc": "C5278906",
+    "brand": "PAKER(派克微)",
+    "type": "三极管(BJT)",
+    "name": "NPN 电流:1500mA 电压:25V 编带",
+    "model": "SS8050",
+    "package": "SOT-23",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 282,
+    "lcsc": "C41381871",
+    "brand": "HXY MOSFET(华轩阳电子)",
+    "type": "霍尔开关",
+    "name": "工作电压:3.8-60V 磁工作点:45Gs 磁释放点:45Gs 袋装",
+    "model": "HSS41F",
+    "package": "TO-92S",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 283,
+    "lcsc": "C20812",
+    "brand": "RUILON(瑞隆源)",
+    "type": "自恢复保险丝",
+    "name": "16V 2A 1812自恢复 编带",
+    "model": "SMD1812P200TF16",
+    "package": "1812",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 284,
+    "lcsc": "C39831927",
+    "brand": "RUILON(瑞隆源)",
+    "type": "静电和浪涌保护(TVS/ESD)",
+    "name": "单向 5V截止 峰值浪涌电流：3A@8/20us 编带",
+    "model": "RLST236A052LV",
+    "package": "SOT-23-6L",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 285,
+    "lcsc": "C6398171",
+    "brand": "LR(朗瑞)",
+    "type": "线性稳压器(LDO)",
+    "name": "3.3V 800mA 15V 编带",
+    "model": "LR1117-H33",
+    "package": "SOT-223",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 286,
+    "lcsc": "C41370734",
+    "brand": "Megastar(兆星)",
+    "type": "排针",
+    "name": "1x2P 间距:1.27mm 方针 直插 盒装",
+    "model": "ZX-PZ1.27-1-2PZZ",
+    "package": "插件,P=1.27mm",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 287,
+    "lcsc": "C2761337",
+    "brand": "ROCPU Switches(台普)",
+    "type": "轻触开关",
+    "name": "带绿色灯 带支架 袋装",
+    "model": "TPB01-3012L3W",
+    "package": "插件",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 288,
+    "lcsc": "C19191552",
+    "brand": "ROCPU Switches(台普)",
+    "type": "轻触开关/按键开关",
+    "name": "6X6X6H 260克力 贴片轻触开关 编带",
+    "model": "TPS645-5NC60",
+    "package": "-",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 289,
+    "lcsc": "C7426885",
+    "brand": "皇捷",
+    "type": "USB连接器",
+    "name": "HJ-0322-2111-02A 托盘",
+    "model": "HJ-0322-2111-02A",
+    "package": "插件",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 290,
+    "lcsc": "C7426884",
+    "brand": "皇捷",
+    "type": "USB连接器",
+    "name": "HJ-1021-4421-07C 编带",
+    "model": "HJ-1021-4421-07C",
+    "package": "SMD",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 291,
+    "lcsc": "C20754788",
+    "brand": "JSMSEMI(杰盛微)",
+    "type": "通用二极管",
+    "name": "1kV 1A 编带",
+    "model": "1N4007 M7",
+    "package": "SMA",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 292,
+    "lcsc": "C41371268",
+    "brand": "AOTE(奥特)",
+    "type": "晶体管输出光耦",
+    "name": "光耦-光电晶体管输出 编带",
+    "model": "EL357B",
+    "package": "SOP-4",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 293,
+    "lcsc": "C6800645",
+    "brand": "皇捷",
+    "type": "排母",
+    "name": "1x6P 间距:2.54mm 直插 托盘",
+    "model": "17-0021-002",
+    "package": "插件,P=2.54mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 294,
+    "lcsc": "C5381229",
+    "brand": "ROCPU Switches(台普)",
+    "type": "轻触开关",
+    "name": "6*6*5mm 直插 轻触开关 袋装",
+    "model": "TP10813550",
+    "package": "插件-4P,6x6mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 295,
+    "lcsc": "C49330090",
+    "brand": "BAT WIRELESS(蝙蝠无线)",
+    "type": "天线",
+    "name": "贴片天线 编带",
+    "model": "BW2.4MNX3216",
+    "package": "SMD",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 296,
+    "lcsc": "C7435490",
+    "brand": "SM Switch",
+    "type": "轻触开关",
+    "name": "12V 50mA 编带",
+    "model": "SMG-H1-16",
+    "package": "-",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26011631301_2026/01/16 22:45"
+    ]
+  },
+  {
+    "id": 297,
+    "lcsc": "C5447949",
+    "brand": "HanElectricity(瀚源)",
+    "type": "线对板针座",
+    "name": "1x4P 间距:1.25mm 卧贴 系列:PicoBlade(MX 1.25) 编带",
+    "model": "9821WRS-04P",
+    "package": "SMD,P=1.25mm,卧贴",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 298,
+    "lcsc": "C5448033",
+    "brand": "HanElectricity(瀚源)",
+    "type": "线对板针座",
+    "name": "1x4P 间距:2.5mm 直插 系列:XH 袋装",
+    "model": "8821WV-04DP",
+    "package": "插件,P=2.5mm",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 299,
+    "lcsc": "C22435680",
+    "brand": "HanElectricity(瀚源)",
+    "type": "DC电源连接器",
+    "name": "DC电源插座 内径:2mm 外径:6mm 袋装",
+    "model": "DC-050-20",
+    "package": "SMD",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 300,
+    "lcsc": "C17179455",
+    "brand": "HanElectricity(瀚源)",
+    "type": "IDC刺破式连接器(牛角/简牛)",
+    "name": "2.54mm 2x8P 排数:2 每排P数:8 托盘",
+    "model": "HY2541WV-N-2x8P",
+    "package": "插件,P=2.54mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 301,
+    "lcsc": "C18185524",
+    "brand": "hanxia(韩下)",
+    "type": "胶壳(线对板/线对线)",
+    "name": "1x4P 2.5mm 袋装",
+    "model": "XH2.54-4Y",
+    "package": "P=2.5mm",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 302,
+    "lcsc": "C42391662",
+    "brand": "hanxia(韩下)",
+    "type": "线对板针座",
+    "name": "1x4P 间距:2.54mm 直插 系列:XH 袋装",
+    "model": "HX-XH2.54-4PZZ",
+    "package": "插件,P=2.5mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 303,
+    "lcsc": "C6917318",
+    "brand": "hanxia(韩下)",
+    "type": "船型开关",
+    "name": "10.5*15mm 两脚两档跷板开关 红钮 袋装",
+    "model": "HX KCD11-2P-R",
+    "package": "插件",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 304,
+    "lcsc": "C41376031",
+    "brand": "hanxia(韩下)",
+    "type": "IDC刺破式连接器(牛角/简牛)",
+    "name": "2.54mm 2x8P 排数:2 每排P数:8 托盘",
+    "model": "HX JN2.54-2x8P TP H8.9",
+    "package": "SMD,P=2.54mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 305,
+    "lcsc": "C46550454",
+    "brand": "JIERR(捷而瑞)",
+    "type": "固态电容",
+    "name": "220uF ±20% 63V 袋装",
+    "model": "PA63V220M10x15",
+    "package": "插件,D10xL15mm",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 306,
+    "lcsc": "C46550425",
+    "brand": "JIERR(捷而瑞)",
+    "type": "固态电容",
+    "name": "470uF ±20% 50V 袋装",
+    "model": "PA50V470M10x17",
+    "package": "插件,D10xL17mm",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 307,
+    "lcsc": "C48997914",
+    "brand": "JIERR(捷而瑞)",
+    "type": "可调电阻/电位器",
+    "name": "3362P-1-103 管装",
+    "model": "3362P-1-103",
+    "package": "插件-3P,7x6.8mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 308,
+    "lcsc": "C46550467",
+    "brand": "JIERR(捷而瑞)",
+    "type": "固态电容",
+    "name": "100uF ±20% 35V 编带",
+    "model": "MA35V100M6X8",
+    "package": "SMD,D6.3xL7.7mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 309,
+    "lcsc": "C49246967",
+    "brand": "XHXDZ(兴华鑫)",
+    "type": "蜂鸣器",
+    "name": "蜂鸣器 盒装",
+    "model": "1407-P7.5MM",
+    "package": "插件,D14xL7mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 310,
+    "lcsc": "C49247004",
+    "brand": "XHXDZ(兴华鑫)",
+    "type": "扬声器/喇叭",
+    "name": "腔体喇叭 托盘",
+    "model": "3525BOX-4Ω3W-2P1.25",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 311,
+    "lcsc": "C50387244",
+    "brand": "XHXDZ(兴华鑫)",
+    "type": "咪头/麦克风",
+    "name": "2.5V -35dB 4mm 1.3mm 编带",
+    "model": "SMD4013-04-32-35DB",
+    "package": "-",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 312,
+    "lcsc": "C49246938",
+    "brand": "XHXDZ(兴华鑫)",
+    "type": "蜂鸣器",
+    "name": "蜂鸣器 托盘",
+    "model": "TMB09A03",
+    "package": "插件,D9xL5.5mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 313,
+    "lcsc": "C516258",
+    "brand": "DreamLNK(骏晔科技)",
+    "type": "蓝牙模块",
+    "name": "低功耗蓝牙4.2模块 托盘",
+    "model": "DL-32-BLE4.2",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 314,
+    "lcsc": "C3097708",
+    "brand": "Vollgo(沃进)",
+    "type": "卫星定位模块",
+    "name": "小体积高性能 BDS/GNSS 全星座定位导航模块 托盘",
+    "model": "VG7669T160N0SA",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 315,
+    "lcsc": "C5224294",
+    "brand": "ElecSuper(静芯)",
+    "type": "场效应管(MOSFET)",
+    "name": "1个N沟道 耐压:100V 电流:7A 编带",
+    "model": "ESP10N10",
+    "package": "SOP8",
+    "quantity": 2,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 316,
+    "lcsc": "C5224296",
+    "brand": "ElecSuper(静芯)",
+    "type": "场效应管(MOSFET)",
+    "name": "1个P沟道 耐压:30V 电流:10.5A 编带",
+    "model": "AO4435",
+    "package": "SOP8",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 317,
+    "lcsc": "C5224194",
+    "brand": "ElecSuper(静芯)",
+    "type": "场效应管(MOSFET)",
+    "name": "N沟道,电流:5.8A,耐压:30V 编带",
+    "model": "AO3400A",
+    "package": "SOT23-3L",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 318,
+    "lcsc": "C41365340",
+    "brand": "ElecSuper(静芯)",
+    "type": "RS-485/RS-422芯片",
+    "name": "RS-485/RS422收发器 编带",
+    "model": "SP3485EN-L/TR",
+    "package": "SOP-8",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 319,
+    "lcsc": "C52034725",
+    "brand": "Guiguang light(桂光光电)",
+    "type": "红外发射管",
+    "name": "3mm (940)红外发射管 袋装",
+    "model": "3A2L-10",
+    "package": "插件,D=3mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 320,
+    "lcsc": "C51933354",
+    "brand": "Guiguang light(桂光光电)",
+    "type": "发光二极管/LED",
+    "name": "5730 0.5W反极红灯 铜支架 缺口负 负极朝孔 编带",
+    "model": "GL5730FUR01",
+    "package": "SMD5730",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 321,
+    "lcsc": "C52034730",
+    "brand": "Guiguang light(桂光光电)",
+    "type": "光电二极管",
+    "name": "5mm黑色红外光敏接收管 袋装",
+    "model": "5A2K-10",
+    "package": "插件,D=5mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 322,
+    "lcsc": "C52034637",
+    "brand": "Guiguang light(桂光光电)",
+    "type": "发光二极管/LED",
+    "name": "3mm 红发红短脚 袋装",
+    "model": "3A2RUD",
+    "package": "插件,D=3mm",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 323,
+    "lcsc": "C51933292",
+    "brand": "Guiguang light(桂光光电)",
+    "type": "发光二极管/LED",
+    "name": "0603 红灯 高亮 编带",
+    "model": "GL0603UR01",
+    "package": "0603",
+    "quantity": 200,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51",
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 324,
+    "lcsc": "C51933293",
+    "brand": "Guiguang light(桂光光电)",
+    "type": "发光二极管/LED",
+    "name": "0603 翠绿 高亮 编带",
+    "model": "GL0603UG01",
+    "package": "0603",
+    "quantity": 150,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51",
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 325,
+    "lcsc": "C720521",
+    "brand": "XUNPU(讯普)",
+    "type": "USB连接器",
+    "name": "Type-A 公 卧贴 托盘",
+    "model": "USB-212-BCW",
+    "package": "SMD",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 326,
+    "lcsc": "C720528",
+    "brand": "XUNPU(讯普)",
+    "type": "USB连接器",
+    "name": "Type-A 母 卧贴 托盘",
+    "model": "USB-234-BCW",
+    "package": "SMD",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 327,
+    "lcsc": "C19077344",
+    "brand": "XUNPU(讯普)",
+    "type": "D-Sub/VGA连接器",
+    "name": "公 P数:9P 托盘",
+    "model": "D-SUB-DR-9PCG-BB",
+    "package": "弯插",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 328,
+    "lcsc": "C3294389",
+    "brand": "HCTL(华灿天禄)",
+    "type": "线对板针座",
+    "name": "2x8P 间距:3mm 弯插 系列:Micro-Fit(MX 3.0) 袋装",
+    "model": "HC-MX3.0-2*8AW",
+    "package": "弯插,P=3mm",
+    "quantity": 2,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 329,
+    "lcsc": "C5124197",
+    "brand": "HCTL(华灿天禄)",
+    "type": "胶壳(线对板/线对线)",
+    "name": "1x4P 2.5mm 袋装",
+    "model": "HC-XHB-4Y",
+    "package": "P=2.5mm",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 330,
+    "lcsc": "C2908613",
+    "brand": "HCTL(华灿天禄)",
+    "type": "线对板针座",
+    "name": "1x4P 间距:2.54mm 弯插 系列:XH 袋装",
+    "model": "XH-4AW",
+    "package": "弯插,P=2.5mm",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 331,
+    "lcsc": "C2962356",
+    "brand": "HCTL(华灿天禄)",
+    "type": "胶壳端子",
+    "name": "HC-5557-T 编带",
+    "model": "HC-5557-T",
+    "package": "-",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 332,
+    "lcsc": "C7433782",
+    "brand": "HC(虹成电子)",
+    "type": "线对板针座",
+    "name": "米色 1x2P 间距:2.54mm 立贴 系列:XHB 编带",
+    "model": "HCZZ0040-2",
+    "package": "SMD,P=2.5mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 333,
+    "lcsc": "C7433709",
+    "brand": "HC(虹成电子)",
+    "type": "线对板针座",
+    "name": "米色 1x4P 间距:2.5mm 卧贴 系列:XH 编带",
+    "model": "HCZZ0021-4",
+    "package": "SMD,P=2.5mm,卧贴",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 334,
+    "lcsc": "C7501824",
+    "brand": "HC(虹成电子)",
+    "type": "以太网连接器(RJ45 RJ11)",
+    "name": "弯插 带LED 网口 RJ45-8P8C-16H半包 带灯 不锈钢壳 B款 托盘",
+    "model": "HC-WK88-H16-DB",
+    "package": "弯插",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 335,
+    "lcsc": "C7501816",
+    "brand": "HC(虹成电子)",
+    "type": "以太网连接器(RJ45 RJ11)",
+    "name": "弯插 不带LED 网口 RJ45-8P8C-16H不带灯黑色全塑带后塞 托盘",
+    "model": "HC-WK88-H16-QS",
+    "package": "弯插",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2601171024_2026/01/17 02:51"
+    ]
+  },
+  {
+    "id": 336,
+    "lcsc": "C37635024",
+    "brand": "JXTCONN(聚兴泰)",
+    "type": "杜邦线&端子线",
+    "name": "JXTCONN(聚兴泰) 端子线 HY2.0-2Y-200MM 单端镀锡3.0MM/UL1007 26# 袋装",
+    "model": "C200E11-2P200C1-111",
+    "package": "-",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26030649854_2026/03/06 23:25"
+    ]
+  },
+  {
+    "id": 337,
+    "lcsc": "C37635010",
+    "brand": "JXTCONN(聚兴泰)",
+    "type": "杜邦线&端子线",
+    "name": "JXTCONN(聚兴泰) 端子线 SH1.0-3Y-200MM 单端镀锡3.0MM/UL1571 28# 袋装",
+    "model": "C100F11-3P200C1-111",
+    "package": "-",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26030649854_2026/03/06 23:25"
+    ]
+  },
+  {
+    "id": 338,
+    "lcsc": "C369061",
+    "brand": "HOAUC(华宇创)",
+    "type": "杜邦线&端子线",
+    "name": "2.54杜邦线母对母单P同向(黄) 环保/纯铜/半镀金 袋装",
+    "model": "4-1571-28",
+    "package": "-",
+    "quantity": 45,
+    "remark": "",
+    "history": [
+      "SO26030649854_2026/03/06 23:25"
+    ]
+  },
+  {
+    "id": 339,
+    "lcsc": "C51927387",
+    "brand": "YIZHI(逸致)",
+    "type": "轻触开关/按键开关",
+    "name": "YIZHI(逸致) MSK12C02G2.5-B 七脚侧拨黑柄 箱装",
+    "model": "MSK12C02G2.5-B",
+    "package": "-",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26030649854_2026/03/06 23:25"
+    ]
+  },
+  {
+    "id": 340,
+    "lcsc": "C52125300",
+    "brand": "YIZHI(逸致)",
+    "type": "按钮开关",
+    "name": "YIZHI(逸致) KCD1-102N-G 15*21MM 3脚2档带绿灯电源翘板开关 袋装",
+    "model": "KCD1-102N-G",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO26030649854_2026/03/06 23:25"
+    ]
+  },
+  {
+    "id": 341,
+    "lcsc": "C52125176",
+    "brand": "YIZHI(逸致)",
+    "type": "按钮开关",
+    "name": "YIZHI(逸致) KCD1-102N-R 15*21MM 3脚2档带红灯电源翘板开关 袋装",
+    "model": "KCD1-102N-R",
+    "package": "-",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26030649854_2026/03/06 23:25"
+    ]
+  },
+  {
+    "id": 342,
+    "lcsc": "C22451244",
+    "brand": "canfeng(灿峰)",
+    "type": "扣式磁环",
+    "name": "canfeng(灿峰) 钳位滤波器 卡扣式磁环 电缆与接线紧固配件 F9 UF 70A 90Ω@100MHz 托盘",
+    "model": "CUF9-70A",
+    "package": "-",
+    "quantity": 11,
+    "remark": "",
+    "history": [
+      "SO26030649854_2026/03/06 23:25"
+    ]
+  },
+  {
+    "id": 343,
+    "lcsc": "C42444311",
+    "brand": "canfeng(灿峰)",
+    "type": "RH类磁环",
+    "name": "canfeng(灿峰) 钳位滤波器 铁氧体磁环磁珠 RH3.5*3*1.6 袋装",
+    "model": "CRH-3.5*3*1.6",
+    "package": "-",
+    "quantity": 200,
+    "remark": "",
+    "history": [
+      "SO26030649854_2026/03/06 23:25"
+    ]
+  },
+  {
+    "id": 344,
+    "lcsc": "C53454384",
+    "brand": "BEIXUNZE(贝迅泽)",
+    "type": "杜邦线&端子线",
+    "name": "145毫米UL1007-22号两头上锡3mm电子线 袋装",
+    "model": "HMW1007145-B",
+    "package": "-",
+    "quantity": 88,
+    "remark": "",
+    "history": [
+      "SO26030649854_2026/03/06 23:25"
+    ]
+  },
+  {
+    "id": 345,
+    "lcsc": "C37635011",
+    "brand": "JXTCONN(聚兴泰)",
+    "type": "杜邦线&端子线",
+    "name": "JXTCONN(聚兴泰) 端子线 SH1.0-4Y-200MM 单端镀锡3.0MM/UL1571 28# 袋装",
+    "model": "C100F11-4P200C1-111",
+    "package": "-",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26030649854_2026/03/06 23:25"
+    ]
+  },
+  {
+    "id": 346,
+    "lcsc": "C37635026",
+    "brand": "JXTCONN(聚兴泰)",
+    "type": "杜邦线&端子线",
+    "name": "JXTCONN(聚兴泰) 端子线 HY2.0-4Y-200MM 单端镀锡3.0MM/UL1007 26# 袋装",
+    "model": "C200E11-4P200C1-111",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO26030649854_2026/03/06 23:25"
+    ]
+  },
+  {
+    "id": 347,
+    "lcsc": "C37635014",
+    "brand": "JXTCONN(聚兴泰)",
+    "type": "杜邦线&端子线",
+    "name": "JXTCONN(聚兴泰) 端子线 ZH1.5-2Y-200MM 单端镀锡3.0MM/UL1571 28# 袋装",
+    "model": "C150F11-2P200C1-111",
+    "package": "-",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26030649854_2026/03/06 23:25"
+    ]
+  },
+  {
+    "id": 348,
+    "lcsc": "C551322",
+    "brand": "Shuntian(顺天五金)",
+    "type": "螺柱&螺杆",
+    "name": "Shuntian(顺天五金) 单头六角隔离铜柱螺柱 M3X10+6 国标 黄铜 袋装 袋装",
+    "model": "M3x10+6Cu",
+    "package": "-",
+    "quantity": 35,
+    "remark": "",
+    "history": [
+      "SO26030649769_2026/03/06 23:28"
+    ]
+  },
+  {
+    "id": 349,
+    "lcsc": "C50198518",
+    "brand": "立创开发板",
+    "type": "开发板",
+    "name": "立创·地奇星RA6E2开发板 袋装",
+    "model": "LCKFB-DQX-RA6E2",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO26030649956_2026/03/06 23:29"
+    ]
+  },
+  {
+    "id": 350,
+    "lcsc": "C19191548",
+    "brand": "ROCPU Switches(台普)",
+    "type": "微动开关",
+    "name": "8.2X6.1 微型微动开关 相机开关 袋装",
+    "model": "DS037-01C-30-C",
+    "package": "-",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26030650707_2026/03/06 23:54"
+    ]
+  },
+  {
+    "id": 351,
+    "lcsc": "C2999316",
+    "brand": "ROCPU Switches(台普)",
+    "type": "旋转编码器",
+    "name": "RT004D 袋装",
+    "model": "RT004D",
+    "package": "插件",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO26030650707_2026/03/06 23:54"
+    ]
+  },
+  {
+    "id": 352,
+    "lcsc": "C2758169",
+    "brand": "ROCPU Switches(台普)",
+    "type": "拨码开关",
+    "name": "拨码开关 编带",
+    "model": "THS108J",
+    "package": "SMD,P=1.27mm",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO26030650707_2026/03/06 23:54"
+    ]
+  },
+  {
+    "id": 353,
+    "lcsc": "C2040",
+    "brand": "Raspberry Pi(树莓派)",
+    "type": "单片机(MCU/MPU/SOC)",
+    "name": "RP2040（RP2B2） 编带",
+    "model": "RP2040",
+    "package": "LQFN-56(7x7)",
+    "quantity": 2,
+    "remark": "",
+    "history": [
+      "SO26030650740_2026/03/06 23:55"
+    ]
+  },
+  {
+    "id": 354,
+    "lcsc": "C2978950",
+    "brand": "deli(得力)",
+    "type": "卷笔刀",
+    "name": "得力优酷0563 铅笔刀转笔刀可爱迷你卷笔刀 小号学生削笔器文具奖品礼物批发 企鹅系列(混) 盒装",
+    "model": "6921734905635",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2603070195_2026/03/07 00:17"
+    ]
+  },
+  {
+    "id": 355,
+    "lcsc": "C20421915",
+    "brand": "BAT WIRELESS(蝙蝠无线)",
+    "type": "天线",
+    "name": "NB弹簧天线 GSM弹簧天线 多频段适用 袋装",
+    "model": "BW3GRSNX32-5W9",
+    "package": "插件",
+    "quantity": 2,
+    "remark": "",
+    "history": [
+      "SO2603070269_2026/03/07 00:29"
+    ]
+  },
+  {
+    "id": 356,
+    "lcsc": "C49330091",
+    "brand": "BAT WIRELESS(蝙蝠无线)",
+    "type": "天线",
+    "name": "贴片天线 编带",
+    "model": "BW2.4MNX5020",
+    "package": "SMD",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2603070269_2026/03/07 00:29"
+    ]
+  },
+  {
+    "id": 357,
+    "lcsc": "C496562",
+    "brand": "BAT WIRELESS(蝙蝠无线)",
+    "type": "天线",
+    "name": "黑色 433MHz FPC天线 袋装",
+    "model": "BW433FNX75-35B1",
+    "package": "-",
+    "quantity": 3,
+    "remark": "",
+    "history": [
+      "SO2603070269_2026/03/07 00:29"
+    ]
+  },
+  {
+    "id": 358,
+    "lcsc": "C45359895",
+    "brand": "HRE(芯声)",
+    "type": "贴片电容(MLCC)",
+    "name": "15pF ±5% 50V 编带",
+    "model": "CGA0402C0G150J500GT",
+    "package": "0402",
+    "quantity": 200,
+    "remark": "",
+    "history": [
+      "SO2603070429_2026/03/07 00:49",
+      "SO2505010216_2025/05/01 00:43"
+    ]
+  },
+  {
+    "id": 359,
+    "lcsc": "C45359894",
+    "brand": "HRE(芯声)",
+    "type": "贴片电容(MLCC)",
+    "name": "12pF ±5% 50V 编带",
+    "model": "CGA0402C0G120J500GT",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2603070429_2026/03/07 00:49"
+    ]
+  },
+  {
+    "id": 360,
+    "lcsc": "C45359893",
+    "brand": "HRE(芯声)",
+    "type": "贴片电容(MLCC)",
+    "name": "10pF ±5% 50V 编带",
+    "model": "CGA0402C0G100J500GT",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2603070429_2026/03/07 00:49"
+    ]
+  },
+  {
+    "id": 361,
+    "lcsc": "C7544834",
+    "brand": "HYDZ(华宇)",
+    "type": "蜂鸣器",
+    "name": "无源蜂鸣器 盒装",
+    "model": "HY09-4TBE",
+    "package": "DIP",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505010056_2025/05/01 00:26"
+    ]
+  },
+  {
+    "id": 362,
+    "lcsc": "C7544833",
+    "brand": "HYDZ(华宇)",
+    "type": "蜂鸣器",
+    "name": "有源蜂鸣器 托盘",
+    "model": "HYT-1205 IC",
+    "package": "DIP",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505010056_2025/05/01 00:26"
+    ]
+  },
+  {
+    "id": 363,
+    "lcsc": "C17701106",
+    "brand": "HYDZ(华宇)",
+    "type": "超声波收发器",
+    "name": "超声波传感器发射头HY40A16T12-1 托盘",
+    "model": "HY40A16T12-1",
+    "package": "插件,16x12mm",
+    "quantity": 2,
+    "remark": "",
+    "history": [
+      "SO2505010056_2025/05/01 00:26"
+    ]
+  },
+  {
+    "id": 364,
+    "lcsc": "C17701107",
+    "brand": "HYDZ(华宇)",
+    "type": "超声波收发器",
+    "name": "超声波传感器接收头HY40A16R12-1 托盘",
+    "model": "HY40A16R12-1",
+    "package": "插件,16x12mm",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2505010056_2025/05/01 00:26"
+    ]
+  },
+  {
+    "id": 365,
+    "lcsc": "C6119867",
+    "brand": "HRE(芯声)",
+    "type": "贴片电容(MLCC)",
+    "name": "100nF ±10% 50V 编带",
+    "model": "CGA0603X7R104K500JT",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2505010216_2025/05/01 00:43"
+    ]
+  },
+  {
+    "id": 366,
+    "lcsc": "C6119856",
+    "brand": "HRE(芯声)",
+    "type": "贴片电容(MLCC)",
+    "name": "4.7uF ±10% 25V 编带",
+    "model": "CGA0603X5R475K250JT",
+    "package": "0603",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO2505010216_2025/05/01 00:43"
+    ]
+  },
+  {
+    "id": 367,
+    "lcsc": "C6119887",
+    "brand": "HRE(芯声)",
+    "type": "贴片电容(MLCC)",
+    "name": "10uF ±10% 25V 编带",
+    "model": "CGA0805X5R106K250MT",
+    "package": "0805",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO2505010216_2025/05/01 00:43"
+    ]
+  },
+  {
+    "id": 368,
+    "lcsc": "C22435945",
+    "brand": "HRE(芯声)",
+    "type": "贴片电容(MLCC)",
+    "name": "10pF ±10% 50V 编带",
+    "model": "CGA0402C0G100K500GT",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2505010216_2025/05/01 00:43"
+    ]
+  },
+  {
+    "id": 369,
+    "lcsc": "C7503504",
+    "brand": "HRE(芯声)",
+    "type": "贴片电容(MLCC)",
+    "name": "10nF ±10% 50V 编带",
+    "model": "CGA0603X7R103K500JT",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2505010216_2025/05/01 00:43"
+    ]
+  },
+  {
+    "id": 370,
+    "lcsc": "C6119943",
+    "brand": "HRE(芯声)",
+    "type": "贴片电容(MLCC)",
+    "name": "4.7uF ±10% 35V 编带",
+    "model": "CGA0805X7R475K350MT",
+    "package": "0805",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2505010216_2025/05/01 00:43"
+    ]
+  },
+  {
+    "id": 371,
+    "lcsc": "C6119852",
+    "brand": "HRE(芯声)",
+    "type": "贴片电容(MLCC)",
+    "name": "1uF ±10% 50V 编带",
+    "model": "CGA0603X5R105K500JT",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2505010216_2025/05/01 00:43"
+    ]
+  },
+  {
+    "id": 372,
+    "lcsc": "C22367829",
+    "brand": "Chinocera(华瓷)",
+    "type": "贴片电容(MLCC)",
+    "name": "4.7uF ±10% 35V 编带",
+    "model": "HGC0603R5475K350NTHJ",
+    "package": "0603",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2505010285_2025/05/01 01:11"
+    ]
+  },
+  {
+    "id": 373,
+    "lcsc": "C7472958",
+    "brand": "Chinocera(华瓷)",
+    "type": "贴片电容(MLCC)",
+    "name": "1uF ±10% 50V 编带",
+    "model": "HGC0603R5105K500NTHJ",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2505010285_2025/05/01 01:11"
+    ]
+  },
+  {
+    "id": 374,
+    "lcsc": "C7472959",
+    "brand": "Chinocera(华瓷)",
+    "type": "贴片电容(MLCC)",
+    "name": "10uF ±20% 16V 编带",
+    "model": "HGC0603R5106M160NTHJ",
+    "package": "0603",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO2505010285_2025/05/01 01:11"
+    ]
+  },
+  {
+    "id": 375,
+    "lcsc": "C22367828",
+    "brand": "Chinocera(华瓷)",
+    "type": "贴片电容(MLCC)",
+    "name": "22uF ±20% 16V 编带",
+    "model": "HGC0603R5226M160NTHJ",
+    "package": "0603",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505010285_2025/05/01 01:11"
+    ]
+  },
+  {
+    "id": 376,
+    "lcsc": "C482471",
+    "brand": "Chinocera(华瓷)",
+    "type": "贴片电容(MLCC)",
+    "name": "1nF ±10% 50V 编带",
+    "model": "HGC0603R7102K500NTHJ",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2505010285_2025/05/01 01:11"
+    ]
+  },
+  {
+    "id": 377,
+    "lcsc": "C908809",
+    "brand": "GOODWORK(固得沃克)",
+    "type": "静电和浪涌保护(TVS/ESD)",
+    "name": "双向TVS 5V截止 43.5A峰值脉冲 编带",
+    "model": "SMAJ5.0CA",
+    "package": "SMA(DO-214AC)",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2505010367_2025/05/01 01:23"
+    ]
+  },
+  {
+    "id": 378,
+    "lcsc": "C21713975",
+    "brand": "GOODWORK(固得沃克)",
+    "type": "静电和浪涌保护(TVS/ESD)",
+    "name": "丝印UL26 单向 5V截止 4.5A峰值脉冲 编带",
+    "model": "USBLC6-2SC6",
+    "package": "SOT-23-6L",
+    "quantity": 40,
+    "remark": "",
+    "history": [
+      "SO2505010367_2025/05/01 01:23"
+    ]
+  },
+  {
+    "id": 379,
+    "lcsc": "C908811",
+    "brand": "GOODWORK(固得沃克)",
+    "type": "静电和浪涌保护(TVS/ESD)",
+    "name": "双向TVS 6.5V截止 35.7A峰值脉冲 编带",
+    "model": "SMAJ6.5CA",
+    "package": "SMA(DO-214AC)",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2505010367_2025/05/01 01:23"
+    ]
+  },
+  {
+    "id": 380,
+    "lcsc": "C883145",
+    "brand": "BHFUSE(佰宏)",
+    "type": "自恢复保险丝",
+    "name": "24V 750mA 1812自恢复 编带",
+    "model": "BSMD1812-075-24V",
+    "package": "1812",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505010485_2025/05/01 01:29"
+    ]
+  },
+  {
+    "id": 381,
+    "lcsc": "C960026",
+    "brand": "BHFUSE(佰宏)",
+    "type": "自恢复保险丝",
+    "name": "30V 2A 1812自恢复 编带",
+    "model": "BSMD1812-200-30V",
+    "package": "1812",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505010485_2025/05/01 01:29"
+    ]
+  },
+  {
+    "id": 382,
+    "lcsc": "C883150",
+    "brand": "BHFUSE(佰宏)",
+    "type": "自恢复保险丝",
+    "name": "33V 1.1A 1812自恢复 编带",
+    "model": "BSMD1812-110-33V",
+    "package": "1812",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505010485_2025/05/01 01:29"
+    ]
+  },
+  {
+    "id": 383,
+    "lcsc": "C19631198",
+    "brand": "BHFUSE(佰宏)",
+    "type": "自恢复保险丝",
+    "name": "0603 0.1A 6V 自恢复 编带",
+    "model": "BSMD0603-010-6V",
+    "package": "0603",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505010485_2025/05/01 01:29"
+    ]
+  },
+  {
+    "id": 384,
+    "lcsc": "C431533",
+    "brand": "SHOU HAN(首韩)",
+    "type": "DC电源连接器",
+    "name": "DC电源插座 内径:2mm 外径:6.3mm 袋装",
+    "model": "DC005",
+    "package": "插件",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505010385_2025/05/01 01:33"
+    ]
+  },
+  {
+    "id": 385,
+    "lcsc": "C393941",
+    "brand": "SHOU HAN(首韩)",
+    "type": "SD卡/存储卡连接器",
+    "name": "自弹式 MicroSD卡(TF卡) 卡座 编带",
+    "model": "TF PUSH",
+    "package": "SMD",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505010385_2025/05/01 01:33"
+    ]
+  },
+  {
+    "id": 386,
+    "lcsc": "C388295",
+    "brand": "SHOU HAN(首韩)",
+    "type": "轻触开关",
+    "name": "轻触开关 5.2*5.2*1.5mm 250gf 4*4铜头 编带",
+    "model": "TS5215A 250gf",
+    "package": "SMD",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2505010385_2025/05/01 01:33"
+    ]
+  },
+  {
+    "id": 387,
+    "lcsc": "C456013",
+    "brand": "SHOU HAN(首韩)",
+    "type": "USB连接器",
+    "name": "Type-C 母 卧贴 编带",
+    "model": "TYPE-C 24P QCHT",
+    "package": "SMD",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2505010385_2025/05/01 01:33"
+    ]
+  },
+  {
+    "id": 388,
+    "lcsc": "C57369",
+    "brand": "BOOMELE(博穆精密)",
+    "type": "排针",
+    "name": "1x10P 间距:2.54mm 方针 直插 袋装",
+    "model": "2.54-1*10P针",
+    "package": "插件,P=2.54mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505010827_2025/05/01 02:08"
+    ]
+  },
+  {
+    "id": 389,
+    "lcsc": "C3406",
+    "brand": "BOOMELE(博穆精密)",
+    "type": "IDC刺破式连接器(牛角/简牛)",
+    "name": "2.54mm 2x8P 排数:2 每排P数:8 托盘",
+    "model": "2.54-2*8P简牛",
+    "package": "插件,P=2.54mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505010827_2025/05/01 02:08"
+    ]
+  },
+  {
+    "id": 390,
+    "lcsc": "C49257",
+    "brand": "BOOMELE(博穆精密)",
+    "type": "排针",
+    "name": "1x3P 间距:2.54mm 方针 直插 袋装",
+    "model": "2.54-1*3P针",
+    "package": "插件,P=2.54mm",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2505010827_2025/05/01 02:08"
+    ]
+  },
+  {
+    "id": 391,
+    "lcsc": "C347222",
+    "brand": "UMW(友台半导体)",
+    "type": "线性稳压器(LDO)",
+    "name": "输出:3.3V 电流:1A 耐压:12V 编带",
+    "model": "AMS1117-3.3",
+    "package": "SOT-223",
+    "quantity": 15,
+    "remark": "",
+    "history": [
+      "SO2505010728_2025/05/01 02:14"
+    ]
+  },
+  {
+    "id": 392,
+    "lcsc": "C9010",
+    "brand": "YXC(扬兴晶振)",
+    "type": "无源晶振",
+    "name": "40MHz ±10ppm 15pF 编带",
+    "model": "X322540MPB4SI",
+    "package": "SMD3225-4P",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505010728_2025/05/01 02:14"
+    ]
+  },
+  {
+    "id": 393,
+    "lcsc": "C114441",
+    "brand": "YXC(扬兴晶振)",
+    "type": "无源晶振",
+    "name": "12MHz ±20ppm 20pF 袋装",
+    "model": "X49SD12MSD2SI",
+    "package": "HC-49S",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505010728_2025/05/01 02:14"
+    ]
+  },
+  {
+    "id": 394,
+    "lcsc": "C84266",
+    "brand": "国星光电",
+    "type": "发光二极管/LED",
+    "name": "NCD0603B1 编带",
+    "model": "NCD0603B1",
+    "package": "0603",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO2505010728_2025/05/01 02:14"
+    ]
+  },
+  {
+    "id": 395,
+    "lcsc": "C192893",
+    "brand": "CoreChips(和芯润德)",
+    "type": "USB集线器",
+    "name": "USB2.0高速4端口HUB控制器 管装",
+    "model": "SL2.1A",
+    "package": "SOP-16",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505010728_2025/05/01 02:14"
+    ]
+  },
+  {
+    "id": 396,
+    "lcsc": "C7473158",
+    "brand": "MSKSEMI(美森科)",
+    "type": "电池管理",
+    "name": "TP4056-MS 编带",
+    "model": "TP4056-MS",
+    "package": "SOP-8-EP",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505010774_2025/05/01 02:27"
+    ]
+  },
+  {
+    "id": 397,
+    "lcsc": "C3008054",
+    "brand": "MSKSEMI(美森科)",
+    "type": "静电和浪涌保护(TVS/ESD)",
+    "name": "RClamp0524P.TCT-MS 编带",
+    "model": "RClamp0524P.TCT-MS",
+    "package": "SLP2510-8",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2505010774_2025/05/01 02:27"
+    ]
+  },
+  {
+    "id": 398,
+    "lcsc": "C5120765",
+    "brand": "MSKSEMI(美森科)",
+    "type": "线性稳压器(LDO)",
+    "name": "输入18V 输出3.3V 1A 编带",
+    "model": "AMS1117-3.3V",
+    "package": "SOT-223",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2505010774_2025/05/01 02:27"
+    ]
+  },
+  {
+    "id": 399,
+    "lcsc": "C5331111",
+    "brand": "MSKSEMI(美森科)",
+    "type": "静电和浪涌保护(TVS/ESD)",
+    "name": "双向 Vrwm:26V 编带",
+    "model": "SMBJ26CA",
+    "package": "SMB",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505010774_2025/05/01 02:27"
+    ]
+  },
+  {
+    "id": 400,
+    "lcsc": "C2902910",
+    "brand": "MSKSEMI(美森科)",
+    "type": "通用二极管",
+    "name": "M7 编带",
+    "model": "M7",
+    "package": "DO-214AC",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2505010774_2025/05/01 02:27"
+    ]
+  },
+  {
+    "id": 401,
+    "lcsc": "C42415942",
+    "brand": "XBLW(芯伯乐)",
+    "type": "DC-DC电源芯片",
+    "name": "XBL4001DTR 编带",
+    "model": "XBL4001DTR",
+    "package": "SOP-8",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505010843_2025/05/01 02:50"
+    ]
+  },
+  {
+    "id": 402,
+    "lcsc": "C42376977",
+    "brand": "XBLW(芯伯乐)",
+    "type": "DC-DC电源芯片",
+    "name": "XXL1509-5.0 编带",
+    "model": "XXL1509-5.0",
+    "package": "SOP-8",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505010843_2025/05/01 02:50"
+    ]
+  },
+  {
+    "id": 403,
+    "lcsc": "C18723596",
+    "brand": "XBLW(芯伯乐)",
+    "type": "实时时钟(RTC)",
+    "name": "PCF8563DTR 编带",
+    "model": "PCF8563DTR(XBLW)",
+    "package": "SOP-8",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505010843_2025/05/01 02:50"
+    ]
+  },
+  {
+    "id": 404,
+    "lcsc": "C18185693",
+    "brand": "Starwave(思大)",
+    "type": "无源晶振",
+    "name": "24MHz 20pF 编带",
+    "model": "SWXDHACVE0-24.000000",
+    "package": "SMD2520-4P",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 405,
+    "lcsc": "C42436846",
+    "brand": "ChipNobo(无边界)",
+    "type": "场效应管(MOSFET)",
+    "name": "SI2302CDS-T1-GE3-CN 编带",
+    "model": "SI2302CDS-T1-GE3-CN",
+    "package": "SOT-23",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 406,
+    "lcsc": "C5261129",
+    "brand": "Lucki(蓝晶)",
+    "type": "无源晶振",
+    "name": "12MHz ±10ppm 18pF 编带",
+    "model": "L327S120S11L",
+    "package": "SMD3225-4P",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 407,
+    "lcsc": "C22467592",
+    "brand": "MyAntenna(摩天射频)",
+    "type": "天线",
+    "name": "2.4G&5.8G WIFI7 内置FPC天线 5G 5.8G双频PCB柔性天线 ZigBee蓝牙全向高增益 37.4*17.5mm 袋装",
+    "model": "AIWF015",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 408,
+    "lcsc": "C22390516",
+    "brand": "INCP",
+    "type": "排针",
+    "name": "1x5P 间距:1.27mm 方针 立贴 袋装",
+    "model": "IPCP127M05PB08S",
+    "package": "SMD,P=1.27mm(交错脚)",
+    "quantity": 40,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 409,
+    "lcsc": "C19631822",
+    "brand": "GR(国睿)",
+    "type": "DC-DC电源芯片",
+    "name": "LM2596S-3.3 编带",
+    "model": "LM2596S-3.3",
+    "package": "TO-263-5L",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 410,
+    "lcsc": "C2835968",
+    "brand": "KYX(凯越翔)",
+    "type": "无源晶振",
+    "name": "16MHz ±20ppm 20pF 编带",
+    "model": "KBD160002020",
+    "package": "HC-49S-SMD",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 411,
+    "lcsc": "C7423079",
+    "brand": "Lucki(蓝晶)",
+    "type": "无源晶振",
+    "name": "12MHz ±20ppm 20pF 编带",
+    "model": "LPC0S12000U83L",
+    "package": "HC-49S-SMD-2P-Mini",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 412,
+    "lcsc": "C29780900",
+    "brand": "SAMZO(三佐)",
+    "type": "排针",
+    "name": "1x4P 间距:2.54mm 方针 直插 袋装",
+    "model": "5AML4-11560-104-W0",
+    "package": "插件,P=2.54mm",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 413,
+    "lcsc": "C2981386",
+    "brand": "JIERONG(捷容)",
+    "type": "超级电容器",
+    "name": "15F 0%~+30% 2.7V 袋装",
+    "model": "UCZSS2R7156N130020E",
+    "package": "插件,P=5mm",
+    "quantity": 4,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 414,
+    "lcsc": "C2835973",
+    "brand": "KYX(凯越翔)",
+    "type": "无源晶振",
+    "name": "24MHz ±20ppm 12pF 编带",
+    "model": "KBD240001220",
+    "package": "HC-49S-SMD",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 415,
+    "lcsc": "C496563",
+    "brand": "BAT WIRELESS(蝙蝠无线)",
+    "type": "天线",
+    "name": "黑色 2.4G FPC天线 袋装",
+    "model": "BW2.4FNX26-10B1",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 416,
+    "lcsc": "C19100361",
+    "brand": "Dragonstate(华龙)",
+    "type": "扬声器/喇叭",
+    "name": "扬声器 托盘",
+    "model": "HDK-2808BB-1C4",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 417,
+    "lcsc": "C19100363",
+    "brand": "Dragonstate(华龙)",
+    "type": "扬声器/喇叭",
+    "name": "扬声器 托盘",
+    "model": "HDK-2008AA-9C1",
+    "package": "-",
+    "quantity": 2,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 418,
+    "lcsc": "C368783",
+    "brand": "KYX(凯越翔)",
+    "type": "无源晶振",
+    "name": "8MHz ±20ppm 20pF 袋装",
+    "model": "KUS080002020",
+    "package": "HC-49S",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 419,
+    "lcsc": "C42396627",
+    "brand": "ChipNobo(无边界)",
+    "type": "贴片电阻",
+    "name": "RK73H1ET1002F-CN 卷",
+    "model": "RK73H1ET1002F-CN",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 420,
+    "lcsc": "C42379417",
+    "brand": "ChipNobo(无边界)",
+    "type": "三极管(BJT)",
+    "name": "MMBT2222ALT1G-CN 编带",
+    "model": "MMBT2222ALT1G-CN",
+    "package": "SOT-23",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 421,
+    "lcsc": "C42396698",
+    "brand": "ChipNobo(无边界)",
+    "type": "贴片电阻",
+    "name": "RK73H1ET5111F-CN 卷",
+    "model": "RK73H1ET5111F-CN",
+    "package": "0402",
+    "quantity": 300,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 422,
+    "lcsc": "C25170772",
+    "brand": "Starwave(思大)",
+    "type": "无源晶振",
+    "name": "贴片晶振 编带",
+    "model": "SWXDEABVE0-40.000000",
+    "package": "SMD2520-4P",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 423,
+    "lcsc": "C19631832",
+    "brand": "GR(国睿)",
+    "type": "RS-485/RS-422芯片",
+    "name": "RS485 编带",
+    "model": "RS485",
+    "package": "SOP-8",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 424,
+    "lcsc": "C42396694",
+    "brand": "ChipNobo(无边界)",
+    "type": "贴片电阻",
+    "name": "RK73H1ET4871F-CN 卷",
+    "model": "RK73H1ET4871F-CN",
+    "package": "0402",
+    "quantity": 200,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 425,
+    "lcsc": "C3034396",
+    "brand": "HCI(杭晶)",
+    "type": "无源晶振",
+    "name": "32.768kHz ±20ppm 12.5pF 编带",
+    "model": "FL37S2-32.768-NLLLDTL",
+    "package": "HC-49S-SMD-2P-Mini",
+    "quantity": 15,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28",
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 426,
+    "lcsc": "C18164475",
+    "brand": "GR(国睿)",
+    "type": "线性稳压器(LDO)",
+    "name": "78L05 编带",
+    "model": "78L05",
+    "package": "SOT-89",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 427,
+    "lcsc": "C5917263",
+    "brand": "Lucki(蓝晶)",
+    "type": "无源晶振",
+    "name": "12MHz ±10ppm 8pF 编带",
+    "model": "L327S120D11L",
+    "package": "SMD3225-4P",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 428,
+    "lcsc": "C22438468",
+    "brand": "INCP",
+    "type": "排母",
+    "name": "1x10P 间距:2.54mm 直插 袋装",
+    "model": "IPCP254F10PB08V",
+    "package": "插件,P=2.54mm",
+    "quantity": 15,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 429,
+    "lcsc": "C42371095",
+    "brand": "SAMZO(三佐)",
+    "type": "咪头/麦克风",
+    "name": "MIC-4013-Y-T11 编带",
+    "model": "MIC-4013-Y-T11",
+    "package": "SMD,D=4mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 430,
+    "lcsc": "C784400",
+    "brand": "BAT WIRELESS(蝙蝠无线)",
+    "type": "RF射频同轴连接器",
+    "name": "IPEX 内针 编带",
+    "model": "BWIPX-3-001E",
+    "package": "SMD",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 431,
+    "lcsc": "C2875582",
+    "brand": "KYX(凯越翔)",
+    "type": "无源晶振",
+    "name": "停产 40MHz ±10ppm 10.5pF 编带",
+    "model": "K3A4000010.510",
+    "package": "SMD3225-4P",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 432,
+    "lcsc": "C2685089",
+    "brand": "Liansheng(连盛)",
+    "type": "排母",
+    "name": "间距:2.54mm 1x4P 直插 袋装",
+    "model": "FH-00133",
+    "package": "插件,P=2.54mm",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 433,
+    "lcsc": "C5261248",
+    "brand": "Lucki(蓝晶)",
+    "type": "无源晶振",
+    "name": "40MHz ±10ppm 15pF 编带",
+    "model": "L327S400P11L",
+    "package": "SMD3225-4P",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 434,
+    "lcsc": "C29780890",
+    "brand": "SAMZO(三佐)",
+    "type": "排针",
+    "name": "1x2P 间距:1.27mm 方针 直插 盒装",
+    "model": "5AIL3-8240-102-W0",
+    "package": "插件,P=1.27mm",
+    "quantity": 40,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 435,
+    "lcsc": "C22467597",
+    "brand": "MyAntenna(摩天射频)",
+    "type": "RF射频同轴连接器",
+    "name": "内针 IPEX 编带",
+    "model": "A-IPEX4-0.6A",
+    "package": "SMD,1.8x1.7mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 436,
+    "lcsc": "C2842186",
+    "brand": "HCI(杭晶)",
+    "type": "无源晶振",
+    "name": "12MHz ±10ppm 10pF 编带",
+    "model": "XC32M4-12.000-F10NNFT",
+    "package": "SMD3225-4P",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 437,
+    "lcsc": "C5137195",
+    "brand": "BAT WIRELESS(蝙蝠无线)",
+    "type": "RF射频同轴连接器",
+    "name": "内针 IPEX 编带",
+    "model": "BWU.FL-IPEX1",
+    "package": "SMD",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 438,
+    "lcsc": "C41378824",
+    "brand": "Starwave(思大)",
+    "type": "无源晶振",
+    "name": "SWXEBABVF0-24.000000 编带",
+    "model": "SWXEBABVF0-24.000000",
+    "package": "SMD2016-4P",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 439,
+    "lcsc": "C2836019",
+    "brand": "KYX(凯越翔)",
+    "type": "无源晶振",
+    "name": "32.768kHz ±20ppm 12.5pF 袋装",
+    "model": "K263276812520JT",
+    "package": "DT-26",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 440,
+    "lcsc": "C497029",
+    "brand": "BAT WIRELESS(蝙蝠无线)",
+    "type": "天线",
+    "name": "2.4G 吸盘天线 袋装",
+    "model": "BW2.4GTWX105-15SL1000J",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 441,
+    "lcsc": "C22467677",
+    "brand": "MyAntenna(摩天射频)",
+    "type": "天线",
+    "name": "2.4G偶极子天线 内置FPC天线 5G 5.8G双频PCB柔性天线 ZigBee/蓝牙/WiFi全向高增益 袋装",
+    "model": "AIWF019",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 442,
+    "lcsc": "C22467622",
+    "brand": "MyAntenna(摩天射频)",
+    "type": "天线",
+    "name": "433MHz FPC天线 LoRa PCB柔性全向高增益内置天线 袋装",
+    "model": "AILF002",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 443,
+    "lcsc": "C2842263",
+    "brand": "HCI(杭晶)",
+    "type": "无源晶振",
+    "name": "8MHz ±30ppm 20pF 编带",
+    "model": "X49SS2-8.000-F20JGDT",
+    "package": "HC-49S-SMD",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 444,
+    "lcsc": "C2842191",
+    "brand": "HCI(杭晶)",
+    "type": "无源晶振",
+    "name": "8MHz ±20ppm 12pF 编带",
+    "model": "XC32M4-8.000-F12LJDT",
+    "package": "SMD3225-4P",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 445,
+    "lcsc": "C7465195",
+    "brand": "EVISUN(易成)",
+    "type": "隔离电源模块",
+    "name": "DC-DC输入5V输出5V 400mA 2W输出短路保护 管装",
+    "model": "B0505S-2WR3",
+    "package": "SIP-7",
+    "quantity": 2,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 446,
+    "lcsc": "C920748",
+    "brand": "JIERONG(捷容)",
+    "type": "安规电容",
+    "name": "等级:X2 470nF ±10% 310V 袋装",
+    "model": "Z474K310VD2L20",
+    "package": "插件,P=15mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 447,
+    "lcsc": "C5128510",
+    "brand": "Starwave(思大)",
+    "type": "无源晶振",
+    "name": "27MHz ±10ppm 12pF 编带",
+    "model": "X322542701210A",
+    "package": "SMD3225-4P",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 448,
+    "lcsc": "C22467615",
+    "brand": "MyAntenna(摩天射频)",
+    "type": "天线",
+    "name": "WIFI7 内置FPC天线 2.4G&5.8G双频PCB柔性天线 ZigBee/蓝牙全向高增益 40.0*8.0mm 袋装",
+    "model": "AIWF022",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 449,
+    "lcsc": "C22397524",
+    "brand": "GR(国睿)",
+    "type": "LCD驱动",
+    "name": "用于液晶显示的 CMOS BCD 至 7 段锁存器/解码器/驱动器 编带",
+    "model": "CD4543S",
+    "package": "SOP-16",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2505020160_2025/05/02 03:28"
+    ]
+  },
+  {
+    "id": 450,
+    "lcsc": "C520110",
+    "brand": "XFCN(兴飞)",
+    "type": "胶壳(线对板/线对线)",
+    "name": "2x7P 2mm 袋装",
+    "model": "P2026-2x7P",
+    "package": "P=2mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 451,
+    "lcsc": "C5137483",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电容(MLCC)",
+    "name": "10uF ±20% 6.3V 编带",
+    "model": "FCC0603X106M6R3CT",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 452,
+    "lcsc": "C51898314",
+    "brand": "baocheng(宝乘)",
+    "type": "静电和浪涌保护(TVS/ESD)",
+    "name": "SD05 编带",
+    "model": "SD05",
+    "package": "SOD-323",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 453,
+    "lcsc": "C51898313",
+    "brand": "baocheng(宝乘)",
+    "type": "静电和浪涌保护(TVS/ESD)",
+    "name": "SD03 编带",
+    "model": "SD03",
+    "package": "SOD-323",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 454,
+    "lcsc": "C2883098",
+    "brand": "XKB Connection(中国星坤)",
+    "type": "排针",
+    "name": "1x5P 间距:2mm 方针 袋装",
+    "model": "X4612WVS-05I-C40D44-E60R1",
+    "package": "SMD,P=2mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 455,
+    "lcsc": "C49332972",
+    "brand": "JIERR(捷而瑞)",
+    "type": "钽电容",
+    "name": "470uF ±20% 2V 编带",
+    "model": "TA2R0M470AR09",
+    "package": "CASE-A-7343-19(mm)",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 456,
+    "lcsc": "C7465178",
+    "brand": "EVISUN(易成)",
+    "type": "隔离电源模块",
+    "name": "4.5V~5.5V 5V 200mA 1W 管装",
+    "model": "B0505S-1WR3",
+    "package": "SIP,11.7x6mm",
+    "quantity": 4,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 457,
+    "lcsc": "C720512",
+    "brand": "XUNPU(讯普)",
+    "type": "SIM卡连接器",
+    "name": "翻盖式 NanoSIM卡 卡座 编带",
+    "model": "SMN-305-ARP7",
+    "package": "SMD",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 458,
+    "lcsc": "C2802268",
+    "brand": "MSKSEMI(美森科)",
+    "type": "静电和浪涌保护(TVS/ESD)",
+    "name": "R05 ESD 5V截止 峰值浪涌电流：3A 编带",
+    "model": "MSR05",
+    "package": "SOT-143",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 459,
+    "lcsc": "C7472502",
+    "brand": "LUTE(陆特)",
+    "type": "自恢复保险丝",
+    "name": "60V 0.02A 0603小电流自恢复保险丝 编带",
+    "model": "0603L002/60AR",
+    "package": "0603",
+    "quantity": 30,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 460,
+    "lcsc": "C722763",
+    "brand": "CAX(创都)",
+    "type": "线对板针座",
+    "name": "1x4P 间距:2mm 直插 袋装",
+    "model": "PH2.0-4P",
+    "package": "插件,P=2mm",
+    "quantity": 150,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 461,
+    "lcsc": "C20612601",
+    "brand": "AOTE(奥特)",
+    "type": "逻辑输出光耦",
+    "name": "光耦-逻辑输出 编带",
+    "model": "6N137S",
+    "package": "SMD-8P",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 462,
+    "lcsc": "C2906869",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "4.7kΩ ±1% 62.5mW 厚膜电阻 编带",
+    "model": "FRC0402F4701TS",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 463,
+    "lcsc": "C51933367",
+    "brand": "Guiguang light(桂光光电)",
+    "type": "RGB LED(内置IC)",
+    "name": "5050幻彩透明 铜支架 编带",
+    "model": "GL5050RGB01H-T",
+    "package": "SMD5050-4P",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 464,
+    "lcsc": "C32713238",
+    "brand": "hanxia(韩下)",
+    "type": "排针",
+    "name": "2x7P 间距:2mm 方针 直插 袋装",
+    "model": "HX PZ2.0-2x7P ZZ",
+    "package": "插件,P=2mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 465,
+    "lcsc": "C5359641",
+    "brand": "XUNPU(讯普)",
+    "type": "线对板针座",
+    "name": "1x4P 间距:2.5mm 弯插 系列:XH 袋装",
+    "model": "WAFER-XH2.54-4PWZ",
+    "package": "弯插,P=2.5mm",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 466,
+    "lcsc": "C347278",
+    "brand": "UMW(友台半导体)",
+    "type": "线性稳压器(LDO)",
+    "name": "5V 1A 35V 编带",
+    "model": "78M05",
+    "package": "TO-252",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 467,
+    "lcsc": "C27985168",
+    "brand": "HC(虹成电子)",
+    "type": "排针",
+    "name": "2x9P 间距:2mm 方针 直插 袋装",
+    "model": "HC-PZ200-8.7L-2x9PZ",
+    "package": "插件,P=2mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 468,
+    "lcsc": "C3001972",
+    "brand": "UMW(友台半导体)",
+    "type": "静电和浪涌保护(TVS/ESD)",
+    "name": "双向TVS 5.8V截止 峰值浪涌电流：57.1A 编带",
+    "model": "SMBJ6.8CA",
+    "package": "SMB(DO-214AA)",
+    "quantity": 25,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 469,
+    "lcsc": "C7420331",
+    "brand": "R+O(宏嘉诚)",
+    "type": "肖特基二极管",
+    "name": "电压:40V 电流:1A 编带",
+    "model": "B5819WS",
+    "package": "SOD-323",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 470,
+    "lcsc": "C2836381",
+    "brand": "MSKSEMI(美森科)",
+    "type": "静电和浪涌保护(TVS/ESD)",
+    "name": "ESD 5V截止 峰值浪涌电流：4A@8/20us 编带",
+    "model": "ESD5302F-MS",
+    "package": "SOT-23",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 471,
+    "lcsc": "C52033620",
+    "brand": "JIERR(捷而瑞)",
+    "type": "电流采样电阻/分流器",
+    "name": "150mΩ 3W 2512 ±1% 编带",
+    "model": "JER2512F3R150",
+    "package": "2512",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 472,
+    "lcsc": "C350427",
+    "brand": "baocheng(宝乘)",
+    "type": "整流桥",
+    "name": "耐压:1000V 电流:2A 编带",
+    "model": "DB207S",
+    "package": "DBS",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 473,
+    "lcsc": "C27985158",
+    "brand": "HC(虹成电子)",
+    "type": "排针",
+    "name": "1x9P 间距:2mm 方针 直插 袋装",
+    "model": "HC-PZ200-8.7L-1x9PZ",
+    "package": "插件,P=2mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 474,
+    "lcsc": "C350421",
+    "brand": "baocheng(宝乘)",
+    "type": "整流桥",
+    "name": "耐压:1000V 电流:2A 编带",
+    "model": "ABS210",
+    "package": "ABS",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 475,
+    "lcsc": "C7420319",
+    "brand": "R+O(宏嘉诚)",
+    "type": "开关二极管",
+    "name": "100V 150mA 编带",
+    "model": "1N4148WS",
+    "package": "SOD-323",
+    "quantity": 150,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 476,
+    "lcsc": "C3034293",
+    "brand": "HCI(杭晶)",
+    "type": "有源晶振",
+    "name": "WPGDT 2520 4P 100MHz HCMOS 2.5V-3.3V ±20ppm -40℃~+85℃(±30ppm) 编带",
+    "model": "CO22H4-100.000-33GDTSNL",
+    "package": "SMD2520-4P",
+    "quantity": 2,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 477,
+    "lcsc": "C49196793",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "厚膜电阻 0603 1KΩ ±5% 100mW 编带",
+    "model": "FRR0603J102 TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 478,
+    "lcsc": "C20612600",
+    "brand": "AOTE(奥特)",
+    "type": "逻辑输出光耦",
+    "name": "光耦-逻辑输出 管装",
+    "model": "6N137M",
+    "package": "DIP-8",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 479,
+    "lcsc": "C48935357",
+    "brand": "JIERR(捷而瑞)",
+    "type": "固态电容",
+    "name": "330uF ±20% 25V 袋装",
+    "model": "PA25V330M6X9",
+    "package": "插件,D6.3xL9mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 480,
+    "lcsc": "C7501269",
+    "brand": "Megastar(兆星)",
+    "type": "排针",
+    "name": "1x15P 间距:2.54mm 方针 直插 袋装",
+    "model": "ZX-PZ2.54-1-15PZZ",
+    "package": "插件,P=2.54mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 481,
+    "lcsc": "C18198342",
+    "brand": "LUTE(陆特)",
+    "type": "自恢复保险丝",
+    "name": "30V 2A 1812高电压自恢复保险丝 编带",
+    "model": "1812L200/30GR",
+    "package": "1812",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 482,
+    "lcsc": "C7496629",
+    "brand": "LUTE(陆特)",
+    "type": "自恢复保险丝",
+    "name": "33V 0.1A 0805传感器保险丝 编带",
+    "model": "0805L010/33AR",
+    "package": "0805",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 483,
+    "lcsc": "C5137636",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电容(MLCC)",
+    "name": "100nF ±10% 50V 编带",
+    "model": "FCC0603B104K500CT",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 484,
+    "lcsc": "C3008370",
+    "brand": "UMW(友台半导体)",
+    "type": "场效应管(MOSFET)",
+    "name": "N沟道 耐压:60V 电流:0.115A 编带",
+    "model": "2N7002",
+    "package": "SOT-23",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 485,
+    "lcsc": "C49196809",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "厚膜电阻 0603 4.7KΩ ±5% 100mW 编带",
+    "model": "FRR0603J472 TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 486,
+    "lcsc": "C2847047",
+    "brand": "MSKSEMI(美森科)",
+    "type": "静电和浪涌保护(TVS/ESD)",
+    "name": "R05 ESD 5V截止 峰值浪涌电流：3A 编带",
+    "model": "PSR05-MS",
+    "package": "SOT-143",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 487,
+    "lcsc": "C3031174",
+    "brand": "YLPTEC(易川)",
+    "type": "隔离电源模块",
+    "name": "DC-DC转换器 管装",
+    "model": "B1212S-1WR3",
+    "package": "SIP,11.6x6mm",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 488,
+    "lcsc": "C706992",
+    "brand": "XKB Connection(中国星坤)",
+    "type": "排针",
+    "name": "1x7P 间距:2mm 方针 袋装",
+    "model": "X4611WV-07I-C40D28",
+    "package": "插件,P=2mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 489,
+    "lcsc": "C41376000",
+    "brand": "hanxia(韩下)",
+    "type": "IDC刺破式连接器(牛角/简牛)",
+    "name": "2mm 2x9P 排数:2 每排P数:9 托盘",
+    "model": "HX JN2.0-2x9P ZZ H5.7",
+    "package": "插件,P=2mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 490,
+    "lcsc": "C2992394",
+    "brand": "YLPTEC(易川)",
+    "type": "隔离电源模块",
+    "name": "DC-DC转换器 管装",
+    "model": "B0505S-1WR3",
+    "package": "SIP,11.6x6mm",
+    "quantity": 4,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 491,
+    "lcsc": "C53055829",
+    "brand": "hanxia(韩下)",
+    "type": "线对板针座",
+    "name": "2x7P 间距:2mm 直插 系列:PHD 袋装",
+    "model": "HX-PHD2.0-2x7A",
+    "package": "插件,P=2mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 492,
+    "lcsc": "C481447",
+    "brand": "XFCN(兴飞)",
+    "type": "PCB焊接端子",
+    "name": "2件套 四脚 M4 袋装",
+    "model": "T44001",
+    "package": "插件",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 493,
+    "lcsc": "C5137591",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电容(MLCC)",
+    "name": "12pF ±5% 50V 编带",
+    "model": "FCC0603N120J500CT",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 494,
+    "lcsc": "C2916927",
+    "brand": "HCI(杭晶)",
+    "type": "无源晶振",
+    "name": "NLDT 3225 4P 8MHz 20pF ±10ppm -40℃~+85℃(±20ppm) 编带",
+    "model": "XC32M4-8.000-F20NJDT",
+    "package": "SMD3225-4P",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 495,
+    "lcsc": "C492408",
+    "brand": "XFCN(兴飞)",
+    "type": "排针",
+    "name": "1x9P 间距:2.54mm 方针 直插 袋装",
+    "model": "PZ254V-11-09P",
+    "package": "插件,P=2.54mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 496,
+    "lcsc": "C41375998",
+    "brand": "hanxia(韩下)",
+    "type": "IDC刺破式连接器(牛角/简牛)",
+    "name": "2mm 2x7P 排数:2 每排P数:7 托盘",
+    "model": "HX JN2.0-2x7P ZZ H5.7",
+    "package": "插件,P=2mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 497,
+    "lcsc": "C3012205",
+    "brand": "HCTL(华灿天禄)",
+    "type": "排针",
+    "name": "1x3P 间距:2.54mm 方针 直插 袋装",
+    "model": "PZ254-1-03-Z-8.5",
+    "package": "插件,P=2.54mm",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 498,
+    "lcsc": "C49196789",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "厚膜电阻 0603 10KΩ ±5% 100mW 编带",
+    "model": "FRR0603J103 TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 499,
+    "lcsc": "C51933300",
+    "brand": "Guiguang light(桂光光电)",
+    "type": "发光二极管/LED",
+    "name": "0603 紫灯 高亮 编带",
+    "model": "GL0603PU01",
+    "package": "0603",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 500,
+    "lcsc": "C51933298",
+    "brand": "Guiguang light(桂光光电)",
+    "type": "发光二极管/LED",
+    "name": "0603 橙灯 高亮 编带",
+    "model": "GL0603UO01",
+    "package": "0603",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 501,
+    "lcsc": "C49274298",
+    "brand": "CAX(创都)",
+    "type": "DC电源连接器",
+    "name": "三件套 DC电源插座 内径:2mm 外径:5.7mm 袋装",
+    "model": "DC-025BTM-8A-2.0-L8.5",
+    "package": "插件",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 502,
+    "lcsc": "C7379990",
+    "brand": "MSKSEMI(美森科)",
+    "type": "场效应管(MOSFET)",
+    "name": "1个P沟道 耐压:55V 电流:300mA 编带",
+    "model": "LBSS84LT1G-MS",
+    "package": "SOT-23",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 503,
+    "lcsc": "C51933299",
+    "brand": "Guiguang light(桂光光电)",
+    "type": "发光二极管/LED",
+    "name": "0603 粉红 高亮 编带",
+    "model": "GL0603UP01",
+    "package": "0603",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 504,
+    "lcsc": "C2909394",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "33Ω ±1% 100mW 厚膜电阻 编带",
+    "model": "FRC0603F33R0TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 505,
+    "lcsc": "C7379992",
+    "brand": "MSKSEMI(美森科)",
+    "type": "场效应管(MOSFET)",
+    "name": "1个P沟道 耐压:55V 电流:0.3A 编带",
+    "model": "BSS84LT1G-MS",
+    "package": "SOT-23",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 506,
+    "lcsc": "C51933297",
+    "brand": "Guiguang light(桂光光电)",
+    "type": "发光二极管/LED",
+    "name": "0603 白灯 高亮 编带",
+    "model": "GL0603UW01",
+    "package": "0603",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 507,
+    "lcsc": "C51933294",
+    "brand": "Guiguang light(桂光光电)",
+    "type": "发光二极管/LED",
+    "name": "0603 蓝灯 高亮 编带",
+    "model": "GL0603UB01",
+    "package": "0603",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 508,
+    "lcsc": "C5137604",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电容(MLCC)",
+    "name": "1uF ±10% 25V 编带",
+    "model": "FCC0603X105K250CT",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 509,
+    "lcsc": "C51933295",
+    "brand": "Guiguang light(桂光光电)",
+    "type": "发光二极管/LED",
+    "name": "0603 黄灯 高亮 编带",
+    "model": "GL0603UY01",
+    "package": "0603",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 510,
+    "lcsc": "C49196686",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "厚膜电阻 0603 5.1KΩ ±0.1% 100mW 编带",
+    "model": "FRH0603B5101TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 511,
+    "lcsc": "C5157276",
+    "brand": "Xinyangze(鑫扬泽)",
+    "type": "Pogo Pin弹簧探针连接器",
+    "name": "POGO PIN插件型弹簧顶针 袋装",
+    "model": "YZ70115093P-02",
+    "package": "SMD,D=2mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 512,
+    "lcsc": "C22373860",
+    "brand": "HC(虹成电子)",
+    "type": "排母",
+    "name": "间距2.0mm 2x9Pin 直插 PC2.8 H4.3 管装",
+    "model": "HC-PM200-4.3H-2x9PZ",
+    "package": "插件,P=2mm",
+    "quantity": 8,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 513,
+    "lcsc": "C2979584",
+    "brand": "HCTL(华灿天禄)",
+    "type": "胶壳(线对板/线对线)",
+    "name": "2x9P 2mm 袋装",
+    "model": "HC-PHB-2*9Y",
+    "package": "P=2mm",
+    "quantity": 15,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 514,
+    "lcsc": "C2979582",
+    "brand": "HCTL(华灿天禄)",
+    "type": "胶壳(线对板/线对线)",
+    "name": "2x7P 2mm 袋装",
+    "model": "HC-PHB-2*7Y",
+    "package": "P=2mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 515,
+    "lcsc": "C22374899",
+    "brand": "LUTE(陆特)",
+    "type": "自恢复保险丝",
+    "name": "16V 2A 1206高电压自恢复保险丝 编带",
+    "model": "1206L200/16NR",
+    "package": "1206",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 516,
+    "lcsc": "C5137583",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电容(MLCC)",
+    "name": "20pF ±5% 50V 编带",
+    "model": "FCC0603N200J500CT",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 517,
+    "lcsc": "C2856837",
+    "brand": "XUNPU(讯普)",
+    "type": "FFC/FPC连接器",
+    "name": "翻盖式 双侧触点/上下接 P数:40P 间距:0.5mm 编带",
+    "model": "FPC-05FB-40PH20",
+    "package": "SMD,P=0.5mm,卧贴",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 518,
+    "lcsc": "C7420370",
+    "brand": "R+O(宏嘉诚)",
+    "type": "三极管(BJT)",
+    "name": "H档 200-350 NPN 电流:1.5A 电压:25V 编带",
+    "model": "SS8050",
+    "package": "SOT-23",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 519,
+    "lcsc": "C7462731",
+    "brand": "Megastar(兆星)",
+    "type": "胶壳端子",
+    "name": "XH2.5端子 编带",
+    "model": "ZX-XH2.54-DZ",
+    "package": "-",
+    "quantity": 250,
+    "remark": "",
+    "history": [
+      "SO26012929850_2026/01/29 23:34"
+    ]
+  },
+  {
+    "id": 520,
+    "lcsc": "C25900",
+    "brand": "UNI-ROYAL(厚声)",
+    "type": "贴片电阻",
+    "name": "4.7kΩ ±1% 62.5mW 厚膜电阻 编带",
+    "model": "0402WGF4701TCE",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2601302751_2026/01/30 03:39"
+    ]
+  },
+  {
+    "id": 521,
+    "lcsc": "C6119799",
+    "brand": "HRE(芯声)",
+    "type": "贴片电容(MLCC)",
+    "name": "100nF ±10% 16V 编带",
+    "model": "CGA0402X7R104K160GT",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2601302751_2026/01/30 03:39"
+    ]
+  },
+  {
+    "id": 522,
+    "lcsc": "C25105",
+    "brand": "UNI-ROYAL(厚声)",
+    "type": "贴片电阻",
+    "name": "33Ω ±1% 62.5mW 厚膜电阻 编带",
+    "model": "0402WGF330JTCE",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2601302751_2026/01/30 03:39"
+    ]
+  },
+  {
+    "id": 523,
+    "lcsc": "C395889",
+    "brand": "DORABO(地博电气)",
+    "type": "插拔式接线端子",
+    "name": "1x2P 7.62mm 排数:1 每排P数:2 袋装",
+    "model": "DB2EVC-7.62-2P-GN",
+    "package": "插件,P=7.62mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2601303313_2026/01/30 05:07"
+    ]
+  },
+  {
+    "id": 524,
+    "lcsc": "C395958",
+    "brand": "DORABO(地博电气)",
+    "type": "栅栏式接线端子",
+    "name": "9.5mm 1x2P 直插 边脚 排数:1 每排P数:2 袋装",
+    "model": "DBT50G-9.5-2P-BK-P OGC",
+    "package": "插件,P=9.5mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2601303313_2026/01/30 05:07"
+    ]
+  },
+  {
+    "id": 525,
+    "lcsc": "C395868",
+    "brand": "DORABO(地博电气)",
+    "type": "螺钉式接线端子",
+    "name": "1x2P 5.08mm 直插 排数:1 每排P数:2 袋装",
+    "model": "DB128L-5.08-2P-GN-S",
+    "package": "插件,P=5.08mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2601303313_2026/01/30 05:07"
+    ]
+  },
+  {
+    "id": 526,
+    "lcsc": "C49247784",
+    "brand": "立创开发板",
+    "type": "集线器/转接头",
+    "name": "立创开发板 串口工具 CH340X TYPE-C接口 袋装",
+    "model": "LCKFB-CH340X-USB-TO-TTL-TYPE-C",
+    "package": "-",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2602042493_2026/02/04 00:30"
+    ]
+  }
+]
