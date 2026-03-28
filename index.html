@@ -72,7 +72,7 @@
         .btn-cancel { background-color: #f3f4f6; color: #374151; border: 1px solid #d1d5db; } .btn-cancel:hover { background-color: #e5e7eb; }
         
         #excelFileInput { display: none; }
-        .qr-reader { width: 100%; border: none !important; border-radius: 8px; overflow: hidden; background: #000; }
+        .qr-reader { width: 100%; border: none !important; border-radius: 8px; overflow: hidden; background: #000; position: relative; }
         .scan-log-container { margin-top: 15px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; min-height: 80px; max-height: 150px; overflow-y: auto; }
         .scan-log-item { display: block; padding: 6px 10px; border-radius: 6px; font-size: 13px; margin-bottom: 4px; background: #fff; border: 1px solid #e2e8f0; }
         .log-success { border-left: 4px solid var(--success); }
@@ -95,7 +95,6 @@
             
             .btn-group { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; width: 100%; }
             .btn-group .btn { width: 100%; padding: 12px 10px; }
-            /* 个别大按钮占满一整行 */
             .btn-loc { grid-column: span 2; }
             
             .modal { width: 95%; padding: 16px; margin: 10px; }
@@ -233,8 +232,11 @@
 
 <div class="modal-overlay" id="cameraModalOverlay">
     <div class="modal">
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; flex-wrap: wrap; gap: 10px;">
             <h2 id="scannerTitle" style="margin: 0;">📷 扫描工作台</h2>
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <button class="btn btn-warning" onclick="toggleFlashlight()" style="padding: 4px 12px; font-size: 12px;">🔦 闪光灯</button>
+            </div>
         </div>
         
         <div id="locationConfigPanel" style="display: none; background: #f0fdf4; padding: 12px; border-radius: 8px; margin-bottom: 15px; border: 1px solid #bbf7d0;">
@@ -276,12 +278,12 @@
     let githubConfig = { repoLink: '', token: '', sha: null, user: '', repo: '' };
     const FILE_PATH = 'data.json';
 
-    // 扫描器全局状态
     let html5QrcodeScanner = null;
-    let currentScannerMode = 'search'; // 'search' 或 'location'
+    let currentScannerMode = 'search'; 
     let lastScannedCode = '';
     let lastScanTime = 0;
-    let isConfirming = false; // 防止弹窗时重复扫码
+    let isConfirming = false; 
+    let isFlashlightOn = false; 
 
     // 初始化
     function init() {
@@ -329,7 +331,6 @@
             const tr = document.createElement('tr');
             if (comp.lcsc && highlightLcscList.some(h => h.toUpperCase() === comp.lcsc.toUpperCase())) tr.classList.add('highlight-row');
             
-            // 构建带超链接的商品编号 (自定义链接优先，其次立创搜索)
             let linkUrl = '';
             if (comp.customLink) {
                 linkUrl = comp.customLink;
@@ -408,7 +409,6 @@
         }
         
         let maxIdx = 0;
-        // 匹配前缀后跟横杠和数字的模式，例如 "4-2-12" 提取出 12
         const regex = new RegExp(`^${escapeRegExp(prefix)}-(\\d+)$`, 'i');
         
         components.forEach(c => {
@@ -425,7 +425,7 @@
     }
 
     // ----------------------------------------------------
-    // 多模式扫描系统 (查件 / 分配位号)
+    // 扫码引擎 (引入硬件加速与限制扫描格式提升性能)
     // ----------------------------------------------------
     function openCameraModal(mode) {
         if (typeof Html5QrcodeScanner === 'undefined') { alert("扫码库未加载，请检查网络！"); return; }
@@ -437,11 +437,12 @@
         
         document.getElementById('scan-log-list').innerHTML = '';
         document.getElementById('scan-log-placeholder').style.display = 'block';
+        isFlashlightOn = false; 
 
         if (mode === 'location') {
             title.innerText = '🏷️ 批量分配位号';
             locPanel.style.display = 'block';
-            updateNextLocationIndex(); // 打开时自动推算下一个序号
+            updateNextLocationIndex(); 
         } else {
             title.innerText = '📷 连续查件/入库';
             locPanel.style.display = 'none';
@@ -449,17 +450,60 @@
 
         modal.style.display = 'flex';
         if (html5QrcodeScanner) { html5QrcodeScanner.clear(); }
-        html5QrcodeScanner = new Html5QrcodeScanner("qr-reader", { fps: 30, qrbox: {width: 250, height: 250}, rememberLastUsedCamera: true, supportedScanTypes: [Html5QrcodeScanType.SCAN_TYPE_CAMERA], videoConstraints: { facingMode: "environment", advanced: [{ focusMode: "continuous" }] } }, false);
+        
+        // 核心提速：去除 qrbox，允许全屏幕无死角扫描，提高歪斜容错率；强制 1080p 超清分辨率解决模糊问题
+        html5QrcodeScanner = new Html5QrcodeScanner("qr-reader", { 
+            fps: 30, 
+            rememberLastUsedCamera: true, 
+            useBarCodeDetectorIfSupported: true, 
+            formatsToSupport: [ 
+                Html5QrcodeSupportedFormats.QR_CODE, 
+                Html5QrcodeSupportedFormats.DATA_MATRIX, 
+                Html5QrcodeSupportedFormats.CODE_128 
+            ],
+            supportedScanTypes: [Html5QrcodeScanType.SCAN_TYPE_CAMERA], 
+            videoConstraints: { 
+                facingMode: "environment", 
+                width: { ideal: 1920 }, 
+                height: { ideal: 1080 },
+                advanced: [{ focusMode: "continuous" }] 
+            } 
+        }, false);
         html5QrcodeScanner.render(onCameraScanSuccess, onCameraScanFailure);
     }
 
     function closeCameraModal() { 
         document.getElementById('cameraModalOverlay').style.display = 'none'; 
+        isFlashlightOn = false;
         if (html5QrcodeScanner) { html5QrcodeScanner.clear().catch(e => console.error(e)); html5QrcodeScanner = null; } 
     }
 
+    function toggleFlashlight() {
+        const video = document.querySelector('#qr-reader video');
+        if (!video || !video.srcObject) {
+            alert("请等待摄像头加载画面后再开启！");
+            return;
+        }
+        
+        const track = video.srcObject.getVideoTracks()[0];
+        if (!track) return;
+        
+        const capabilities = track.getCapabilities && track.getCapabilities();
+        if (capabilities && capabilities.torch) {
+            isFlashlightOn = !isFlashlightOn;
+            track.applyConstraints({
+                advanced: [{ torch: isFlashlightOn }]
+            }).catch(e => {
+                console.error("Torch error:", e);
+                alert("开启闪光灯失败。可能是浏览器限制了权限。");
+            });
+        } else {
+            alert("抱歉，当前手机或浏览器不支持网页直接控制闪光灯功能。");
+        }
+    }
+
     function onCameraScanSuccess(decodedText) {
-        if (isConfirming) return; // 弹窗期间暂停处理扫码
+        if (isConfirming) return; 
         const now = Date.now();
         if (decodedText === lastScannedCode && (now - lastScanTime) < 2000) return;
         lastScannedCode = decodedText; lastScanTime = now;
@@ -528,17 +572,15 @@
         }
 
         saveToStorage();
-        // 自动把处理过的元件加入搜索栏高亮展示
         document.getElementById('searchInput').value = lcsc;
         filterTable();
     }
 
-    // 物理扫码枪统一入口
     function handlePhysicalScan(event, mode) {
         if (event.key === 'Enter') {
             const scanText = event.target.value.trim();
             const match = scanText.match(/pc\s*:\s*(C\d+)/i);
-            const rawLcsc = match ? match[1].toUpperCase() : scanText.toUpperCase(); // 兼容只扫出C编号的情况
+            const rawLcsc = match ? match[1].toUpperCase() : scanText.toUpperCase(); 
             
             if (rawLcsc.startsWith('C')) {
                 if (mode === 'location') {
@@ -553,7 +595,6 @@
         }
     }
 
-    // 手动分配按钮 (用于位号分配模式)
     function handleManualLoc() {
         const input = document.getElementById('manualLocInput');
         const text = input.value.trim().toUpperCase();
