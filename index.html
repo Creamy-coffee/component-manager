@@ -27,13 +27,13 @@
 
         .controls { display: flex; justify-content: space-between; margin-bottom: 24px; align-items: center; flex-wrap: wrap; gap: 16px; background: #f9fafb; padding: 16px; border-radius: 8px; border: 1px solid var(--border-color); }
         .search-group { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; flex: 1; }
-        .search-box, .filter-select { padding: 10px 14px; border: 1px solid #d1d5db; border-radius: 6px; font-size: 14px; transition: all 0.2s; background-color: #fff; }
-        .search-box { min-width: 240px; }
+        .search-box, .filter-select { padding: 10px 14px; border: 1px solid #d1d5db; border-radius: 6px; font-size: 14px; transition: all 0.2s; background-color: #fff; box-sizing: border-box; }
+        .search-box { min-width: 240px; flex: 1; }
         .search-box:focus, .filter-select:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(59,130,246,0.2); }
-        .scan-box { border: 1px dashed var(--primary); background-color: #eff6ff; width: 160px; }
+        .scan-box { border: 1px dashed var(--primary); background-color: #eff6ff; width: 160px; flex: unset; }
 
         .btn-group { display: flex; gap: 10px; flex-wrap: wrap; }
-        .btn { padding: 10px 16px; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 500; transition: all 0.2s; display: inline-flex; align-items: center; justify-content: center; }
+        .btn { padding: 10px 16px; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 500; transition: all 0.2s; display: inline-flex; align-items: center; justify-content: center; box-sizing: border-box; }
         .btn:active { transform: scale(0.98); }
         .btn-primary { background-color: var(--primary); } .btn-primary:hover { background-color: var(--primary-hover); }
         .btn-success { background-color: var(--success); } .btn-success:hover { background-color: var(--success-hover); }
@@ -58,14 +58,17 @@
         .lcsc-link:hover { text-decoration: underline; color: var(--primary-hover); }
 
         .modal-overlay { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(17,24,39,0.6); backdrop-filter: blur(2px); justify-content: center; align-items: center; z-index: 1000; }
-        .modal { background: var(--card-bg); padding: 24px; border-radius: 12px; width: 480px; max-height: 85vh; overflow-y: auto; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1); animation: modalFadeIn 0.2s ease-out; }
+        .modal { background: var(--card-bg); padding: 24px; border-radius: 12px; width: 550px; max-height: 85vh; overflow-y: auto; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1); animation: modalFadeIn 0.2s ease-out; box-sizing: border-box; }
         @keyframes modalFadeIn { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
         .modal h2 { margin-top: 0; color: #111827; font-size: 20px; }
-        .form-group { margin-bottom: 16px; }
+        
+        .form-flex-row { display: flex; gap: 10px; }
+        .form-group { margin-bottom: 16px; flex: 1; }
         .form-group label { display: block; margin-bottom: 6px; font-weight: 600; color: #374151; font-size: 14px; }
         .form-group input, .form-group textarea { width: 100%; padding: 10px; border: 1px solid #d1d5db; border-radius: 6px; box-sizing: border-box; font-family: inherit; }
         .form-group input:focus, .form-group textarea:focus { outline: none; border-color: var(--primary); }
-        .modal-actions { display: flex; justify-content: flex-end; gap: 12px; margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--border-color); }
+        
+        .modal-actions { display: flex; justify-content: flex-end; gap: 12px; margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--border-color); flex-wrap: wrap; }
         .btn-cancel { background-color: #f3f4f6; color: #374151; border: 1px solid #d1d5db; } .btn-cancel:hover { background-color: #e5e7eb; }
         
         #excelFileInput { display: none; }
@@ -79,6 +82,31 @@
         #loadingOverlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255,255,255,0.8); z-index: 2000; justify-content: center; align-items: center; flex-direction: column; }
         .spinner { border: 4px solid #f3f3f3; border-top: 4px solid var(--cloud); border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin-bottom: 15px; }
         @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+        /* 📱 移动端自适应完美适配 */
+        @media (max-width: 768px) {
+            body { padding: 10px; }
+            .container { padding: 16px 12px; }
+            h1 { font-size: 22px; margin-bottom: 20px; }
+            
+            .controls { flex-direction: column; align-items: stretch; gap: 12px; padding: 12px; }
+            .search-group { flex-direction: column; width: 100%; align-items: stretch; }
+            .search-box, .filter-select, .scan-box { width: 100%; max-width: none; }
+            
+            .btn-group { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; width: 100%; }
+            .btn-group .btn { width: 100%; padding: 12px 10px; }
+            /* 个别大按钮占满一整行 */
+            .btn-loc { grid-column: span 2; }
+            
+            .modal { width: 95%; padding: 16px; margin: 10px; }
+            .form-flex-row { flex-direction: column; gap: 0; }
+            .modal-actions { justify-content: stretch; }
+            .modal-actions .btn { flex: 1; text-align: center; }
+
+            th, td { padding: 10px 8px; font-size: 13px; }
+            .actions { flex-direction: column; }
+            .actions .btn { width: 100%; margin-bottom: 4px; }
+        }
     </style>
 </head>
 <body>
@@ -135,7 +163,7 @@
 </div>
 
 <div class="modal-overlay" id="syncModalOverlay">
-    <div class="modal" style="width: 500px;">
+    <div class="modal">
         <h2>☁️ GitHub 云端数据同步</h2>
         <p style="color:var(--text-muted); font-size:13px;">数据将安全地保存在您的私有仓库中。</p>
         <div class="form-group">
@@ -156,25 +184,25 @@
         <div class="modal-actions" style="justify-content: space-between;">
             <button class="btn btn-cancel" onclick="closeSyncModal()">关闭</button>
             <div style="display: flex; gap: 10px;">
-                <button class="btn btn-warning" onclick="downloadFromGitHub()" style="background-color: var(--warning);">⬇️ 从云端下载</button>
-                <button class="btn btn-cloud" onclick="uploadToGitHub()">⬆️ 上传到云端</button>
+                <button class="btn btn-warning" onclick="downloadFromGitHub()" style="background-color: var(--warning);">⬇️ 下载</button>
+                <button class="btn btn-cloud" onclick="uploadToGitHub()">⬆️ 上传</button>
             </div>
         </div>
     </div>
 </div>
 
 <div class="modal-overlay" id="modalOverlay">
-    <div class="modal" style="width: 550px;">
+    <div class="modal">
         <h2 id="modalTitle">添加新元件</h2>
         <input type="hidden" id="editId">
-        <div style="display: flex; gap: 10px;">
-            <div class="form-group" style="flex: 1;"><label>商品编号 (C号)</label><input type="text" id="lcsc" placeholder="如: C22451316"></div>
-            <div class="form-group" style="flex: 1;"><label>存放位号</label><input type="text" id="location" placeholder="如: 4-2-1"></div>
-            <div class="form-group" style="flex: 1;"><label>库存数量</label><input type="number" id="quantity" min="0" placeholder="如: 10"></div>
+        <div class="form-flex-row">
+            <div class="form-group"><label>商品编号 (C号)</label><input type="text" id="lcsc" placeholder="如: C22451316"></div>
+            <div class="form-group"><label>存放位号</label><input type="text" id="location" placeholder="如: 4-2-1"></div>
+            <div class="form-group"><label>库存数量</label><input type="number" id="quantity" min="0" placeholder="如: 10"></div>
         </div>
-        <div style="display: flex; gap: 10px;">
-            <div class="form-group" style="flex: 1;"><label>品牌</label><input type="text" id="brand" placeholder="如: 兴飞"></div>
-            <div class="form-group" style="flex: 1;"><label>商品类型</label><input type="text" id="type" placeholder="如: 胶壳"></div>
+        <div class="form-flex-row">
+            <div class="form-group"><label>品牌</label><input type="text" id="brand" placeholder="如: 兴飞"></div>
+            <div class="form-group"><label>商品类型</label><input type="text" id="type" placeholder="如: 胶壳"></div>
         </div>
         <div class="form-group"><label>商品型号 <span style="color:red">*</span></label><input type="text" id="model" placeholder="必填项"></div>
         <div class="form-group"><label>封装格式</label><input type="text" id="package" placeholder="如: P=2mm"></div>
@@ -189,7 +217,7 @@
 </div>
 
 <div class="modal-overlay" id="useModalOverlay">
-    <div class="modal" style="width: 400px;">
+    <div class="modal" style="width: 400px; max-width: 90%;">
         <h2>📦 领用/扣减元件</h2>
         <div style="background: #f8fafc; padding: 12px; border-radius: 6px; margin-bottom: 16px; border: 1px solid #e2e8f0;">
             <p id="useComponentInfo" style="margin: 0; color: #475569; font-size: 14px; line-height: 1.6;"></p>
@@ -204,20 +232,19 @@
 </div>
 
 <div class="modal-overlay" id="cameraModalOverlay">
-    <div class="modal" style="width: 550px;">
+    <div class="modal">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
             <h2 id="scannerTitle" style="margin: 0;">📷 扫描工作台</h2>
-            <span style="font-size: 12px; color: var(--success); background: #ecfdf5; padding: 4px 8px; border-radius: 12px;">自动对焦优化已开启</span>
         </div>
         
         <div id="locationConfigPanel" style="display: none; background: #f0fdf4; padding: 12px; border-radius: 8px; margin-bottom: 15px; border: 1px solid #bbf7d0;">
-            <div style="display: flex; gap: 10px;">
+            <div class="form-flex-row">
                 <div class="form-group" style="flex: 2; margin-bottom: 0;">
                     <label>前缀位码 (如: 4-2)</label>
-                    <input type="text" id="locPrefix" value="4-2" style="border-color: var(--success);">
+                    <input type="text" id="locPrefix" value="4-2" style="border-color: var(--success);" oninput="updateNextLocationIndex()">
                 </div>
                 <div class="form-group" style="flex: 1; margin-bottom: 0;">
-                    <label>起始序号</label>
+                    <label>分配序号</label>
                     <input type="number" id="locIndex" value="1" style="border-color: var(--success);">
                 </div>
             </div>
@@ -225,7 +252,7 @@
                 <label>手动补录 (扫码损坏时输入C号并回车)</label>
                 <div style="display: flex; gap: 5px;">
                     <input type="text" id="manualLocInput" placeholder="如: C2234..." onkeypress="handlePhysicalScan(event, 'location')">
-                    <button class="btn btn-loc" onclick="handleManualLoc()">分配</button>
+                    <button class="btn btn-loc" onclick="handleManualLoc()" style="flex-shrink: 0;">分配</button>
                 </div>
             </div>
         </div>
@@ -365,6 +392,39 @@
     }
 
     // ----------------------------------------------------
+    // 智能位号序号推算逻辑
+    // ----------------------------------------------------
+    function escapeRegExp(string) {
+        return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    function updateNextLocationIndex() {
+        const prefix = document.getElementById('locPrefix').value.trim();
+        const idxInput = document.getElementById('locIndex');
+        
+        if (!prefix) {
+            idxInput.value = 1;
+            return;
+        }
+        
+        let maxIdx = 0;
+        // 匹配前缀后跟横杠和数字的模式，例如 "4-2-12" 提取出 12
+        const regex = new RegExp(`^${escapeRegExp(prefix)}-(\\d+)$`, 'i');
+        
+        components.forEach(c => {
+            if (c.location) {
+                const match = c.location.match(regex);
+                if (match) {
+                    const num = parseInt(match[1], 10);
+                    if (num > maxIdx) maxIdx = num;
+                }
+            }
+        });
+        
+        idxInput.value = maxIdx + 1;
+    }
+
+    // ----------------------------------------------------
     // 多模式扫描系统 (查件 / 分配位号)
     // ----------------------------------------------------
     function openCameraModal(mode) {
@@ -381,6 +441,7 @@
         if (mode === 'location') {
             title.innerText = '🏷️ 批量分配位号';
             locPanel.style.display = 'block';
+            updateNextLocationIndex(); // 打开时自动推算下一个序号
         } else {
             title.innerText = '📷 连续查件/入库';
             locPanel.style.display = 'none';
@@ -388,7 +449,7 @@
 
         modal.style.display = 'flex';
         if (html5QrcodeScanner) { html5QrcodeScanner.clear(); }
-        html5QrcodeScanner = new Html5QrcodeScanner("qr-reader", { fps: 30, qrbox: {width: 280, height: 280}, rememberLastUsedCamera: true, supportedScanTypes: [Html5QrcodeScanType.SCAN_TYPE_CAMERA], videoConstraints: { facingMode: "environment", advanced: [{ focusMode: "continuous" }] } }, false);
+        html5QrcodeScanner = new Html5QrcodeScanner("qr-reader", { fps: 30, qrbox: {width: 250, height: 250}, rememberLastUsedCamera: true, supportedScanTypes: [Html5QrcodeScanType.SCAN_TYPE_CAMERA], videoConstraints: { facingMode: "environment", advanced: [{ focusMode: "continuous" }] } }, false);
         html5QrcodeScanner.render(onCameraScanSuccess, onCameraScanFailure);
     }
 
@@ -450,9 +511,9 @@
 
         const newLoc = `${prefix}-${currentIdx}`;
 
-        if (comp.location) {
+        if (comp.location && comp.location !== newLoc) {
             isConfirming = true;
-            if (confirm(`⚠️ 冲突检测\n\n元件 ${lcsc} (${comp.model}) 已经有位号了：[${comp.location}]\n\n点击【确定】覆盖分配为新位号：[${newLoc}]\n点击【取消】保留原有位号`)) {
+            if (confirm(`⚠️ 位号冲突检测\n\n元件 ${lcsc} (${comp.model}) 已经有位号了：[${comp.location}]\n\n点击【确定】覆盖分配为新位号：[${newLoc}]\n点击【取消】保留原有位号`)) {
                 comp.location = newLoc;
                 idxInput.value = currentIdx + 1;
                 logScanMessage(`✅ ${lcsc} 覆盖更新为: ${newLoc}`, 'success');
@@ -475,7 +536,7 @@
     // 物理扫码枪统一入口
     function handlePhysicalScan(event, mode) {
         if (event.key === 'Enter') {
-            const scanText = event.target.value;
+            const scanText = event.target.value.trim();
             const match = scanText.match(/pc\s*:\s*(C\d+)/i);
             const rawLcsc = match ? match[1].toUpperCase() : scanText.toUpperCase(); // 兼容只扫出C编号的情况
             
