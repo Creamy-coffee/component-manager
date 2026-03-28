@@ -251,12 +251,7 @@
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; flex-wrap: wrap; gap: 10px;">
             <h2 id="scannerTitle" style="margin: 0;">📷 扫描工作台</h2>
             <div style="display: flex; align-items: center; gap: 8px;">
-                <select id="scanCooldownSelect" onchange="updateScanCooldown()" style="padding: 4px; border-radius: 4px; border: 1px solid #d1d5db; font-size: 12px; background: #fff; cursor: pointer;">
-                    <option value="0">⚡ 极速 (无延迟)</option>
-                    <option value="1000">🐇 快速 (1秒)</option>
-                    <option value="2000" selected>🚶 标准 (2秒)</option>
-                    <option value="3000">🐢 缓慢 (3秒)</option>
-                </select>
+                <span style="font-size: 12px; color: var(--success); background: #ecfdf5; padding: 4px 8px; border-radius: 12px;">🛡️ 同码独立3秒防重</span>
                 <button class="btn btn-warning" onclick="toggleFlashlight()" style="padding: 4px 12px; font-size: 12px;">🔦 闪光灯</button>
             </div>
         </div>
@@ -310,14 +305,11 @@
 
     let html5QrcodeScanner = null;
     let currentScannerMode = 'search'; 
-    let lastScannedCode = '';
-    let lastScanTime = 0;
     let isConfirming = false; 
     let isFlashlightOn = false;
-    let continuousScannedSet = new Set();
     
-    // 新增：全局扫码冷却时间
-    let currentScanCooldown = 2000; 
+    // 核心智能单体防抖时间记忆库
+    let scanCooldownMap = new Map();
 
     // 初始化
     function init() {
@@ -336,14 +328,6 @@
             githubConfig = Object.assign(githubConfig, JSON.parse(storedConfig));
         }
         
-        // 加载用户保存的冷却时间配置
-        const storedCooldown = localStorage.getItem('scanCooldown');
-        if (storedCooldown) {
-            currentScanCooldown = parseInt(storedCooldown);
-            const selectEl = document.getElementById('scanCooldownSelect');
-            if (selectEl) selectEl.value = currentScanCooldown;
-        }
-
         updateDropdownFilters();
         renderTable(components);
     }
@@ -509,14 +493,8 @@
     }
 
     // ----------------------------------------------------
-    // 扫码引擎与防重逻辑
+    // 扫码引擎与单体独立防抖逻辑 (针对你提出的需求完美重构)
     // ----------------------------------------------------
-    function updateScanCooldown() {
-        const selectEl = document.getElementById('scanCooldownSelect');
-        currentScanCooldown = parseInt(selectEl.value);
-        localStorage.setItem('scanCooldown', currentScanCooldown);
-    }
-
     function openCameraModal(mode) {
         if (typeof Html5QrcodeScanner === 'undefined') { alert("扫码库未加载，请检查网络！"); return; }
         
@@ -528,7 +506,9 @@
         document.getElementById('scan-log-list').innerHTML = '';
         document.getElementById('scan-log-placeholder').style.display = 'block';
         isFlashlightOn = false; 
-        continuousScannedSet.clear(); 
+        
+        // 每次打开相机，清空所有单体扫描记忆，重新开始
+        scanCooldownMap.clear(); 
 
         if (mode === 'location') {
             title.innerText = '🏷️ 批量分配位号';
@@ -573,28 +553,29 @@
         } else { alert("抱歉，当前手机或浏览器不支持网页直接控制闪光灯功能。"); }
     }
 
+    // 核心修复区域：纯粹的【单体 3 秒强制独立冷却】逻辑
     function onCameraScanSuccess(decodedText) {
-        if (isConfirming) return; 
+        if (isConfirming) return; // 如果正在弹窗询问，完全无视后面的扫码画面
+        
         const now = Date.now();
-        
-        // 核心更新：使用可配置的全局冷却时间
-        if ((now - lastScanTime) < currentScanCooldown) return;
-        lastScannedCode = decodedText; 
-        lastScanTime = now;
-        
         const match = decodedText.match(/pc\s*:\s*(C\d+)/i);
-        if (match && match[1]) {
-            const lcsc = match[1].toUpperCase();
-            
-            if (!continuousScannedSet.has(lcsc)) {
-                continuousScannedSet.add(lcsc);
-                
-                if (currentScannerMode === 'location') {
-                    processLocationAssignment(lcsc);
-                } else {
-                    processSearchScan(lcsc);
-                }
-            }
+        if (!match || !match[1]) return;
+        const lcsc = match[1].toUpperCase();
+
+        // 仅对【当前这个特定二维码】进行 3 秒冷却判断
+        const lastTimeThisCode = scanCooldownMap.get(lcsc) || 0;
+        if (now - lastTimeThisCode < 3000) {
+            // 3秒内扫到了同一个码，默默无视它，防止死循环
+            return; 
+        }
+
+        // 如果是新码，或者老码已经过了3秒冷却期，则立刻放行并更新它的专属时间戳！
+        scanCooldownMap.set(lcsc, now);
+        
+        if (currentScannerMode === 'location') {
+            processLocationAssignment(lcsc);
+        } else {
+            processSearchScan(lcsc);
         }
     }
     function onCameraScanFailure(err) {}
@@ -616,25 +597,66 @@
         filterTable();
     }
 
-    // 【模式2】批量分配位号 (含插入自动后移功能)
+    // 【模式2】批量分配位号 (包含重复询问新建记录与插入后移)
     function processLocationAssignment(lcsc) {
         const prefix = document.getElementById('locPrefix').value.trim();
         const idxInput = document.getElementById('locIndex');
         const isInsertMode = document.getElementById('insertMode').checked;
         let currentIdx = parseInt(idxInput.value) || 1;
 
-        if (!prefix) { alert("请填写前缀位码！"); continuousScannedSet.delete(lcsc); return; }
+        if (!prefix) { 
+            alert("请填写前缀位码！"); 
+            scanCooldownMap.set(lcsc, Date.now()); // 重新倒数3秒，给你时间拿开或者填前缀
+            return; 
+        }
         playBeepSound();
 
-        let comp = components.find(c => c.lcsc && c.lcsc.toUpperCase() === lcsc);
-        if (!comp) {
-            logScanMessage(`❌ 库中未找到 ${lcsc}，请先入库！`, 'danger');
-            continuousScannedSet.delete(lcsc); 
+        // 查找所有对应的元件记录
+        let existingComps = components.filter(c => c.lcsc && c.lcsc.toUpperCase() === lcsc);
+        if (existingComps.length === 0) {
+            logScanMessage(`❌ 库中未找到 ${lcsc}，请先查件入库！`, 'danger');
+            scanCooldownMap.set(lcsc, Date.now()); 
             return;
         }
 
         const newLoc = `${prefix}-${currentIdx}`;
+        
+        // 优先寻找一个还没有分配过位号的记录
+        let comp = existingComps.find(c => !c.location);
 
+        // 如果找不到空的，说明这个型号之前全都分配过位号了 -> 触发“新建询问”逻辑
+        if (!comp) {
+            isConfirming = true; // 冻结扫码引擎
+            let locs = existingComps.map(c => c.location).join(', ');
+            let baseComp = existingComps[0];
+            
+            const msg = `⚠️ 发现此元件已分配过存放位置！\n\n型号: ${baseComp.model}\n已有位置: [${locs}]\n\n您手里可能是新买的一盘同款元件。\n\n▶ 点击【确定】👉 为这盘新元件【新建】一条独立记录，放入新位号 [${newLoc}]\n▶ 点击【取消】👉 放弃分配，请将其放回原位号合并存放`;
+            
+            if (confirm(msg)) {
+                // 用户选择新建：复制原有元件的基础信息，创建新记录
+                comp = { 
+                    ...baseComp, 
+                    id: components.length > 0 ? Math.max(...components.map(c => c.id)) + 1 : 1, 
+                    location: '', 
+                    quantity: 0, 
+                    history: [] 
+                };
+                components.push(comp);
+            } else {
+                // 用户选择取消
+                logScanMessage(`ℹ️ ${lcsc} 已取消分配，请放回原位置 [${locs}]`, 'warning');
+                isConfirming = false; // 解除引擎冻结
+                
+                // 核心修复：弹窗点击取消的瞬间，把这个码的倒计时重置为“现在”！
+                // 你现在拥有完整的 3 秒钟时间把袋子拿开，它绝对不会再弹窗。
+                scanCooldownMap.set(lcsc, Date.now()); 
+                return;
+            }
+            isConfirming = false; // 解除引擎冻结
+            scanCooldownMap.set(lcsc, Date.now()); 
+        }
+
+        // 下面开始正式分配位号与处理冲突 (插入模式 或 普通强占)
         if (isInsertMode) {
             const regex = new RegExp(`^${escapeRegExp(prefix)}-(\\d+)$`, 'i');
             let compsToShift = [];
@@ -657,26 +679,36 @@
             comp.location = newLoc;
             idxInput.value = currentIdx + 1;
             logScanMessage(`✅ ${lcsc} 插入成功: ${newLoc} (后移了 ${compsToShift.length} 个元件)`, 'success');
+            scanCooldownMap.set(lcsc, Date.now()); 
         } else {
-            const existingComp = components.find(c => c.location === newLoc && c.id !== comp.id);
-            if (existingComp) {
+            // 普通模式：检查目标位号是否被其他人占了
+            const existingOccupant = components.find(c => c.location === newLoc && c.id !== comp.id);
+            if (existingOccupant) {
                 isConfirming = true;
-                if (confirm(`⚠️ 位号冲突检测\n\n位号 [${newLoc}] 已被元件 ${existingComp.lcsc} (${existingComp.model}) 占用！\n\n点击【确定】强行抢占该位号 (原元件的位号将被清空)\n点击【取消】放弃分配`)) {
-                    existingComp.location = ''; 
+                if (confirm(`⚠️ 位号被占用冲突！\n\n新位号 [${newLoc}] 已被元件 ${existingOccupant.lcsc} (${existingOccupant.model}) 占据。\n\n点击【确定】强行抢占该位号 (原元件将被踢出位号)\n点击【取消】放弃分配`)) {
+                    existingOccupant.location = ''; 
                     comp.location = newLoc;
                     idxInput.value = currentIdx + 1;
                     logScanMessage(`✅ ${lcsc} 强行抢占成功: ${newLoc}`, 'success');
                 } else {
-                    logScanMessage(`ℹ️ ${lcsc} 取消分配`, 'warning');
-                    continuousScannedSet.delete(lcsc); 
+                    logScanMessage(`ℹ️ ${lcsc} 放弃分配`, 'warning');
+                    
+                    // 如果这本来就是刚才临时新建的记录，因为放弃了就把它删掉
+                    if (comp.quantity === 0 && comp.location === '') {
+                        components = components.filter(c => c.id !== comp.id);
+                    }
+                    
                     isConfirming = false;
+                    scanCooldownMap.set(lcsc, Date.now()); // 重新倒数 3 秒
                     return; 
                 }
                 isConfirming = false;
+                scanCooldownMap.set(lcsc, Date.now()); 
             } else {
                 comp.location = newLoc;
                 idxInput.value = currentIdx + 1;
                 logScanMessage(`✅ ${lcsc} 成功分配: ${newLoc}`, 'success');
+                scanCooldownMap.set(lcsc, Date.now()); 
             }
         }
 
@@ -726,7 +758,7 @@
         container.scrollTop = container.scrollHeight;
     }
     function clearContinuousScans() { 
-        continuousScannedSet.clear(); 
+        scanCooldownMap.clear(); 
         document.getElementById('scan-log-list').innerHTML = ''; 
         document.getElementById('scan-log-placeholder').style.display = 'block'; 
         document.getElementById('searchInput').value = ''; 
