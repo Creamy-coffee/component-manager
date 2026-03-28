@@ -27,8 +27,13 @@
 
         .controls { display: flex; justify-content: space-between; margin-bottom: 24px; align-items: center; flex-wrap: wrap; gap: 16px; background: #f9fafb; padding: 16px; border-radius: 8px; border: 1px solid var(--border-color); }
         .search-group { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; flex: 1; }
+        
+        /* 筛选框容器 */
+        .filter-container { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+        
         .search-box, .filter-select { padding: 10px 14px; border: 1px solid #d1d5db; border-radius: 6px; font-size: 14px; transition: all 0.2s; background-color: #fff; box-sizing: border-box; }
         .search-box { min-width: 240px; flex: 1; }
+        .filter-select { min-width: 120px; flex: 1; }
         .search-box:focus, .filter-select:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(59,130,246,0.2); }
         .scan-box { border: 1px dashed var(--primary); background-color: #eff6ff; width: 160px; flex: unset; }
 
@@ -91,7 +96,11 @@
             
             .controls { flex-direction: column; align-items: stretch; gap: 12px; padding: 12px; }
             .search-group { flex-direction: column; width: 100%; align-items: stretch; }
-            .search-box, .filter-select, .scan-box { width: 100%; max-width: none; }
+            .search-box, .scan-box { width: 100%; max-width: none; }
+            
+            /* 为手机端优化多重筛选的网格布局 */
+            .filter-container { display: grid; grid-template-columns: 1fr 1fr; width: 100%; gap: 8px; }
+            .filter-select { width: 100%; min-width: unset; padding: 8px; font-size: 13px; }
             
             .btn-group { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; width: 100%; }
             .btn-group .btn { width: 100%; padding: 12px 10px; }
@@ -120,17 +129,32 @@
     
     <div class="controls">
         <div class="search-group">
-            <input type="text" id="searchInput" class="search-box" placeholder="🔍 搜索型号、编号、位号或备注..." oninput="filterTable()">
-            <select id="typeFilter" class="filter-select" onchange="filterTable()">
-                <option value="">🏷️ 所有类型</option>
-            </select>
-            <select id="stockFilter" class="filter-select" onchange="filterTable()">
-                <option value="">📦 所有库存</option>
-                <option value="in-stock">✅ 有库存 (>0)</option>
-                <option value="out-of-stock">❌ 已缺货 (0)</option>
-            </select>
-            <input type="text" id="scanInput" class="search-box scan-box" placeholder="🔌 物理枪查件..." onkeypress="handlePhysicalScan(event, 'search')">
-            <button class="btn btn-primary" onclick="openCameraModal('search')">📷 扫码查件</button>
+            <input type="text" id="searchInput" class="search-box" placeholder="🔍 全局搜索: 型号、编号、位号或备注..." oninput="filterTable()">
+            
+            <div class="filter-container">
+                <select id="locationFilter" class="filter-select" onchange="filterTable()">
+                    <option value="">📍 所有区域</option>
+                </select>
+                <select id="brandFilter" class="filter-select" onchange="filterTable()">
+                    <option value="">🏢 所有品牌</option>
+                </select>
+                <select id="typeFilter" class="filter-select" onchange="filterTable()">
+                    <option value="">🏷️ 所有类型</option>
+                </select>
+                <select id="packageFilter" class="filter-select" onchange="filterTable()">
+                    <option value="">📏 所有封装</option>
+                </select>
+                <select id="stockFilter" class="filter-select" onchange="filterTable()">
+                    <option value="">📦 所有库存</option>
+                    <option value="in-stock">✅ 有库存 (>0)</option>
+                    <option value="out-of-stock">❌ 已缺货 (0)</option>
+                </select>
+            </div>
+            
+            <div style="display: flex; gap: 10px; width: 100%; max-width: 400px; margin-top: 4px;">
+                <input type="text" id="scanInput" class="search-box scan-box" style="flex: 1;" placeholder="🔌 物理枪查件..." onkeypress="handlePhysicalScan(event, 'search')">
+                <button class="btn btn-primary" onclick="openCameraModal('search')" style="flex-shrink: 0;">📷 扫码查件</button>
+            </div>
         </div>
         <div class="btn-group">
             <button class="btn btn-loc" onclick="openCameraModal('location')">🏷️ 批量分配位号</button>
@@ -306,16 +330,41 @@
     }
 
     // ----------------------------------------------------
-    // 表格与 UI 渲染
+    // 表格与 UI 渲染 (修改为按前缀聚合位号)
     // ----------------------------------------------------
     function updateDropdownFilters() {
+        // 更新区域/位号筛选 (智能剥离后缀，按区域聚合)
+        const locationFilter = document.getElementById('locationFilter');
+        const currentLoc = locationFilter.value;
+        const prefixes = [...new Set(components.map(c => {
+            if (!c.location) return '';
+            const lastDashIndex = c.location.lastIndexOf('-');
+            return lastDashIndex > 0 ? c.location.substring(0, lastDashIndex) : c.location;
+        }).filter(l => l && l.trim() !== ''))].sort();
+        
+        locationFilter.innerHTML = '<option value="">📍 所有区域</option>' + prefixes.map(l => `<option value="${l}">${l}</option>`).join('');
+        if (prefixes.includes(currentLoc)) locationFilter.value = currentLoc;
+
+        // 更新类型筛选
         const typeFilter = document.getElementById('typeFilter');
-        const currentSelected = typeFilter.value;
+        const currentType = typeFilter.value;
         const types = [...new Set(components.map(c => c.type).filter(t => t && t.trim() !== ''))].sort();
-        let optionsHtml = '<option value="">🏷️ 所有类型</option>';
-        types.forEach(type => { optionsHtml += `<option value="${type}">${type}</option>`; });
-        typeFilter.innerHTML = optionsHtml;
-        if (types.includes(currentSelected)) typeFilter.value = currentSelected;
+        typeFilter.innerHTML = '<option value="">🏷️ 所有类型</option>' + types.map(t => `<option value="${t}">${t}</option>`).join('');
+        if (types.includes(currentType)) typeFilter.value = currentType;
+
+        // 更新品牌筛选
+        const brandFilter = document.getElementById('brandFilter');
+        const currentBrand = brandFilter.value;
+        const brands = [...new Set(components.map(c => c.brand).filter(b => b && b.trim() !== ''))].sort();
+        brandFilter.innerHTML = '<option value="">🏢 所有品牌</option>' + brands.map(b => `<option value="${b}">${b}</option>`).join('');
+        if (brands.includes(currentBrand)) brandFilter.value = currentBrand;
+
+        // 更新封装筛选
+        const packageFilter = document.getElementById('packageFilter');
+        const currentPackage = packageFilter.value;
+        const packages = [...new Set(components.map(c => c.package).filter(p => p && p.trim() !== ''))].sort();
+        packageFilter.innerHTML = '<option value="">📏 所有封装</option>' + packages.map(p => `<option value="${p}">${p}</option>`).join('');
+        if (packages.includes(currentPackage)) packageFilter.value = currentPackage;
     }
 
     function saveToStorage() { localStorage.setItem('componentData', JSON.stringify(components)); updateDropdownFilters(); }
@@ -368,12 +417,23 @@
 
     function filterTable() {
         const queryStr = document.getElementById('searchInput').value.toLowerCase();
+        const locationFilterVal = document.getElementById('locationFilter').value;
         const typeFilterVal = document.getElementById('typeFilter').value;
+        const brandFilterVal = document.getElementById('brandFilter').value;
+        const packageFilterVal = document.getElementById('packageFilter').value;
         const stockFilterVal = document.getElementById('stockFilter').value;
         const terms = queryStr.split(/[\s,]+/).filter(t => t !== '');
         
         const filtered = components.filter(comp => {
+            // 修改这里：只要位号匹配前缀即可 (例如选择 '1-1' 可以匹配出 '1-1-1')
+            if (locationFilterVal) {
+                if (!comp.location) return false;
+                const isMatch = comp.location === locationFilterVal || comp.location.startsWith(locationFilterVal + '-');
+                if (!isMatch) return false;
+            }
             if (typeFilterVal && comp.type !== typeFilterVal) return false;
+            if (brandFilterVal && comp.brand !== brandFilterVal) return false;
+            if (packageFilterVal && comp.package !== packageFilterVal) return false;
             if (stockFilterVal === 'in-stock' && comp.quantity <= 0) return false;
             if (stockFilterVal === 'out-of-stock' && comp.quantity > 0) return false;
             if (terms.length > 0) {
@@ -425,7 +485,7 @@
     }
 
     // ----------------------------------------------------
-    // 扫码引擎 (引入硬件加速与限制扫描格式提升性能)
+    // 扫码引擎与底层交互
     // ----------------------------------------------------
     function openCameraModal(mode) {
         if (typeof Html5QrcodeScanner === 'undefined') { alert("扫码库未加载，请检查网络！"); return; }
@@ -451,7 +511,6 @@
         modal.style.display = 'flex';
         if (html5QrcodeScanner) { html5QrcodeScanner.clear(); }
         
-        // 核心提速：去除 qrbox，允许全屏幕无死角扫描，提高歪斜容错率；强制 1080p 超清分辨率解决模糊问题
         html5QrcodeScanner = new Html5QrcodeScanner("qr-reader", { 
             fps: 30, 
             rememberLastUsedCamera: true, 
