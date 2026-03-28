@@ -15,13 +15,14 @@
             --warning: #f59e0b; --warning-hover: #d97706;
             --purple: #8b5cf6; --purple-hover: #7c3aed;
             --cloud: #0ea5e9; --cloud-hover: #0284c7;
+            --loc: #14b8a6; --loc-hover: #0d9488;
             --bg-color: #f3f4f6; --card-bg: #ffffff;
             --text-main: #1f2937; --text-muted: #6b7280;
             --border-color: #e5e7eb; --highlight: #fef08a;
         }
 
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; background-color: var(--bg-color); color: var(--text-main); margin: 0; padding: 20px; line-height: 1.5; }
-        .container { max-width: 1400px; margin: 0 auto; background: var(--card-bg); padding: 24px 32px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+        .container { max-width: 1450px; margin: 0 auto; background: var(--card-bg); padding: 24px 32px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
         h1 { text-align: center; color: #111827; font-weight: 700; font-size: 28px; margin-bottom: 30px; letter-spacing: 1px; }
 
         .controls { display: flex; justify-content: space-between; margin-bottom: 24px; align-items: center; flex-wrap: wrap; gap: 16px; background: #f9fafb; padding: 16px; border-radius: 8px; border: 1px solid var(--border-color); }
@@ -29,7 +30,7 @@
         .search-box, .filter-select { padding: 10px 14px; border: 1px solid #d1d5db; border-radius: 6px; font-size: 14px; transition: all 0.2s; background-color: #fff; }
         .search-box { min-width: 240px; }
         .search-box:focus, .filter-select:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(59,130,246,0.2); }
-        .scan-box { border: 1px dashed var(--primary); background-color: #eff6ff; width: 180px; }
+        .scan-box { border: 1px dashed var(--primary); background-color: #eff6ff; width: 160px; }
 
         .btn-group { display: flex; gap: 10px; flex-wrap: wrap; }
         .btn { padding: 10px 16px; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 500; transition: all 0.2s; display: inline-flex; align-items: center; justify-content: center; }
@@ -40,6 +41,7 @@
         .btn-warning { background-color: var(--warning); color: #fff; } .btn-warning:hover { background-color: var(--warning-hover); }
         .btn-import { background-color: var(--purple); } .btn-import:hover { background-color: var(--purple-hover); }
         .btn-cloud { background-color: var(--cloud); } .btn-cloud:hover { background-color: var(--cloud-hover); }
+        .btn-loc { background-color: var(--loc); } .btn-loc:hover { background-color: var(--loc-hover); }
 
         .table-container { overflow-x: auto; border-radius: 8px; border: 1px solid var(--border-color); }
         table { width: 100%; border-collapse: collapse; text-align: left; white-space: nowrap; }
@@ -49,8 +51,11 @@
         tr:hover { background-color: #f1f5f9; }
         .highlight-row td { background-color: var(--highlight) !important; }
         .badge { background: #e2e8f0; color: #475569; padding: 2px 8px; border-radius: 12px; font-size: 12px; display: inline-block; margin-top: 4px; }
+        .loc-badge { background: #ccfbf1; color: #0f766e; font-weight: bold; border: 1px solid #99f6e4; }
         .stock-num { font-size: 18px; font-weight: 700; }
         .actions { display: flex; gap: 6px; }
+        .lcsc-link { color: var(--primary); text-decoration: none; font-weight: bold; font-size: 15px; }
+        .lcsc-link:hover { text-decoration: underline; color: var(--primary-hover); }
 
         .modal-overlay { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(17,24,39,0.6); backdrop-filter: blur(2px); justify-content: center; align-items: center; z-index: 1000; }
         .modal { background: var(--card-bg); padding: 24px; border-radius: 12px; width: 480px; max-height: 85vh; overflow-y: auto; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1); animation: modalFadeIn 0.2s ease-out; }
@@ -64,11 +69,13 @@
         .btn-cancel { background-color: #f3f4f6; color: #374151; border: 1px solid #d1d5db; } .btn-cancel:hover { background-color: #e5e7eb; }
         
         #excelFileInput { display: none; }
-        #qr-reader { width: 100%; border: none !important; border-radius: 8px; overflow: hidden; background: #000; }
-        #scan-log-container { margin-top: 15px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; min-height: 60px; max-height: 120px; overflow-y: auto; }
-        .scan-log-item { display: inline-block; background: var(--primary); color: white; padding: 4px 10px; border-radius: 16px; font-size: 12px; margin: 4px; }
+        .qr-reader { width: 100%; border: none !important; border-radius: 8px; overflow: hidden; background: #000; }
+        .scan-log-container { margin-top: 15px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; min-height: 80px; max-height: 150px; overflow-y: auto; }
+        .scan-log-item { display: block; padding: 6px 10px; border-radius: 6px; font-size: 13px; margin-bottom: 4px; background: #fff; border: 1px solid #e2e8f0; }
+        .log-success { border-left: 4px solid var(--success); }
+        .log-warning { border-left: 4px solid var(--warning); }
+        .log-danger { border-left: 4px solid var(--danger); }
         
-        /* 加载屏蔽层 */
         #loadingOverlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255,255,255,0.8); z-index: 2000; justify-content: center; align-items: center; flex-direction: column; }
         .spinner { border: 4px solid #f3f3f3; border-top: 4px solid var(--cloud); border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin-bottom: 15px; }
         @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
@@ -78,7 +85,7 @@
 
 <div id="loadingOverlay">
     <div class="spinner"></div>
-    <h3 id="loadingText" style="color: var(--text-main);">正在与云端同步数据...</h3>
+    <h3 id="loadingText" style="color: var(--text-main);">正在操作...</h3>
 </div>
 
 <div class="container">
@@ -86,7 +93,7 @@
     
     <div class="controls">
         <div class="search-group">
-            <input type="text" id="searchInput" class="search-box" placeholder="🔍 搜索型号、编号或备注..." oninput="filterTable()">
+            <input type="text" id="searchInput" class="search-box" placeholder="🔍 搜索型号、编号、位号或备注..." oninput="filterTable()">
             <select id="typeFilter" class="filter-select" onchange="filterTable()">
                 <option value="">🏷️ 所有类型</option>
             </select>
@@ -95,10 +102,11 @@
                 <option value="in-stock">✅ 有库存 (>0)</option>
                 <option value="out-of-stock">❌ 已缺货 (0)</option>
             </select>
-            <input type="text" id="scanInput" class="search-box scan-box" placeholder="🔌 物理扫码枪..." onkeypress="handlePhysicalScan(event)">
-            <button class="btn btn-primary" onclick="openCameraModal()">📷 开启连续扫码</button>
+            <input type="text" id="scanInput" class="search-box scan-box" placeholder="🔌 物理枪查件..." onkeypress="handlePhysicalScan(event, 'search')">
+            <button class="btn btn-primary" onclick="openCameraModal('search')">📷 扫码查件</button>
         </div>
         <div class="btn-group">
+            <button class="btn btn-loc" onclick="openCameraModal('location')">🏷️ 批量分配位号</button>
             <button class="btn btn-cloud" onclick="openSyncModal()">☁️ 云端同步</button>
             <button class="btn btn-success" onclick="openModal()">➕ 手动添加</button>
             <button class="btn btn-import" onclick="document.getElementById('excelFileInput').click()">📥 导入账单</button>
@@ -111,7 +119,8 @@
         <table id="componentTable">
             <thead>
                 <tr>
-                    <th>商品编号</th>
+                    <th>商品编号 / 链接</th>
+                    <th>存放位号</th>
                     <th>品牌 & 类型</th>
                     <th>商品名称</th>
                     <th>型号 & 封装</th>
@@ -129,7 +138,6 @@
     <div class="modal" style="width: 500px;">
         <h2>☁️ GitHub 云端数据同步</h2>
         <p style="color:var(--text-muted); font-size:13px;">数据将安全地保存在您的私有仓库中。</p>
-        
         <div class="form-group">
             <label>GitHub 仓库链接或路径</label>
             <input type="text" id="ghRepoLink" placeholder="例: https://github.com/用户名/仓库名 或 用户名/仓库名">
@@ -138,7 +146,6 @@
             <label>Personal Access Token (密钥)</label>
             <input type="password" id="ghToken" placeholder="ghp_xxxxxxxxxxxxxxxxxxxxx">
         </div>
-        
         <div style="background: #f0fdf4; border: 1px solid #bbf7d0; padding: 12px; border-radius: 6px; margin-top: 20px;">
             <p style="margin: 0; font-size: 13px; color: #166534; font-weight: bold;">⚠️ 操作说明：</p>
             <ul style="margin: 5px 0 0; font-size: 12px; color: #166534; padding-left: 20px;">
@@ -146,7 +153,6 @@
                 <li><b>下载：</b>从 GitHub 拉取数据（覆盖本地）。手机首次打开或更新时点这个。</li>
             </ul>
         </div>
-
         <div class="modal-actions" style="justify-content: space-between;">
             <button class="btn btn-cancel" onclick="closeSyncModal()">关闭</button>
             <div style="display: flex; gap: 10px;">
@@ -158,11 +164,12 @@
 </div>
 
 <div class="modal-overlay" id="modalOverlay">
-    <div class="modal">
+    <div class="modal" style="width: 550px;">
         <h2 id="modalTitle">添加新元件</h2>
         <input type="hidden" id="editId">
         <div style="display: flex; gap: 10px;">
             <div class="form-group" style="flex: 1;"><label>商品编号 (C号)</label><input type="text" id="lcsc" placeholder="如: C22451316"></div>
+            <div class="form-group" style="flex: 1;"><label>存放位号</label><input type="text" id="location" placeholder="如: 4-2-1"></div>
             <div class="form-group" style="flex: 1;"><label>库存数量</label><input type="number" id="quantity" min="0" placeholder="如: 10"></div>
         </div>
         <div style="display: flex; gap: 10px;">
@@ -172,6 +179,7 @@
         <div class="form-group"><label>商品型号 <span style="color:red">*</span></label><input type="text" id="model" placeholder="必填项"></div>
         <div class="form-group"><label>封装格式</label><input type="text" id="package" placeholder="如: P=2mm"></div>
         <div class="form-group"><label>商品名称 / 参数</label><input type="text" id="name" placeholder="如: 2x7P 2mm 袋装"></div>
+        <div class="form-group"><label>🔗 自定义跳转链接 (非立创元件填写)</label><input type="url" id="customLink" placeholder="如: https://item.taobao.com/..."></div>
         <div class="form-group"><label>📝 备注说明</label><textarea id="remark" rows="2" placeholder="存放位置、良品率或其他特殊说明..."></textarea></div>
         <div class="modal-actions">
             <button class="btn btn-cancel" onclick="closeModal()">取消</button>
@@ -198,17 +206,40 @@
 <div class="modal-overlay" id="cameraModalOverlay">
     <div class="modal" style="width: 550px;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
-            <h2 style="margin: 0;">📷 连续扫码模式</h2>
+            <h2 id="scannerTitle" style="margin: 0;">📷 扫描工作台</h2>
             <span style="font-size: 12px; color: var(--success); background: #ecfdf5; padding: 4px 8px; border-radius: 12px;">自动对焦优化已开启</span>
         </div>
-        <div id="qr-reader"></div>
-        <div id="scan-log-container">
-            <div style="color: #94a3b8; font-size: 13px; text-align: center; margin-top: 15px;" id="scan-log-placeholder">等待扫描... (扫出的编号将显示在这里)</div>
+        
+        <div id="locationConfigPanel" style="display: none; background: #f0fdf4; padding: 12px; border-radius: 8px; margin-bottom: 15px; border: 1px solid #bbf7d0;">
+            <div style="display: flex; gap: 10px;">
+                <div class="form-group" style="flex: 2; margin-bottom: 0;">
+                    <label>前缀位码 (如: 4-2)</label>
+                    <input type="text" id="locPrefix" value="4-2" style="border-color: var(--success);">
+                </div>
+                <div class="form-group" style="flex: 1; margin-bottom: 0;">
+                    <label>起始序号</label>
+                    <input type="number" id="locIndex" value="1" style="border-color: var(--success);">
+                </div>
+            </div>
+            <div class="form-group" style="margin-bottom: 0; margin-top: 10px;">
+                <label>手动补录 (扫码损坏时输入C号并回车)</label>
+                <div style="display: flex; gap: 5px;">
+                    <input type="text" id="manualLocInput" placeholder="如: C2234..." onkeypress="handlePhysicalScan(event, 'location')">
+                    <button class="btn btn-loc" onclick="handleManualLoc()">分配</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="qr-reader" class="qr-reader"></div>
+        
+        <div class="scan-log-container" id="scan-log-container">
+            <div style="color: #94a3b8; font-size: 13px; text-align: center; margin-top: 20px;" id="scan-log-placeholder">等待扫描...</div>
             <div id="scan-log-list"></div>
         </div>
+
         <div class="modal-actions">
-            <button class="btn btn-danger" onclick="clearContinuousScans()" style="margin-right: auto;">清空记录</button>
-            <button class="btn btn-primary" onclick="closeCameraModal()">完成</button>
+            <button class="btn btn-danger" onclick="clearContinuousScans()" style="margin-right: auto;">清空日志</button>
+            <button class="btn btn-primary" onclick="closeCameraModal()">完成关闭</button>
         </div>
     </div>
 </div>
@@ -218,12 +249,24 @@
     let githubConfig = { repoLink: '', token: '', sha: null, user: '', repo: '' };
     const FILE_PATH = 'data.json';
 
+    // 扫描器全局状态
+    let html5QrcodeScanner = null;
+    let currentScannerMode = 'search'; // 'search' 或 'location'
+    let lastScannedCode = '';
+    let lastScanTime = 0;
+    let isConfirming = false; // 防止弹窗时重复扫码
+
     // 初始化
     function init() {
         const storedData = localStorage.getItem('componentData');
         if (storedData) {
             components = JSON.parse(storedData);
-            components.forEach(c => { if (!c.history) c.history = []; if (!c.remark) c.remark = ""; });
+            components.forEach(c => { 
+                if (!c.history) c.history = []; 
+                if (!c.remark) c.remark = ""; 
+                if (!c.location) c.location = "";
+                if (!c.customLink) c.customLink = "";
+            });
         }
         const storedConfig = localStorage.getItem('githubConfig');
         if (storedConfig) {
@@ -234,119 +277,7 @@
     }
 
     // ----------------------------------------------------
-    // GitHub API 云端同步核心逻辑 (链接解析版)
-    // ----------------------------------------------------
-    function openSyncModal() {
-        document.getElementById('ghRepoLink').value = githubConfig.repoLink || '';
-        document.getElementById('ghToken').value = githubConfig.token || '';
-        document.getElementById('syncModalOverlay').style.display = 'flex';
-    }
-
-    function closeSyncModal() { document.getElementById('syncModalOverlay').style.display = 'none'; }
-
-    function saveGithubConfig() {
-        const link = document.getElementById('ghRepoLink').value.trim();
-        const token = document.getElementById('ghToken').value.trim();
-        
-        let user = '', repo = '';
-        // 智能解析：支持完整网址 https://github.com/user/repo，也支持 user/repo
-        const match = link.match(/(?:github\.com\/)?([^\/]+)\/([^\/\s]+)/i);
-        if (match) {
-            user = match[1];
-            repo = match[2].replace(/\.git$/i, ''); // 移除可能的 .git 后缀
-        }
-
-        githubConfig = { repoLink: link, token: token, sha: githubConfig.sha, user: user, repo: repo };
-        localStorage.setItem('githubConfig', JSON.stringify(githubConfig));
-    }
-
-    function showLoading(text) {
-        document.getElementById('loadingText').innerText = text;
-        document.getElementById('loadingOverlay').style.display = 'flex';
-    }
-
-    function hideLoading() { document.getElementById('loadingOverlay').style.display = 'none'; }
-
-    // 防止中文乱码的 Base64 编码/解码
-    function utf8_to_b64(str) { return window.btoa(unescape(encodeURIComponent(str))); }
-    function b64_to_utf8(str) { return decodeURIComponent(escape(window.atob(str))); }
-
-    async function downloadFromGitHub() {
-        saveGithubConfig();
-        if(!githubConfig.user || !githubConfig.repo) {
-            alert("无法解析仓库，请确保格式如: 用户名/仓库名 或完整链接"); return;
-        }
-        if(!githubConfig.token) { alert("请填写 Personal Access Token！"); return; }
-
-        if(components.length > 0 && !confirm("⚠️ 警告：下载将覆盖您当前的本地数据。确定要继续吗？")) return;
-
-        showLoading("正在连接 GitHub 获取数据...");
-        try {
-            const url = `https://api.github.com/repos/${githubConfig.user}/${githubConfig.repo}/contents/${FILE_PATH}`;
-            const response = await fetch(url, { headers: { 'Authorization': `Bearer ${githubConfig.token}`, 'Accept': 'application/vnd.github.v3+json' } });
-
-            if (response.status === 404) {
-                alert("在仓库中未找到数据文件 (首次使用请先上传)。");
-            } else if (!response.ok) {
-                throw new Error(`请求失败: ${response.status} (请检查仓库链接和密钥权限)`);
-            } else {
-                const data = await response.json();
-                githubConfig.sha = data.sha;
-                localStorage.setItem('githubConfig', JSON.stringify(githubConfig));
-                
-                const jsonStr = b64_to_utf8(data.content);
-                components = JSON.parse(jsonStr);
-                saveToStorage();
-                filterTable();
-                alert("🎉 同步成功！数据已从云端恢复。");
-                closeSyncModal();
-            }
-        } catch (error) {
-            console.error(error); alert("下载出错：\n" + error.message);
-        } finally { hideLoading(); }
-    }
-
-    async function uploadToGitHub() {
-        saveGithubConfig();
-        if(!githubConfig.user || !githubConfig.repo) {
-            alert("无法解析仓库，请确保格式如: 用户名/仓库名 或完整链接"); return;
-        }
-        if(!githubConfig.token) { alert("请填写 Personal Access Token！"); return; }
-
-        showLoading("正在打包数据并上传至 GitHub...");
-        try {
-            const url = `https://api.github.com/repos/${githubConfig.user}/${githubConfig.repo}/contents/${FILE_PATH}`;
-            let currentSha = githubConfig.sha;
-            
-            const getResp = await fetch(url, { headers: { 'Authorization': `Bearer ${githubConfig.token}` } });
-            if (getResp.ok) { const existingFile = await getResp.json(); currentSha = existingFile.sha; }
-
-            const contentB64 = utf8_to_b64(JSON.stringify(components, null, 2));
-            const bodyData = { message: `Update inventory - ${new Date().toLocaleString()}`, content: contentB64 };
-            if (currentSha) bodyData.sha = currentSha;
-
-            const putResp = await fetch(url, {
-                method: 'PUT',
-                headers: { 'Authorization': `Bearer ${githubConfig.token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' },
-                body: JSON.stringify(bodyData)
-            });
-
-            if (!putResp.ok) throw new Error(`上传失败: ${putResp.status} ${putResp.statusText}`);
-
-            const putResult = await putResp.json();
-            githubConfig.sha = putResult.content.sha;
-            localStorage.setItem('githubConfig', JSON.stringify(githubConfig));
-            
-            alert("☁️ 上传成功！最新数据已安全存入 GitHub 仓库。");
-            closeSyncModal();
-
-        } catch (error) {
-            console.error(error); alert("上传出错：\n" + error.message);
-        } finally { hideLoading(); }
-    }
-
-    // ----------------------------------------------------
-    // 原有逻辑 (无变动)
+    // 表格与 UI 渲染
     // ----------------------------------------------------
     function updateDropdownFilters() {
         const typeFilter = document.getElementById('typeFilter');
@@ -364,19 +295,34 @@
     function renderTable(data, highlightLcscList = []) {
         const tbody = document.getElementById('tableBody');
         tbody.innerHTML = '';
-        if (data.length === 0) { tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding: 40px; color: #94a3b8;">暂无匹配的元件数据</td></tr>'; return; }
+        if (data.length === 0) { tbody.innerHTML = '<tr><td colspan="8" style="text-align:center; padding: 40px; color: #94a3b8;">暂无匹配的元件数据</td></tr>'; return; }
         if (typeof highlightLcscList === 'string' && highlightLcscList !== '') highlightLcscList = [highlightLcscList];
 
         data.forEach(comp => {
             const tr = document.createElement('tr');
             if (comp.lcsc && highlightLcscList.some(h => h.toUpperCase() === comp.lcsc.toUpperCase())) tr.classList.add('highlight-row');
             
+            // 构建带超链接的商品编号 (自定义链接优先，其次立创搜索)
+            let linkUrl = '';
+            if (comp.customLink) {
+                linkUrl = comp.customLink;
+            } else if (comp.lcsc && comp.lcsc.startsWith('C')) {
+                linkUrl = `https://so.szlcsc.com/global.html?k=${comp.lcsc}&hot-key=`;
+            }
+            
+            let lcscDisplay = `<strong style="color: var(--text-main); font-size: 15px;">${comp.lcsc || '无编号'}</strong>`;
+            if (linkUrl) {
+                lcscDisplay = `<a href="${linkUrl}" target="_blank" class="lcsc-link" title="点击跳转购买/查看">${comp.lcsc || '🔗 自定义链接'}</a>`;
+            }
+
+            const locDisplay = comp.location ? `<span class="badge loc-badge">📍 ${comp.location}</span>` : `<span style="color:#cbd5e1;">-</span>`;
             const brandType = `<div style="font-weight: 500;">${comp.brand || '-'}</div><div class="badge">${comp.type || '-'}</div>`;
             const modelPkg = `<div style="font-family: monospace; font-size: 14px; font-weight: bold; color: var(--primary-hover);">${comp.model || '-'}</div><div style="font-size: 12px; color: var(--text-muted); margin-top: 2px;">${comp.package || '-'}</div>`;
             const remarkHtml = comp.remark ? `<div style="color: var(--warning-hover); font-size: 13px; max-width: 160px; white-space: normal; word-break: break-all;">${comp.remark}</div>` : `<span style="color:#cbd5e1;">-</span>`;
 
             tr.innerHTML = `
-                <td><strong style="color: var(--text-main); font-size: 15px;">${comp.lcsc || '-'}</strong></td>
+                <td>${lcscDisplay}</td>
+                <td>${locDisplay}</td>
                 <td>${brandType}</td>
                 <td style="white-space: normal; max-width: 200px; color: var(--text-muted); font-size: 13px;">${comp.name || '-'}</td>
                 <td>${modelPkg}</td>
@@ -403,7 +349,14 @@
             if (stockFilterVal === 'in-stock' && comp.quantity <= 0) return false;
             if (stockFilterVal === 'out-of-stock' && comp.quantity > 0) return false;
             if (terms.length > 0) {
-                const matchText = terms.some(term => (comp.brand && comp.brand.toLowerCase().includes(term)) || (comp.model && comp.model.toLowerCase().includes(term)) || (comp.name && comp.name.toLowerCase().includes(term)) || (comp.lcsc && comp.lcsc.toLowerCase().includes(term)) || (comp.remark && comp.remark.toLowerCase().includes(term)));
+                const matchText = terms.some(term => 
+                    (comp.brand && comp.brand.toLowerCase().includes(term)) || 
+                    (comp.model && comp.model.toLowerCase().includes(term)) || 
+                    (comp.name && comp.name.toLowerCase().includes(term)) || 
+                    (comp.lcsc && comp.lcsc.toLowerCase().includes(term)) || 
+                    (comp.remark && comp.remark.toLowerCase().includes(term)) ||
+                    (comp.location && comp.location.toLowerCase().includes(term))
+                );
                 if (!matchText) return false;
             }
             return true;
@@ -411,13 +364,68 @@
         renderTable(filtered, terms);
     }
 
-    function processScannedCode(lcsc) {
+    // ----------------------------------------------------
+    // 多模式扫描系统 (查件 / 分配位号)
+    // ----------------------------------------------------
+    function openCameraModal(mode) {
+        if (typeof Html5QrcodeScanner === 'undefined') { alert("扫码库未加载，请检查网络！"); return; }
+        
+        currentScannerMode = mode;
+        const modal = document.getElementById('cameraModalOverlay');
+        const title = document.getElementById('scannerTitle');
+        const locPanel = document.getElementById('locationConfigPanel');
+        
+        document.getElementById('scan-log-list').innerHTML = '';
+        document.getElementById('scan-log-placeholder').style.display = 'block';
+
+        if (mode === 'location') {
+            title.innerText = '🏷️ 批量分配位号';
+            locPanel.style.display = 'block';
+        } else {
+            title.innerText = '📷 连续查件/入库';
+            locPanel.style.display = 'none';
+        }
+
+        modal.style.display = 'flex';
+        if (html5QrcodeScanner) { html5QrcodeScanner.clear(); }
+        html5QrcodeScanner = new Html5QrcodeScanner("qr-reader", { fps: 30, qrbox: {width: 280, height: 280}, rememberLastUsedCamera: true, supportedScanTypes: [Html5QrcodeScanType.SCAN_TYPE_CAMERA], videoConstraints: { facingMode: "environment", advanced: [{ focusMode: "continuous" }] } }, false);
+        html5QrcodeScanner.render(onCameraScanSuccess, onCameraScanFailure);
+    }
+
+    function closeCameraModal() { 
+        document.getElementById('cameraModalOverlay').style.display = 'none'; 
+        if (html5QrcodeScanner) { html5QrcodeScanner.clear().catch(e => console.error(e)); html5QrcodeScanner = null; } 
+    }
+
+    function onCameraScanSuccess(decodedText) {
+        if (isConfirming) return; // 弹窗期间暂停处理扫码
+        const now = Date.now();
+        if (decodedText === lastScannedCode && (now - lastScanTime) < 2000) return;
+        lastScannedCode = decodedText; lastScanTime = now;
+        
+        const match = decodedText.match(/pc\s*:\s*(C\d+)/i);
+        if (match && match[1]) {
+            const lcsc = match[1].toUpperCase();
+            if (currentScannerMode === 'location') {
+                processLocationAssignment(lcsc);
+            } else {
+                processSearchScan(lcsc);
+            }
+        }
+    }
+    function onCameraScanFailure(err) {}
+
+    // 【模式1】查件与自动建档
+    function processSearchScan(lcsc) {
+        playBeepSound();
         const exists = components.some(c => c.lcsc && c.lcsc.toUpperCase() === lcsc);
         if (!exists) {
             const newId = components.length > 0 ? Math.max(...components.map(c => c.id)) + 1 : 1;
-            components.push({ id: newId, lcsc: lcsc, brand: '未知', type: '未分类', name: '⚠️未入库元件(新扫入)', model: '待完善', package: '-', quantity: 0, remark: '请点击编辑完善', history: [] });
+            components.push({ id: newId, lcsc: lcsc, brand: '未知', type: '未分类', name: '⚠️未入库(新扫入)', model: '待完善', package: '-', quantity: 0, location: '', customLink: '', remark: '请点击编辑完善', history: [] });
             saveToStorage();
         }
+        logScanMessage(`✔️ 查件: ${lcsc}`, 'success');
+        
         const searchInput = document.getElementById('searchInput');
         let currentSearch = searchInput.value.trim();
         if (currentSearch && !currentSearch.match(/C\d+/i)) currentSearch = '';
@@ -425,80 +433,148 @@
         filterTable();
     }
 
-    let cameraModalOverlay = document.getElementById('cameraModalOverlay');
-    let html5QrcodeScanner = null;
-    let continuousScannedSet = new Set();
-    let lastScannedCode = '';
-    let lastScanTime = 0;
+    // 【模式2】批量分配位号与冲突检测
+    function processLocationAssignment(lcsc) {
+        const prefix = document.getElementById('locPrefix').value.trim();
+        const idxInput = document.getElementById('locIndex');
+        let currentIdx = parseInt(idxInput.value) || 1;
 
-    function openCameraModal() {
-        if (typeof Html5QrcodeScanner === 'undefined') { alert("扫码库未加载，请检查网络连接！"); return; }
-        cameraModalOverlay.style.display = 'flex';
-        continuousScannedSet.clear();
-        updateScanLogUI();
-        if (html5QrcodeScanner) { html5QrcodeScanner.clear(); }
-        html5QrcodeScanner = new Html5QrcodeScanner("qr-reader", { fps: 30, qrbox: {width: 280, height: 280}, rememberLastUsedCamera: true, supportedScanTypes: [Html5QrcodeScanType.SCAN_TYPE_CAMERA], videoConstraints: { facingMode: "environment", advanced: [{ focusMode: "continuous" }] } }, false);
-        html5QrcodeScanner.render(onCameraScanSuccess, onCameraScanFailure);
+        if (!prefix) { alert("请填写前缀位码！"); return; }
+        playBeepSound();
+
+        let comp = components.find(c => c.lcsc && c.lcsc.toUpperCase() === lcsc);
+        if (!comp) {
+            logScanMessage(`❌ 库中未找到 ${lcsc}，请先入库！`, 'danger');
+            return;
+        }
+
+        const newLoc = `${prefix}-${currentIdx}`;
+
+        if (comp.location) {
+            isConfirming = true;
+            if (confirm(`⚠️ 冲突检测\n\n元件 ${lcsc} (${comp.model}) 已经有位号了：[${comp.location}]\n\n点击【确定】覆盖分配为新位号：[${newLoc}]\n点击【取消】保留原有位号`)) {
+                comp.location = newLoc;
+                idxInput.value = currentIdx + 1;
+                logScanMessage(`✅ ${lcsc} 覆盖更新为: ${newLoc}`, 'success');
+            } else {
+                logScanMessage(`ℹ️ ${lcsc} 保留原位号: ${comp.location}`, 'warning');
+            }
+            isConfirming = false;
+        } else {
+            comp.location = newLoc;
+            idxInput.value = currentIdx + 1;
+            logScanMessage(`✅ ${lcsc} 成功分配: ${newLoc}`, 'success');
+        }
+
+        saveToStorage();
+        // 自动把处理过的元件加入搜索栏高亮展示
+        document.getElementById('searchInput').value = lcsc;
+        filterTable();
     }
 
-    function onCameraScanSuccess(decodedText) {
-        const now = Date.now();
-        if (decodedText === lastScannedCode && (now - lastScanTime) < 1500) return;
-        lastScannedCode = decodedText; lastScanTime = now;
-        const match = decodedText.match(/pc\s*:\s*(C\d+)/i);
-        if (match && match[1]) {
-            const lcsc = match[1].toUpperCase();
-            if (!continuousScannedSet.has(lcsc)) { continuousScannedSet.add(lcsc); playBeepSound(); updateScanLogUI(); processScannedCode(lcsc); }
+    // 物理扫码枪统一入口
+    function handlePhysicalScan(event, mode) {
+        if (event.key === 'Enter') {
+            const scanText = event.target.value;
+            const match = scanText.match(/pc\s*:\s*(C\d+)/i);
+            const rawLcsc = match ? match[1].toUpperCase() : scanText.toUpperCase(); // 兼容只扫出C编号的情况
+            
+            if (rawLcsc.startsWith('C')) {
+                if (mode === 'location') {
+                    processLocationAssignment(rawLcsc);
+                } else {
+                    processSearchScan(rawLcsc);
+                }
+            } else {
+                alert('无法解析立创编号！\n原文: ' + scanText);
+            }
+            event.target.value = ''; 
         }
     }
-    function onCameraScanFailure(err) {}
-    function updateScanLogUI() {
-        const placeholder = document.getElementById('scan-log-placeholder');
+
+    // 手动分配按钮 (用于位号分配模式)
+    function handleManualLoc() {
+        const input = document.getElementById('manualLocInput');
+        const text = input.value.trim().toUpperCase();
+        if (text.startsWith('C')) {
+            processLocationAssignment(text);
+        } else {
+            alert('请输入正确的 C 编号！');
+        }
+        input.value = '';
+    }
+
+    function logScanMessage(text, type) {
+        document.getElementById('scan-log-placeholder').style.display = 'none';
         const listDiv = document.getElementById('scan-log-list');
-        listDiv.innerHTML = '';
-        if (continuousScannedSet.size === 0) { placeholder.style.display = 'block'; } else {
-            placeholder.style.display = 'none';
-            continuousScannedSet.forEach(code => { const span = document.createElement('span'); span.className = 'scan-log-item'; span.innerText = '✔️ ' + code; listDiv.appendChild(span); });
-            const container = document.getElementById('scan-log-container'); container.scrollTop = container.scrollHeight;
-        }
+        const span = document.createElement('span');
+        span.className = `scan-log-item log-${type}`;
+        span.innerText = text;
+        listDiv.appendChild(span);
+        const container = document.getElementById('scan-log-container'); 
+        container.scrollTop = container.scrollHeight;
     }
-    function clearContinuousScans() { continuousScannedSet.clear(); updateScanLogUI(); document.getElementById('searchInput').value = ''; filterTable(); }
-    function closeCameraModal() { cameraModalOverlay.style.display = 'none'; if (html5QrcodeScanner) { html5QrcodeScanner.clear().catch(e => console.error(e)); html5QrcodeScanner = null; } }
-    function handlePhysicalScan(event) { if (event.key === 'Enter') { const scanText = event.target.value; const match = scanText.match(/pc\s*:\s*(C\d+)/i); if (match && match[1]) { processScannedCode(match[1].toUpperCase()); } else { alert('无法解析嘉立创编号！\n原文: ' + scanText); } event.target.value = ''; } }
+    function clearContinuousScans() { document.getElementById('scan-log-list').innerHTML = ''; document.getElementById('scan-log-placeholder').style.display = 'block'; document.getElementById('searchInput').value = ''; filterTable(); }
 
+    // ----------------------------------------------------
+    // 添加/编辑/删除 元件
+    // ----------------------------------------------------
     const modalOverlay = document.getElementById('modalOverlay');
-    function openModal() { document.getElementById('modalTitle').innerText = '添加新元件'; document.getElementById('editId').value = ''; clearForm(); modalOverlay.style.display = 'flex'; }
+    function openModal() { document.getElementById('modalTitle').innerText = '➕ 添加新元件'; document.getElementById('editId').value = ''; clearForm(); modalOverlay.style.display = 'flex'; }
     function closeModal() { modalOverlay.style.display = 'none'; clearForm(); }
-    function clearForm() { ['lcsc', 'brand', 'type', 'name', 'model', 'package', 'quantity', 'remark'].forEach(id => { document.getElementById(id).value = ''; }); }
+    function clearForm() { ['lcsc', 'location', 'brand', 'type', 'name', 'model', 'package', 'quantity', 'customLink', 'remark'].forEach(id => { document.getElementById(id).value = ''; }); }
+    
     function saveComponent() {
         const id = document.getElementById('editId').value;
-        const lcsc = document.getElementById('lcsc').value.trim().toUpperCase(); const brand = document.getElementById('brand').value.trim(); const type = document.getElementById('type').value.trim(); const name = document.getElementById('name').value.trim(); const model = document.getElementById('model').value.trim(); const pkg = document.getElementById('package').value.trim(); const quantity = parseInt(document.getElementById('quantity').value) || 0; const remark = document.getElementById('remark').value.trim();
+        const lcsc = document.getElementById('lcsc').value.trim().toUpperCase(); 
+        const loc = document.getElementById('location').value.trim();
+        const brand = document.getElementById('brand').value.trim(); 
+        const type = document.getElementById('type').value.trim(); 
+        const name = document.getElementById('name').value.trim(); 
+        const model = document.getElementById('model').value.trim(); 
+        const pkg = document.getElementById('package').value.trim(); 
+        const quantity = parseInt(document.getElementById('quantity').value) || 0; 
+        const customLink = document.getElementById('customLink').value.trim();
+        const remark = document.getElementById('remark').value.trim();
+
         if (!model) { alert('商品型号是必填项！'); return; }
+
         if (id) {
             const index = components.findIndex(c => c.id == id);
-            if (index > -1) { const oldHistory = components[index].history || []; components[index] = { id: parseInt(id), lcsc, brand, type, name, model, package: pkg, quantity, remark, history: oldHistory }; }
+            if (index > -1) { const oldHistory = components[index].history || []; components[index] = { id: parseInt(id), lcsc, location: loc, brand, type, name, model, package: pkg, quantity, customLink, remark, history: oldHistory }; }
         } else {
-            const newId = components.length > 0 ? Math.max(...components.map(c => c.id)) + 1 : 1; components.push({ id: newId, lcsc, brand, type, name, model, package: pkg, quantity, remark, history: [] });
+            const newId = components.length > 0 ? Math.max(...components.map(c => c.id)) + 1 : 1; components.push({ id: newId, lcsc, location: loc, brand, type, name, model, package: pkg, quantity, customLink, remark, history: [] });
         }
         saveToStorage(); filterTable(); closeModal();
     }
+
     function editComponent(id) {
         const comp = components.find(c => c.id === id);
-        if (comp) { document.getElementById('modalTitle').innerText = '✏️ 编辑元件'; document.getElementById('editId').value = comp.id; ['lcsc', 'brand', 'type', 'name', 'model', 'package', 'quantity', 'remark'].forEach(field => { document.getElementById(field).value = comp[field] || (field === 'quantity' ? 0 : ''); }); modalOverlay.style.display = 'flex'; }
+        if (comp) { 
+            document.getElementById('modalTitle').innerText = '✏️ 编辑元件'; 
+            document.getElementById('editId').value = comp.id; 
+            ['lcsc', 'location', 'brand', 'type', 'name', 'model', 'package', 'quantity', 'customLink', 'remark'].forEach(field => { 
+                document.getElementById(field).value = comp[field] || (field === 'quantity' ? 0 : ''); 
+            }); 
+            modalOverlay.style.display = 'flex'; 
+        }
     }
+
     function deleteComponent(id) { if (confirm('确定要彻底删除这条库存记录吗？')) { components = components.filter(c => c.id !== id); saveToStorage(); filterTable(); } }
     function deleteAllComponents() {
         if (components.length === 0) { alert("当前库存为空，无需清空！"); return; }
         if (confirm("【高危警告】你正在尝试删除全部库存！\n此操作不可逆！点击“确定”进行最终验证。")) {
-            const passPhrase = prompt("请输入“确认清空”四个字执行操作：");
-            if (passPhrase === "确认清空") { components = []; saveToStorage(); filterTable(); alert("库存已全部清空！"); } else if (passPhrase !== null) { alert("输入不匹配，已取消。"); }
+            if (prompt("请输入“确认清空”四个字执行操作：") === "确认清空") { components = []; saveToStorage(); filterTable(); alert("库存已全部清空！"); } else { alert("输入不匹配，已取消。"); }
         }
     }
 
+    // ----------------------------------------------------
+    // 领用逻辑
+    // ----------------------------------------------------
     const useModalOverlay = document.getElementById('useModalOverlay');
     function openUseModal(id) {
         const comp = components.find(c => c.id === id);
-        if (comp) { document.getElementById('useId').value = comp.id; document.getElementById('useComponentInfo').innerHTML = `编号: <b>${comp.lcsc || '无'}</b><br>型号: <b>${comp.model}</b><br>封装: ${comp.package}<br><span style="color:var(--primary); font-size:16px; font-weight:bold; display:block; margin-top:8px;">当前剩余: ${comp.quantity} 个</span>`; document.getElementById('useQuantity').max = comp.quantity; document.getElementById('useQuantity').value = 1; useModalOverlay.style.display = 'flex'; }
+        if (comp) { document.getElementById('useId').value = comp.id; document.getElementById('useComponentInfo').innerHTML = `编号: <b>${comp.lcsc || '无'}</b> | 位号: <b>${comp.location || '无'}</b><br>型号: <b>${comp.model}</b><br>封装: ${comp.package}<br><span style="color:var(--primary); font-size:16px; font-weight:bold; display:block; margin-top:8px;">当前剩余: ${comp.quantity} 个</span>`; document.getElementById('useQuantity').max = comp.quantity; document.getElementById('useQuantity').value = 1; useModalOverlay.style.display = 'flex'; }
     }
     function closeUseModal() { useModalOverlay.style.display = 'none'; document.getElementById('useId').value = ''; }
     function confirmUseComponent() {
@@ -508,6 +584,9 @@
         if (index > -1) { if (useQty > components[index].quantity) { alert('扣减数量不能大于当前库存！'); return; } components[index].quantity -= useQty; saveToStorage(); filterTable(); closeUseModal(); }
     }
 
+    // ----------------------------------------------------
+    // 导入立创订单与防重逻辑
+    // ----------------------------------------------------
     function handleFileUpload(event) {
         const file = event.target.files[0]; if (!file) return;
         if (typeof XLSX === 'undefined') { alert('解析库未加载。'); return; }
@@ -518,6 +597,7 @@
         };
         reader.readAsArrayBuffer(file);
     }
+
     function processExcelData(rows) {
         let headerRowIdx = -1, headers = [];
         for (let i = 0; i < rows.length; i++) { const cols = (rows[i] || []).map(c => c != null ? String(c).trim() : ''); if (cols.includes('商品编号') && cols.includes('商品型号')) { headerRowIdx = i; headers = cols; break; } }
@@ -537,13 +617,71 @@
                 comp.quantity += quantity; if (!comp.lcsc && lcsc) comp.lcsc = lcsc; if (orderNo && orderTime) comp.history.push(recordFingerprint); updatedCount++;
             } else {
                 const newId = components.length > 0 ? Math.max(...components.map(c => c.id)) + 1 : 1; let newHistory = []; if (orderNo && orderTime) newHistory.push(recordFingerprint);
-                components.push({ id: newId, lcsc, brand, type, name, model, package: pkg, quantity, remark: '', history: newHistory }); addedCount++;
+                components.push({ id: newId, lcsc, location: '', brand, type, name, model, package: pkg, quantity, customLink: '', remark: '', history: newHistory }); addedCount++;
             }
         }
         saveToStorage(); filterTable();
         let alertMsg = `导入完成！\n新增了 ${addedCount} 种，更新了 ${updatedCount} 种。`;
         if (skippedCount > 0) alertMsg += `\n\n自动拦截 ${skippedCount} 条重复导入。`;
         alert(alertMsg);
+    }
+
+    // ----------------------------------------------------
+    // GitHub API 云端同步逻辑
+    // ----------------------------------------------------
+    function openSyncModal() { document.getElementById('ghRepoLink').value = githubConfig.repoLink || ''; document.getElementById('ghToken').value = githubConfig.token || ''; document.getElementById('syncModalOverlay').style.display = 'flex'; }
+    function closeSyncModal() { document.getElementById('syncModalOverlay').style.display = 'none'; }
+    function saveGithubConfig() {
+        const link = document.getElementById('ghRepoLink').value.trim(); const token = document.getElementById('ghToken').value.trim();
+        let user = '', repo = ''; const match = link.match(/(?:github\.com\/)?([^\/]+)\/([^\/\s]+)/i);
+        if (match) { user = match[1]; repo = match[2].replace(/\.git$/i, ''); }
+        githubConfig = { repoLink: link, token: token, sha: githubConfig.sha, user: user, repo: repo }; localStorage.setItem('githubConfig', JSON.stringify(githubConfig));
+    }
+    function showLoading(text) { document.getElementById('loadingText').innerText = text; document.getElementById('loadingOverlay').style.display = 'flex'; }
+    function hideLoading() { document.getElementById('loadingOverlay').style.display = 'none'; }
+    function utf8_to_b64(str) { return window.btoa(unescape(encodeURIComponent(str))); }
+    function b64_to_utf8(str) { return decodeURIComponent(escape(window.atob(str))); }
+
+    async function downloadFromGitHub() {
+        saveGithubConfig();
+        if(!githubConfig.user || !githubConfig.repo) { alert("无法解析仓库，请确保格式如: 用户名/仓库名"); return; }
+        if(!githubConfig.token) { alert("请填写 Personal Access Token！"); return; }
+        if(components.length > 0 && !confirm("⚠️ 警告：下载将覆盖您当前的本地数据。确定要继续吗？")) return;
+
+        showLoading("正在连接 GitHub 获取数据...");
+        try {
+            const url = `https://api.github.com/repos/${githubConfig.user}/${githubConfig.repo}/contents/${FILE_PATH}`;
+            const response = await fetch(url, { headers: { 'Authorization': `Bearer ${githubConfig.token}`, 'Accept': 'application/vnd.github.v3+json' } });
+            if (response.status === 404) { alert("在仓库中未找到数据文件 (首次使用请先上传)。"); } 
+            else if (!response.ok) { throw new Error(`请求失败: ${response.status}`); } 
+            else {
+                const data = await response.json(); githubConfig.sha = data.sha; localStorage.setItem('githubConfig', JSON.stringify(githubConfig));
+                components = JSON.parse(b64_to_utf8(data.content)); saveToStorage(); filterTable(); alert("🎉 同步成功！数据已从云端恢复。"); closeSyncModal();
+            }
+        } catch (error) { console.error(error); alert("下载出错：\n" + error.message); } finally { hideLoading(); }
+    }
+
+    async function uploadToGitHub() {
+        saveGithubConfig();
+        if(!githubConfig.user || !githubConfig.repo) { alert("无法解析仓库，请确保格式如: 用户名/仓库名"); return; }
+        if(!githubConfig.token) { alert("请填写 Personal Access Token！"); return; }
+
+        showLoading("正在打包数据并上传至 GitHub...");
+        try {
+            const url = `https://api.github.com/repos/${githubConfig.user}/${githubConfig.repo}/contents/${FILE_PATH}`;
+            let currentSha = githubConfig.sha;
+            const getResp = await fetch(url, { headers: { 'Authorization': `Bearer ${githubConfig.token}` } });
+            if (getResp.ok) { const existingFile = await getResp.json(); currentSha = existingFile.sha; }
+
+            const bodyData = { message: `Update inventory - ${new Date().toLocaleString()}`, content: utf8_to_b64(JSON.stringify(components, null, 2)) };
+            if (currentSha) bodyData.sha = currentSha;
+
+            const putResp = await fetch(url, { method: 'PUT', headers: { 'Authorization': `Bearer ${githubConfig.token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' }, body: JSON.stringify(bodyData) });
+            if (!putResp.ok) throw new Error(`上传失败: ${putResp.status}`);
+
+            const putResult = await putResp.json(); githubConfig.sha = putResult.content.sha; localStorage.setItem('githubConfig', JSON.stringify(githubConfig));
+            alert("☁️ 上传成功！最新数据已安全存入 GitHub 仓库。"); closeSyncModal();
+        } catch (error) { console.error(error); alert("上传出错：\n" + error.message); } finally { hideLoading(); }
     }
 
     window.onload = init;
