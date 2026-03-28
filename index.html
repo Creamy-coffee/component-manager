@@ -251,6 +251,12 @@
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; flex-wrap: wrap; gap: 10px;">
             <h2 id="scannerTitle" style="margin: 0;">📷 扫描工作台</h2>
             <div style="display: flex; align-items: center; gap: 8px;">
+                <select id="scanCooldownSelect" onchange="updateScanCooldown()" style="padding: 4px; border-radius: 4px; border: 1px solid #d1d5db; font-size: 12px; background: #fff; cursor: pointer;">
+                    <option value="0">⚡ 极速 (无延迟)</option>
+                    <option value="1000">🐇 快速 (1秒)</option>
+                    <option value="2000" selected>🚶 标准 (2秒)</option>
+                    <option value="3000">🐢 缓慢 (3秒)</option>
+                </select>
                 <button class="btn btn-warning" onclick="toggleFlashlight()" style="padding: 4px 12px; font-size: 12px;">🔦 闪光灯</button>
             </div>
         </div>
@@ -307,7 +313,11 @@
     let lastScannedCode = '';
     let lastScanTime = 0;
     let isConfirming = false; 
-    let isFlashlightOn = false; 
+    let isFlashlightOn = false;
+    let continuousScannedSet = new Set();
+    
+    // 新增：全局扫码冷却时间
+    let currentScanCooldown = 2000; 
 
     // 初始化
     function init() {
@@ -325,6 +335,15 @@
         if (storedConfig) {
             githubConfig = Object.assign(githubConfig, JSON.parse(storedConfig));
         }
+        
+        // 加载用户保存的冷却时间配置
+        const storedCooldown = localStorage.getItem('scanCooldown');
+        if (storedCooldown) {
+            currentScanCooldown = parseInt(storedCooldown);
+            const selectEl = document.getElementById('scanCooldownSelect');
+            if (selectEl) selectEl.value = currentScanCooldown;
+        }
+
         updateDropdownFilters();
         renderTable(components);
     }
@@ -485,13 +504,19 @@
             saveToStorage();
             filterTable();
             alert(`✅ 成功清空了 ${count} 个元件的存放位号！`);
-            updateNextLocationIndex(); // 重置当前弹窗的推算序号
+            updateNextLocationIndex();
         }
     }
 
     // ----------------------------------------------------
-    // 扫码引擎与分配位号逻辑 (含插入模式)
+    // 扫码引擎与防重逻辑
     // ----------------------------------------------------
+    function updateScanCooldown() {
+        const selectEl = document.getElementById('scanCooldownSelect');
+        currentScanCooldown = parseInt(selectEl.value);
+        localStorage.setItem('scanCooldown', currentScanCooldown);
+    }
+
     function openCameraModal(mode) {
         if (typeof Html5QrcodeScanner === 'undefined') { alert("扫码库未加载，请检查网络！"); return; }
         
@@ -503,6 +528,7 @@
         document.getElementById('scan-log-list').innerHTML = '';
         document.getElementById('scan-log-placeholder').style.display = 'block';
         isFlashlightOn = false; 
+        continuousScannedSet.clear(); 
 
         if (mode === 'location') {
             title.innerText = '🏷️ 批量分配位号';
@@ -550,16 +576,24 @@
     function onCameraScanSuccess(decodedText) {
         if (isConfirming) return; 
         const now = Date.now();
-        if (decodedText === lastScannedCode && (now - lastScanTime) < 2000) return;
-        lastScannedCode = decodedText; lastScanTime = now;
+        
+        // 核心更新：使用可配置的全局冷却时间
+        if ((now - lastScanTime) < currentScanCooldown) return;
+        lastScannedCode = decodedText; 
+        lastScanTime = now;
         
         const match = decodedText.match(/pc\s*:\s*(C\d+)/i);
         if (match && match[1]) {
             const lcsc = match[1].toUpperCase();
-            if (currentScannerMode === 'location') {
-                processLocationAssignment(lcsc);
-            } else {
-                processSearchScan(lcsc);
+            
+            if (!continuousScannedSet.has(lcsc)) {
+                continuousScannedSet.add(lcsc);
+                
+                if (currentScannerMode === 'location') {
+                    processLocationAssignment(lcsc);
+                } else {
+                    processSearchScan(lcsc);
+                }
             }
         }
     }
@@ -589,23 +623,22 @@
         const isInsertMode = document.getElementById('insertMode').checked;
         let currentIdx = parseInt(idxInput.value) || 1;
 
-        if (!prefix) { alert("请填写前缀位码！"); return; }
+        if (!prefix) { alert("请填写前缀位码！"); continuousScannedSet.delete(lcsc); return; }
         playBeepSound();
 
         let comp = components.find(c => c.lcsc && c.lcsc.toUpperCase() === lcsc);
         if (!comp) {
             logScanMessage(`❌ 库中未找到 ${lcsc}，请先入库！`, 'danger');
+            continuousScannedSet.delete(lcsc); 
             return;
         }
 
         const newLoc = `${prefix}-${currentIdx}`;
 
         if (isInsertMode) {
-            // 插入模式：将大于等于当前序号的元件，位号全部加1后移
             const regex = new RegExp(`^${escapeRegExp(prefix)}-(\\d+)$`, 'i');
             let compsToShift = [];
             components.forEach(c => {
-                // 不操作正在被扫码的元件本身
                 if (c.location && c.id !== comp.id) {
                     const match = c.location.match(regex);
                     if (match) {
@@ -616,7 +649,6 @@
                     }
                 }
             });
-            // 必须从大到小排序后移，防止覆盖重叠
             compsToShift.sort((a, b) => b.oldIdx - a.oldIdx);
             compsToShift.forEach(item => {
                 item.comp.location = `${prefix}-${item.oldIdx + 1}`;
@@ -626,19 +658,19 @@
             idxInput.value = currentIdx + 1;
             logScanMessage(`✅ ${lcsc} 插入成功: ${newLoc} (后移了 ${compsToShift.length} 个元件)`, 'success');
         } else {
-            // 普通覆盖模式：只检测是否有人占了这个坑
             const existingComp = components.find(c => c.location === newLoc && c.id !== comp.id);
             if (existingComp) {
                 isConfirming = true;
                 if (confirm(`⚠️ 位号冲突检测\n\n位号 [${newLoc}] 已被元件 ${existingComp.lcsc} (${existingComp.model}) 占用！\n\n点击【确定】强行抢占该位号 (原元件的位号将被清空)\n点击【取消】放弃分配`)) {
-                    existingComp.location = ''; // 清空被抢占元件的位号
+                    existingComp.location = ''; 
                     comp.location = newLoc;
                     idxInput.value = currentIdx + 1;
                     logScanMessage(`✅ ${lcsc} 强行抢占成功: ${newLoc}`, 'success');
                 } else {
                     logScanMessage(`ℹ️ ${lcsc} 取消分配`, 'warning');
+                    continuousScannedSet.delete(lcsc); 
                     isConfirming = false;
-                    return; // 放弃则直接退出
+                    return; 
                 }
                 isConfirming = false;
             } else {
@@ -693,7 +725,13 @@
         const container = document.getElementById('scan-log-container'); 
         container.scrollTop = container.scrollHeight;
     }
-    function clearContinuousScans() { document.getElementById('scan-log-list').innerHTML = ''; document.getElementById('scan-log-placeholder').style.display = 'block'; document.getElementById('searchInput').value = ''; filterTable(); }
+    function clearContinuousScans() { 
+        continuousScannedSet.clear(); 
+        document.getElementById('scan-log-list').innerHTML = ''; 
+        document.getElementById('scan-log-placeholder').style.display = 'block'; 
+        document.getElementById('searchInput').value = ''; 
+        filterTable(); 
+    }
 
     // ----------------------------------------------------
     // 添加/编辑/删除 元件
