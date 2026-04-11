@@ -594,7 +594,7 @@
     "history": [
       "SO25041220381_2025/04/12 23:26"
     ],
-    "location": "4-2-5",
+    "location": "",
     "customLink": ""
   },
   {
@@ -1395,7 +1395,7 @@
     "history": [
       "SO25050939272_2025/05/09 21:29"
     ],
-    "location": "4-2-6",
+    "location": "",
     "customLink": ""
   },
   {
@@ -2119,7 +2119,7 @@
     "history": [
       "SO25050939272_2025/05/09 21:29"
     ],
-    "location": "4-2-4",
+    "location": "",
     "customLink": ""
   },
   {
@@ -2578,10 +2578,11 @@
     "name": "1kΩ ±1% 100mW 厚膜电阻 编带",
     "model": "FRC0603F1001TS",
     "package": "0603",
-    "quantity": 100,
+    "quantity": 400,
     "remark": "",
     "history": [
-      "SO25050939539_2025/05/09 21:38"
+      "SO25050939539_2025/05/09 21:38",
+      "SO2603281314_2026/03/28 02:04"
     ],
     "location": "",
     "customLink": ""
@@ -2985,7 +2986,7 @@
     "history": [
       "SO2505101618_2025/05/10 03:08"
     ],
-    "location": "4-2-1",
+    "location": "",
     "customLink": ""
   },
   {
@@ -5697,7 +5698,7 @@
     "history": [
       "SO2603070269_2026/03/07 00:29"
     ],
-    "location": "4-2-2",
+    "location": "",
     "customLink": ""
   },
   {
@@ -6210,7 +6211,7 @@
     "history": [
       "SO2505010385_2025/05/01 01:33"
     ],
-    "location": "4-2-3",
+    "location": "",
     "customLink": ""
   },
   {
@@ -8434,6 +8435,630 @@
     "remark": "",
     "history": [
       "SO2602042493_2026/02/04 00:30"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 527,
+    "lcsc": "C2906899",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "1kΩ ±5% 62.5mW 厚膜电阻 编带",
+    "model": "FRC0402J102 TS",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 528,
+    "lcsc": "C2906874",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "5.1kΩ ±1% 62.5mW 厚膜电阻 编带",
+    "model": "FRC0402F5101TS",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 529,
+    "lcsc": "C2929994",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "22Ω ±1% 62.5mW 厚膜电阻 编带",
+    "model": "FRC0402F22R0TS",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 530,
+    "lcsc": "C2907166",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "4.7kΩ ±5% 100mW 厚膜电阻 编带",
+    "model": "FRC0603J472 TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 531,
+    "lcsc": "C5137488",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电容(MLCC)",
+    "name": "10uF ±10% 25V 编带",
+    "model": "FCC0805X106K250FT",
+    "package": "0805",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 532,
+    "lcsc": "C7419435",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电容(MLCC)",
+    "name": "22uF ±20% 25V 编带",
+    "model": "FCC0805X226M250FT",
+    "package": "0805",
+    "quantity": 40,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 533,
+    "lcsc": "C2906974",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "0Ω ±1% 100mW 厚膜电阻 编带",
+    "model": "FRC0603F0000TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 534,
+    "lcsc": "C2906877",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "0Ω ±5% 62.5mW 厚膜电阻 编带",
+    "model": "FRC0402P000 TS",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 535,
+    "lcsc": "C2907044",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "5.1kΩ ±1% 100mW 厚膜电阻 编带",
+    "model": "FRC0603F5101TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 536,
+    "lcsc": "C2906982",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "10kΩ ±1% 100mW 厚膜电阻 编带",
+    "model": "FRC0603F1002TS",
+    "package": "0603",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 537,
+    "lcsc": "C2906914",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电阻",
+    "name": "22Ω ±5% 62.5mW 厚膜电阻 编带",
+    "model": "FRC0402J220 TS",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 538,
+    "lcsc": "C5137619",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电容(MLCC)",
+    "name": "±0.25pF 1pF 50V 编带",
+    "model": "FCC0402N1R0C500AT",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 539,
+    "lcsc": "C5137557",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电容(MLCC)",
+    "name": "10pF ±5% 50V 编带",
+    "model": "FCC0402N100J500AT",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 540,
+    "lcsc": "C7467122",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电容(MLCC)",
+    "name": "12pF ±5% 50V 编带",
+    "model": "FCC0402N120J500AT",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 541,
+    "lcsc": "C5137592",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电容(MLCC)",
+    "name": "15pF ±5% 50V 编带",
+    "model": "FCC0402N150J500AT",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 542,
+    "lcsc": "C5137648",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电容(MLCC)",
+    "name": "±0.25pF 2.7pF 50V 编带",
+    "model": "FCC0402N2R7C500AT",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 543,
+    "lcsc": "C5137554",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电容(MLCC)",
+    "name": "18pF ±5% 50V 编带",
+    "model": "FCC0402N180J500AT",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 544,
+    "lcsc": "C5137579",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电容(MLCC)",
+    "name": "20pF ±5% 50V 编带",
+    "model": "FCC0402N200J500AT",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 545,
+    "lcsc": "C5137569",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电容(MLCC)",
+    "name": "22pF ±5% 50V 编带",
+    "model": "FCC0402N220J500AT",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 546,
+    "lcsc": "C5137486",
+    "brand": "FOJAN(富捷)",
+    "type": "贴片电容(MLCC)",
+    "name": "33pF ±5% 50V 编带",
+    "model": "FCC0402N330J500AT",
+    "package": "0402",
+    "quantity": 100,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 547,
+    "lcsc": "C2901616",
+    "brand": "SCTF(星通时频)",
+    "type": "有源晶振",
+    "name": "40MHz ±10ppm 1.62V~3.63V CMOS 编带",
+    "model": "SX1M40.000M10F30TNN",
+    "package": "SMD2016-4P",
+    "quantity": 3,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 548,
+    "lcsc": "C2901585",
+    "brand": "SCTF(星通时频)",
+    "type": "有源晶振",
+    "name": "33.333MHz ±20ppm 1.62V~3.63V CMOS 编带",
+    "model": "SX3M33.333M20F30TNN",
+    "package": "SMD3225-4P",
+    "quantity": 3,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 549,
+    "lcsc": "C5123702",
+    "brand": "康深",
+    "type": "拨码开关",
+    "name": "4位 2.54mm间距 宽体 拨码开关 管装",
+    "model": "DS-04-R-T",
+    "package": "插件,P=2.54mm",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 550,
+    "lcsc": "C3293142",
+    "brand": "康深",
+    "type": "拨码开关",
+    "name": "2位 1.27mm间距贴片型 KE拨码开关 编码开关 编带",
+    "model": "DSHP02TSGER",
+    "package": "SMD,P=1.27mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 551,
+    "lcsc": "C114581",
+    "brand": "worldsemi",
+    "type": "LED驱动",
+    "name": "信号线，256级灰度，三通道，恒流LED驱动IC 编带",
+    "model": "WS2811",
+    "package": "SOP-8",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 552,
+    "lcsc": "C114586",
+    "brand": "worldsemi",
+    "type": "RGB LED(内置IC)",
+    "name": "RGB三色 编带",
+    "model": "WS2812B-B/W",
+    "package": "SMD5050-4P",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 553,
+    "lcsc": "C42431840",
+    "brand": "JXTCONN(聚兴泰)",
+    "type": "排母",
+    "name": "1x8P 间距:2.54mm 直插 托盘",
+    "model": "PM2.54-1X8PM-H85",
+    "package": "插件,P=2.54mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 554,
+    "lcsc": "C492423",
+    "brand": "XFCN(兴飞)",
+    "type": "排针",
+    "name": "2x6P 间距:2.54mm 方针 直插 袋装",
+    "model": "PZ254V-12-12P",
+    "package": "插件,P=2.54mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 555,
+    "lcsc": "C41415769",
+    "brand": "hanxia(韩下)",
+    "type": "IDC刺破式连接器(牛角/简牛)",
+    "name": "2mm 2x10P 排数:2 每排P数:10 盒装",
+    "model": "HX JN2.0-2x10P TP H6.4",
+    "package": "SMD,P=2mm",
+    "quantity": 1,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 556,
+    "lcsc": "C41375956",
+    "brand": "hanxia(韩下)",
+    "type": "FFC连接线(柔性扁平线缆)",
+    "name": "FFC排线 0.5mm 40P 总长 100mm 反向 袋装",
+    "model": "HX FFC-0.5-40P-100mm F",
+    "package": "P=0.5mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 557,
+    "lcsc": "C50878476",
+    "brand": "hanxia(韩下)",
+    "type": "排母",
+    "name": "1x10P 间距:2.54mm 直插 盒装",
+    "model": "HX FH254-01-10-Z-H8.5",
+    "package": "插件,P=2.54mm",
+    "quantity": 15,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 558,
+    "lcsc": "C46595979",
+    "brand": "XFCN(兴飞)",
+    "type": "排母",
+    "name": "1x15P 间距:2.54mm 直插 托盘",
+    "model": "PM254V-11-15-H85",
+    "package": "插件,P=2.54mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 559,
+    "lcsc": "C42431862",
+    "brand": "JXTCONN(聚兴泰)",
+    "type": "排母",
+    "name": "1x8P 间距:2.54mm 直插 托盘",
+    "model": "PM2.54-1X8P-H85",
+    "package": "插件,P=2.54mm",
+    "quantity": 20,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 560,
+    "lcsc": "C2832269",
+    "brand": "XFCN(兴飞)",
+    "type": "排母",
+    "name": "间距:2.54mm 1x6P 直插 盒装",
+    "model": "PM254V-11-06-H85",
+    "package": "插件,P=2.54mm",
+    "quantity": 15,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 561,
+    "lcsc": "C46550415",
+    "brand": "JIERR(捷而瑞)",
+    "type": "贴片型铝电解电容",
+    "name": "100uF ±20% 50V 编带",
+    "model": "JVJ50V100M6x8",
+    "package": "SMD,D6.3xL7.7mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 562,
+    "lcsc": "C46634460",
+    "brand": "JIERR(捷而瑞)",
+    "type": "电流采样电阻/分流器",
+    "name": "5mΩ 3W 2512 ±1% 编带",
+    "model": "JER2512F3R005",
+    "package": "2512",
+    "quantity": 30,
+    "remark": "",
+    "history": [
+      "SO2603281314_2026/03/28 02:04"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 563,
+    "lcsc": "C28310299",
+    "brand": "HCTL(华灿天禄)",
+    "type": "胶壳端子",
+    "name": "1.5mm间距JC15双列连接器 编带",
+    "model": "HC-JC15-T-05",
+    "package": "-",
+    "quantity": 50,
+    "remark": "",
+    "history": [
+      "SO2603282975_2026/03/28 03:39"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 564,
+    "lcsc": "C5372877",
+    "brand": "HCTL(华灿天禄)",
+    "type": "IDC刺破式连接器(牛角/简牛)",
+    "name": "2.54mm 2x8P 排数:2 每排P数:8 托盘",
+    "model": "HC-JN254-2-08-W",
+    "package": "弯插,P=2.54mm",
+    "quantity": 5,
+    "remark": "",
+    "history": [
+      "SO2603282975_2026/03/28 03:39"
+    ],
+    "location": "",
+    "customLink": ""
+  },
+  {
+    "id": 565,
+    "lcsc": "C5372838",
+    "brand": "HCTL(华灿天禄)",
+    "type": "排针",
+    "name": "1x15P 间距:1.27mm 方针 直插 袋装",
+    "model": "PZ127-1-15-Z",
+    "package": "插件,P=1.27mm",
+    "quantity": 10,
+    "remark": "",
+    "history": [
+      "SO2603282975_2026/03/28 03:39"
     ],
     "location": "",
     "customLink": ""
